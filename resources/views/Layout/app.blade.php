@@ -56,13 +56,9 @@
 								</button>
 								<div class="collapse navbar-collapse" id="navbarNav">
 									<ul class="navbar-nav mx-auto text-uppercase d-inline-block">
-										<li class="nav-item active dropdown">
-											<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">home</a>
-											<ul class="list-unstyled text-capitalize dropdown-menu mt-0 py-0">
-												<li class="d-block mx-0"><a href="home.html">Home 1</a></li>
-												<li class="d-block mx-0"><a href="home2.html">Home 2</a></li>
-												<li class="d-block mx-0"><a href="home3.html">Home 3</a></li>
-											</ul>
+										<li class="nav-item">
+                                            <a class="d-block" href="{{route('home')}}">Home</a>
+
 										</li>
 										<li class="nav-item dropdown">
 											<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
