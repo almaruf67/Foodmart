@@ -15,9 +15,9 @@
 								<div class="row">
 									<div style="z-index: 1;" class="col-12 col-xl-7">
 										<div class="txtwrap pr-lg-10">
-											<h1 class="fwEbold position-relative pb-lg-8 pb-4 mb-xl-7 mb-lg-6">Houseplant <span class="text-break d-block">The Perfect Choice.</span></h1>
-											<p class="mb-xl-15 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry <br>has been the industry's standard.</p>
-											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3">Shop Now <i class="fas fa-arrow-right ml-2"></i></a>
+											<h1 class="fwEbold position-relative pb-lg-8 pb-4 mb-xl-7 mb-lg-6">Yumzy!!<span class="text-break d-block">Feast Your Senses.</span></h1>
+											<p class="mb-xl-15 mb-lg-10">Buckle up your taste buds-<br>you're about to take a flavor-filled ride!</p>
+											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3">Explore Food <i class="fas fa-arrow-right ml-2"></i></a>
 										</div>
 									</div>
 									<div class="imgHolder pt-15">
@@ -35,10 +35,10 @@
 								<div class="row">
 									<div style="z-index: 1;" class="col-12 col-xl-7">
 										<div class="txtwrap pr-lg-10">
-											<span class="title d-block text-uppercase fwEbold position-relative pl-2 mb-lg-5 mb-sm-3 mb-1">wellcome to botanical</span>
-											<h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Plants Gonna Make  <span class="text-break d-block">People Happy.</span></h2>
-											<p class="mb-xl-15 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Shop Now <i class="fas fa-arrow-right ml-2"></i></a>
+											<span class="title d-block text-uppercase fwEbold position-relative pl-2 mb-lg-5 mb-sm-3 mb-1">wellcome to yumzy</span>
+											<h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Savor the flavors.</h2>
+											<p class="mb-xl-15 mb-lg-10">Discover a world of taste with a click!</p>
+											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Explore Food <i class="fas fa-arrow-right ml-2"></i></a>
 										</div>
 									</div>
 									<div class="imgHolder">
@@ -56,10 +56,10 @@
 								<div class="row">
 									<div style="z-index: 1;" class="col-12 col-xl-7">
 										<div class="txtwrap pr-lg-10">
-											<span class="title d-block text-uppercase fwEbold position-relative pl-2 mb-lg-5 mb-sm-3 mb-1">wellcome to botanical</span>
-											<h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Plants for healthy</h2>
-											<p class="mb-xl-15 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Shop Now <i class="fas fa-arrow-right ml-2"></i></a>
+											<span class="title d-block text-uppercase fwEbold position-relative pl-2 mb-lg-5 mb-sm-3 mb-1">wellcome to yumzy</span>
+											<h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Rapid Refueling</h2>
+											<p class="mb-xl-15 mb-lg-10">Fuel your appetite with flair - you've just arrived at the right place.</p>
+											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Explore Food <i class="fas fa-arrow-right ml-2"></i></a>
 										</div>
 									</div>
 									<div class="imgHolder">
@@ -576,7 +576,7 @@
 					</header>
 					<form class="emailForm1 mx-auto overflow-hidden d-flex flex-wrap">
 						<input type="email" class="form-control px-4 border-0" placeholder="Enter your mail...">
-						<button type="submit" class="btn btnTheme btnShop fwEbold text-white py-3 px-4">Shop Now <i class="fas fa-arrow-right ml-2"></i></button>
+						<button type="submit" class="btn btnTheme btnShop fwEbold text-white py-3 px-4">Explore Food <i class="fas fa-arrow-right ml-2"></i></button>
 					</form>
 				</section>
 			</div>
