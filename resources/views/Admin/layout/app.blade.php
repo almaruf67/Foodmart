@@ -432,7 +432,7 @@
             </nav>
         </header>
         <!--end top header-->
-        @extends('Admin.layout.sidebar')
+        @include('Admin.layout.sidebar')
         
         @yield('content')
         <!--start content-->
