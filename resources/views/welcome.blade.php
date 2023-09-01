@@ -20,8 +20,8 @@
 											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3">Shop Now <i class="fas fa-arrow-right ml-2"></i></a>
 										</div>
 									</div>
-									<div class="imgHolder">
-										<img src="http://placehold.it/900x795" alt="image description" class="img-fluid w-90">
+									<div class="imgHolder pt-15">
+										<img style="width: 72%;" src="{{asset('assets/images/platter1.png')}}" alt="image description" class="img-fluid">
 									</div>
 								</div>
 							</div>
@@ -42,7 +42,7 @@
 										</div>
 									</div>
 									<div class="imgHolder">
-										<img src="http://placehold.it/800x700" alt="image description" class="img-fluid w-100">
+										<img style="width: 75%;" src="{{asset('assets/images/platter1.png')}}" alt="image description" class="img-fluid">
 									</div>
 								</div>
 							</div>
