@@ -284,7 +284,7 @@
 						<!-- chooseList -->
 						<ul class="list-unstyled chooseList">
 							<li class="d-flex justify-content-start mb-xl-7 mb-lg-5 mb-3">
-								<span class="icon fa-clock"></span>
+								<span class="icon"><i class="far fa-spin fa-clock fa-sm"></i></span>
 								<div class="alignLeft d-flex justify-content-start flex-wrap">
 									<h3 class="headingIII fwEbold mb-2">Hand Planted</h3>
 									<p>There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form.</p>

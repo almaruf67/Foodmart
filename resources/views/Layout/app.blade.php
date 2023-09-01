@@ -120,6 +120,7 @@
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- include custom JavaScript -->
     <script src="{{ asset('assets/js/jqueryCustome.js') }}"></script>
+
 </body>
 
 </html>
