@@ -70,7 +70,7 @@
 						</div>
 					</div>
 				</div>
-				<div  style="margin-top: 230px; bottom: 20px" class="slickNavigatorsWrap">
+				<div class="slickNavigatorsWrap">
 					<a href="#" class="slick-prev"><i class="icon-leftarrow"></i></a>
 					<a href="#" class="slick-next"><i class="icon-rightarrow"></i></a>
 				</div>
