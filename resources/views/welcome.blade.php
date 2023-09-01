@@ -13,7 +13,7 @@
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
 								<div class="row">
-									<div class="col-12 col-xl-7">
+									<div style="z-index: 1;" class="col-12 col-xl-7">
 										<div class="txtwrap pr-lg-10">
 											<h1 class="fwEbold position-relative pb-lg-8 pb-4 mb-xl-7 mb-lg-6">Yumzy!!<span class="text-break d-block">Feast Your Senses.</span></h1>
 											<p class="mb-xl-15 mb-lg-10">Buckle up your taste buds-<br>you're about to take a flavor-filled ride!</p>
@@ -33,7 +33,7 @@
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
 								<div class="row">
-									<div class="col-12 col-xl-7">
+									<div style="z-index: 1;" class="col-12 col-xl-7">
 										<div class="txtwrap pr-lg-10">
 											<span class="title d-block text-uppercase fwEbold position-relative pl-2 mb-lg-5 mb-sm-3 mb-1">wellcome to yumzy</span>
 											<h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Savor the flavors.</h2>
@@ -54,7 +54,7 @@
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
 								<div class="row">
-									<div class="col-12 col-xl-7">
+									<div style="z-index: 1;" class="col-12 col-xl-7">
 										<div class="txtwrap pr-lg-10">
 											<span class="title d-block text-uppercase fwEbold position-relative pl-2 mb-lg-5 mb-sm-3 mb-1">wellcome to yumzy</span>
 											<h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Rapid Refueling</h2>
