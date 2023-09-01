@@ -75,49 +75,13 @@
 					<a href="#" class="slick-next"><i class="icon-rightarrow"></i></a>
 				</div>
 			</section>
-			<!-- chooseUs-sec -->
-			<section class="chooseUs-sec container pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
-				<div class="row">
-					<div class="col-12 col-lg-6 mb-lg-0 mb-4">
-						<img src="http://placehold.it/570x590" alt="image description" class="img-fluid">
-					</div>
-					<div class="col-12 col-lg-6 pr-4">
-						<h2 class="headingII fwEbold playfair position-relative mb-6 pb-5">Why choose us ?</h2>
-						<p class="mb-xl-14 mb-lg-10">Lorem ipsum is simply dummy text of the printing and typesetting industry, lorem ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley ... <a href="javascript:void(0);" class="btnMore"><i>Learn More</i></a></p>
-						<!-- chooseList -->
-						<ul class="list-unstyled chooseList">
-							<li class="d-flex justify-content-start mb-xl-7 mb-lg-5 mb-3">
-								<span class="icon icon-plant"></span>
-								<div class="alignLeft d-flex justify-content-start flex-wrap">
-									<h3 class="headingIII fwEbold mb-2">Hand Planted</h3>
-									<p>There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form.</p>
-								</div>
-							</li>
-							<li class="d-flex justify-content-start mb-xl-6 mb-lg-5 mb-4">
-								<span class="icon icon-ic-plant"></span>
-								<div class="alignLeft d-flex justify-content-start flex-wrap">
-									<h3 class="headingIII fwEbold mb-2">Natural Sunlight</h3>
-									<p>It is a long established fact that a reader will be distracted by the reable content of a page.</p>
-								</div>
-							</li>
-							<li class="d-flex justify-content-start">
-								<span class="icon icon-desert"></span>
-								<div class="alignLeft d-flex justify-content-start flex-wrap">
-									<h3 class="headingIII fwEbold mb-2">Clean Air</h3>
-									<p>There are many variations of passages of lorem ipsum available, but the majority have suffered.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
 			<!-- featureSec -->
 			<section class="featureSec container-fluid overflow-hidden pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
 				<!-- mainHeader -->
 				<header class="col-12 mainHeader mb-7 text-center">
-					<h1 class="headingIV playfair fwEblod mb-4">Featured Product</h1>
+					<h1 class="headingIV playfair fwEblod mb-4">Popular Dishes</h1>
 					<span class="headerBorder d-block mb-md-5 mb-3"><img src="{{asset('assets/images/hbdr.png')}}" alt="Header Border" class="img-fluid img-bdr"></span>
-					<p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+					
 				</header>
 				<div class="col-12 p-0 overflow-hidden d-flex flex-wrap">
 					<!-- featureCol -->
@@ -308,6 +272,43 @@
 					</div>
 				</div>
 			</section>
+			<!-- chooseUs-sec -->
+			<section class="chooseUs-sec container pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
+				<div class="row">
+					<div class="col-12 col-lg-6 mb-lg-0 mb-4">
+						<img src="http://placehold.it/570x590" alt="image description" class="img-fluid">
+					</div>
+					<div class="col-12 col-lg-6 pr-4">
+						<h2 class="headingII fwEbold playfair position-relative mb-6 pb-5">Beyond food orders!</h2>
+						<p class="mb-xl-14 mb-lg-10">Our platform offers more than just food ordering. We provide an enhanced experience that caters to your cravings, making your mealtime not just convenient but truly delightful...<a href="javascript:void(0);" class="btnMore"><i>Learn More</i></a></p>
+						<!-- chooseList -->
+						<ul class="list-unstyled chooseList">
+							<li class="d-flex justify-content-start mb-xl-7 mb-lg-5 mb-3">
+								<span class="icon fa-clock"></span>
+								<div class="alignLeft d-flex justify-content-start flex-wrap">
+									<h3 class="headingIII fwEbold mb-2">Hand Planted</h3>
+									<p>There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form.</p>
+								</div>
+							</li>
+							<li class="d-flex justify-content-start mb-xl-6 mb-lg-5 mb-4">
+								<span class="icon icon-ic-plant"></span>
+								<div class="alignLeft d-flex justify-content-start flex-wrap">
+									<h3 class="headingIII fwEbold mb-2">Natural Sunlight</h3>
+									<p>It is a long established fact that a reader will be distracted by the reable content of a page.</p>
+								</div>
+							</li>
+							<li class="d-flex justify-content-start">
+								<span class="icon icon-desert"></span>
+								<div class="alignLeft d-flex justify-content-start flex-wrap">
+									<h3 class="headingIII fwEbold mb-2">Clean Air</h3>
+									<p>There are many variations of passages of lorem ipsum available, but the majority have suffered.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			
 			<!-- contactListBlock -->
 			<div class="contactListBlock container overflow-hidden pt-xl-8 pt-lg-10 pt-md-8 pt-4 pb-xl-12 pb-lg-10 pb-md-4 pb-1">
 				<div class="row">
