@@ -42,7 +42,7 @@
 										</div>
 									</div>
 									<div class="imgHolder">
-										<img style="width: 75%;" src="{{asset('assets/images/platter1.png')}}" alt="image description" class="img-fluid">
+										<img style="width: 72%;" src="{{asset('assets/images/platter1.png')}}" alt="image description" class="img-fluid">
 									</div>
 								</div>
 							</div>
@@ -63,7 +63,7 @@
 										</div>
 									</div>
 									<div class="imgHolder">
-										<img src="http://placehold.it/820x815" alt="image description" class="img-fluid w-100">
+										<img style="width: 72%;" src="{{asset('assets/images/platter1.png')}}" alt="image description" class="img-fluid">
 									</div>
 								</div>
 							</div>
