@@ -9,7 +9,7 @@ Tags: one-column, two-columns, three-columns
 Theme URI: http://www.htmlbeans.com/html/botanical/
 */
 .btnTheme {
-  background-color: #5ba515;
+  background-color: #F2BD57;
 }
 
 /* ---------------------------------------------------------
@@ -175,7 +175,7 @@ a {
 .headingII:before {
   width: 60px;
   height: 3px;
-  background: #5ba515;
+  background: #F2BD57;
 }
 
 /* ---------------------------------------------------------
@@ -659,7 +659,7 @@ a {
 15	 chooseUs-sec
 ---------------------------------------------------------*/
 .chooseUs-sec .btnMore {
-  color: #5ba515;
+  color: #F2BD57;
 }
 
 /* ---------------------------------------------------------
@@ -673,7 +673,7 @@ a {
 .chooseList .icon {
   font-size: 70px;
   line-height: 75px;
-  color: #5ba515;
+  color: #F2BD57;
 }
 
 /* ---------------------------------------------------------
@@ -728,7 +728,7 @@ a {
 }
 
 .featureCol .hotOffer.green {
-  background: #5ba515;
+  background: #F2BD57;
 }
 
 .featureCol .postHoverLinskList {
@@ -779,7 +779,7 @@ a {
 .contactListColumn .icon {
   font-size: 30px;
   line-height: 40px;
-  color: #5ba515;
+  color: #F2BD57;
 }
 
 /* ---------------------------------------------------------
@@ -813,7 +813,7 @@ a {
   content: ":";
   font-size: 30px;
   line-height: 35px;
-  color: #5ba515;
+  color: #F2BD57;
 }
 
 .comming-timer .countdown-row .countdown-section:last-child:before {
@@ -823,7 +823,7 @@ a {
 .comming-timer .countdown-row .countdown-section .countdown-amount {
   font-size: 25px;
   line-height: 27px;
-  color: #5ba515;
+  color: #F2BD57;
   font-weight: 700;
   background: none;
   border-top: none;
@@ -890,7 +890,7 @@ a {
   height: 20px;
   border-width: 1px;
   border-style: solid;
-  border-color: #5ba515;
+  border-color: #F2BD57;
   padding: 5px;
   border-radius: 100%;
   opacity: 0;
@@ -1089,7 +1089,7 @@ a {
   height: 20px;
   border-width: 1px;
   border-style: solid;
-  border-color: #5ba515;
+  border-color: #F2BD57;
   padding: 5px;
   border-radius: 100%;
   opacity: 0;
@@ -1647,7 +1647,7 @@ a {
   padding: 0;
   width: 100%;
   border-radius: 40px;
-  border: 1px solid #5ba515;
+  border: 1px solid #F2BD57;
 }
 
 .productTextHolder .jcf-number .jcf-btn-inc,
@@ -1675,7 +1675,7 @@ a {
 
 .productTextHolder .jcf-number .jcf-btn-dec {
   left: 0;
-  border-right: 1px solid #5ba515;
+  border-right: 1px solid #F2BD57;
 }
 
 .productTextHolder .jcf-number .jcf-btn-dec:before {
@@ -1685,7 +1685,7 @@ a {
 
 .productTextHolder .jcf-number .jcf-btn-inc {
   right: 0;
-  border-left: 1px solid #5ba515;
+  border-left: 1px solid #F2BD57;
 }
 
 .productTextHolder .jcf-number .jcf-btn-inc:before {
@@ -1981,7 +1981,7 @@ a {
 .abtSecHolder h2:before {
   width: 70px;
   height: 1px;
-  background: #5ba515;
+  background: #F2BD57;
 }
 
 /* ---------------------------------------------------------
@@ -2081,7 +2081,7 @@ a {
 }
 
 .teamBlock .socialNetworks a:hover {
-  color: #5ba515;
+  color: #F2BD57;
 }
 
 .teamBlock .name {
@@ -2098,7 +2098,7 @@ a {
 }
 
 .teamBlock .name a:hover {
-  color: #5ba515;
+  color: #F2BD57;
 }
 
 .teamBlock .desination {
@@ -2120,7 +2120,7 @@ a {
   line-height: 19px;
   color: #fff;
   max-width: 109px;
-  background: #5ba515;
+  background: #F2BD57;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -2447,7 +2447,7 @@ a {
   min-width: 234px;
   font-weight: 600;
   border-radius: 0;
-  border-top: 2px solid #5ba515;
+  border-top: 2px solid #F2BD57;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
 }
@@ -2526,7 +2526,7 @@ a {
   font-weight: 600;
   margin: 0;
   border-radius: 0;
-  border-top: 2px solid #5ba515;
+  border-top: 2px solid #F2BD57;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
 }
@@ -2661,7 +2661,7 @@ a {
   font-size: 12px;
   line-height: 0.75px;
   color: #fff;
-  background: #5ba515;
+  background: #F2BD57;
   padding: 7px 0 0 5px;
 }
 
@@ -2710,7 +2710,7 @@ a {
   font-size: 12px;
   line-height: 0.75px;
   color: #fff;
-  background: #5ba515;
+  background: #F2BD57;
   padding: 7px 0 0 5px;
 }
 
