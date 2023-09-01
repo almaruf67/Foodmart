@@ -40,7 +40,7 @@
 					<div class="col-6 col-sm-2">
 						<!-- mainLogo -->
 						<div class="logo">
-							<a href="home.html"><img src="{{ asset('assets/images/logo.png') }}" alt="Botanical" class="img-fluid"></a>
+							<a href="home.html"><img src="{{ asset('assets/images/logo1.png') }}" alt="Botanical" class="img-fluid"></a>
 						</div>
 					</div>
 					<div class="col-6 col-sm-7 col-lg-8 static-block">
