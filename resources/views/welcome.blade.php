@@ -41,7 +41,7 @@
 											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Explore Food <i class="fas fa-arrow-right ml-2"></i></a>
 										</div>
 									</div>
-									<div class="imgHolder">
+									<div class="imgHolder pt-15">
 										<img style="width: 72%;" src="{{asset('assets/images/platter1.png')}}" alt="image description" class="img-fluid">
 									</div>
 								</div>
@@ -62,7 +62,7 @@
 											<a href="shop.html" class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Explore Food <i class="fas fa-arrow-right ml-2"></i></a>
 										</div>
 									</div>
-									<div class="imgHolder">
+									<div class="imgHolder pt-15">
 										<img style="width: 72%;" src="{{asset('assets/images/platter1.png')}}" alt="image description" class="img-fluid">
 									</div>
 								</div>
