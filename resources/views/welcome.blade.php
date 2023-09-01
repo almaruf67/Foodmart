@@ -8,7 +8,7 @@
 			<section class="introBlock position-relative">
 				<div class="slick-fade">
 					<div>
-						<div class="align w-100 d-flex align-items-center bgCover" style="background-image: url({{asset('assets/images/b-bg.jpg')}});">
+						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/b-bg.jpg')}});">
 							<!-- holder -->
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
@@ -21,14 +21,14 @@
 										</div>
 									</div>
 									<div class="imgHolder">
-										<img src="http://placehold.it/900x795" alt="image description" class="img-fluid w-100">
+										<img src="http://placehold.it/900x795" alt="image description" class="img-fluid w-90">
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div>
-						<div class="align w-100 d-flex align-items-center bgCover" style="background-image: url({{asset('assets/images/b-bg2.jpg')}});">
+						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/b-bg2.jpg')}});">
 							<!-- holder -->
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
@@ -49,7 +49,7 @@
 						</div>
 					</div>
 					<div>
-						<div class="align w-100 d-flex align-items-center bgCover" style="background-image: url({{asset('assets/images/b-bg3.jpg')}});">
+						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/b-bg3.jpg')}});">
 							<!-- holder -->
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
