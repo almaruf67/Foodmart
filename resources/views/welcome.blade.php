@@ -3,12 +3,12 @@
 @section('content')
     
 		<!-- main -->
-		<main>
+		<main style="background-color: #FFFCF7">
 			<!-- introBlock -->
 			<section class="introBlock position-relative">
 				<div class="slick-fade">
-					<div>
-						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/b-bg.jpg')}});">
+					<div style="height: 620px;">
+						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/bg1.jpg')}});">
 							<!-- holder -->
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
@@ -28,7 +28,7 @@
 						</div>
 					</div>
 					<div>
-						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/b-bg2.jpg')}});">
+						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/bg1.jpg')}});">
 							<!-- holder -->
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
@@ -49,7 +49,7 @@
 						</div>
 					</div>
 					<div>
-						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/b-bg3.jpg')}});">
+						<div class="align w-100 d-flex align-items-top bgCover" style="background-image: url({{asset('assets/images/bg1.jpg')}});">
 							<!-- holder -->
 							<div class="container position-relative holder pt-xl-10 pt-0">
 								<!-- py-12 pt-lg-30 pb-lg-25 -->
@@ -70,7 +70,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="slickNavigatorsWrap">
+				<div  style="margin-top: 230px; bottom: 20px" class="slickNavigatorsWrap">
 					<a href="#" class="slick-prev"><i class="icon-leftarrow"></i></a>
 					<a href="#" class="slick-next"><i class="icon-rightarrow"></i></a>
 				</div>
