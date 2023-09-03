@@ -312,6 +312,7 @@ readers do not read off random characters that represent icons */
 .fa-ankh:before {
   content: "\f644"; }
 
+
 .fa-app-store:before {
   content: "\f36f"; }
 

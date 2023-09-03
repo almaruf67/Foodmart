@@ -9,7 +9,7 @@ Tags: one-column, two-columns, three-columns
 Theme URI: http://www.htmlbeans.com/html/botanical/
 */
 .btnTheme {
-  background-color: #5ba515;
+  background-color: #FF6A3D;
 }
 
 /* ---------------------------------------------------------
@@ -175,7 +175,7 @@ a {
 .headingII:before {
   width: 60px;
   height: 3px;
-  background: #5ba515;
+  background: #FF6A3D;
 }
 
 /* ---------------------------------------------------------
@@ -659,7 +659,7 @@ a {
 15	 chooseUs-sec
 ---------------------------------------------------------*/
 .chooseUs-sec .btnMore {
-  color: #5ba515;
+  color: #FF6A3D;
 }
 
 /* ---------------------------------------------------------
@@ -673,7 +673,7 @@ a {
 .chooseList .icon {
   font-size: 70px;
   line-height: 75px;
-  color: #5ba515;
+  color: #FF6A3D;
 }
 
 /* ---------------------------------------------------------
@@ -684,7 +684,7 @@ a {
 }
 
 .featureCol:hover .postHoverLinskList {
-  bottom: 20px;
+  bottom: -10px;
 }
 
 .featureCol .title {
@@ -728,14 +728,15 @@ a {
 }
 
 .featureCol .hotOffer.green {
-  background: #5ba515;
+  background: #FF6A3D;
 }
 
 .featureCol .postHoverLinskList {
-  font-size: 16px;
   line-height: 20px;
   position: absolute;
-  bottom: -50px;
+  background: linear-gradient(to right, #f65f26, #d41c18);
+  opacity: .8;
+  bottom: -250px;
   left: 0;
   right: 0;
   -webkit-transition: all 0.25s linear;
@@ -779,7 +780,7 @@ a {
 .contactListColumn .icon {
   font-size: 30px;
   line-height: 40px;
-  color: #5ba515;
+  color: #FF6A3D;
 }
 
 /* ---------------------------------------------------------
@@ -813,7 +814,7 @@ a {
   content: ":";
   font-size: 30px;
   line-height: 35px;
-  color: #5ba515;
+  color: #FF6A3D;
 }
 
 .comming-timer .countdown-row .countdown-section:last-child:before {
@@ -823,7 +824,7 @@ a {
 .comming-timer .countdown-row .countdown-section .countdown-amount {
   font-size: 25px;
   line-height: 27px;
-  color: #5ba515;
+  color: #FF6A3D;
   font-weight: 700;
   background: none;
   border-top: none;
@@ -890,7 +891,7 @@ a {
   height: 20px;
   border-width: 1px;
   border-style: solid;
-  border-color: #5ba515;
+  border-color: #FF6A3D;
   padding: 5px;
   border-radius: 100%;
   opacity: 0;
@@ -1089,7 +1090,7 @@ a {
   height: 20px;
   border-width: 1px;
   border-style: solid;
-  border-color: #5ba515;
+  border-color: #FF6A3D;
   padding: 5px;
   border-radius: 100%;
   opacity: 0;
@@ -1647,7 +1648,7 @@ a {
   padding: 0;
   width: 100%;
   border-radius: 40px;
-  border: 1px solid #5ba515;
+  border: 1px solid #FF6A3D;
 }
 
 .productTextHolder .jcf-number .jcf-btn-inc,
@@ -1675,7 +1676,7 @@ a {
 
 .productTextHolder .jcf-number .jcf-btn-dec {
   left: 0;
-  border-right: 1px solid #5ba515;
+  border-right: 1px solid #FF6A3D;
 }
 
 .productTextHolder .jcf-number .jcf-btn-dec:before {
@@ -1685,7 +1686,7 @@ a {
 
 .productTextHolder .jcf-number .jcf-btn-inc {
   right: 0;
-  border-left: 1px solid #5ba515;
+  border-left: 1px solid #FF6A3D;
 }
 
 .productTextHolder .jcf-number .jcf-btn-inc:before {
@@ -1981,7 +1982,7 @@ a {
 .abtSecHolder h2:before {
   width: 70px;
   height: 1px;
-  background: #5ba515;
+  background: #FF6A3D;
 }
 
 /* ---------------------------------------------------------
@@ -2081,7 +2082,7 @@ a {
 }
 
 .teamBlock .socialNetworks a:hover {
-  color: #5ba515;
+  color: #FF6A3D;
 }
 
 .teamBlock .name {
@@ -2098,7 +2099,7 @@ a {
 }
 
 .teamBlock .name a:hover {
-  color: #5ba515;
+  color: #FF6A3D;
 }
 
 .teamBlock .desination {
@@ -2120,7 +2121,7 @@ a {
   line-height: 19px;
   color: #fff;
   max-width: 109px;
-  background: #5ba515;
+  background: #FF6A3D;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -2447,7 +2448,7 @@ a {
   min-width: 234px;
   font-weight: 600;
   border-radius: 0;
-  border-top: 2px solid #5ba515;
+  border-top: 2px solid #FF6A3D;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
 }
@@ -2526,7 +2527,7 @@ a {
   font-weight: 600;
   margin: 0;
   border-radius: 0;
-  border-top: 2px solid #5ba515;
+  border-top: 2px solid #FF6A3D;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
 }
@@ -2661,7 +2662,7 @@ a {
   font-size: 12px;
   line-height: 0.75px;
   color: #fff;
-  background: #5ba515;
+  background: #FF6A3D;
   padding: 7px 0 0 5px;
 }
 
@@ -2710,7 +2711,7 @@ a {
   font-size: 12px;
   line-height: 0.75px;
   color: #fff;
-  background: #5ba515;
+  background: #FF6A3D;
   padding: 7px 0 0 5px;
 }
 
@@ -2826,5 +2827,133 @@ a {
 }
 
 .copyRightHolder.v-II p a {
+  color: #fff;
+}
+
+.cl{
+  font-weight: 100;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, #f65f26, #d41c18);
+  opacity: 0;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.bb:hover .overlay {
+  opacity: 0.85;
+}
+
+.overlay h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.overlay span {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+
+
+/* .featureSec{
+  height:300px;
+  width:100%;
+} */
+
+.ppDishes{
+  
+  width: 100%;
+  height:100%;
+  display: flex;
+  
+  
+  overflow-x: auto;
+}
+
+.ppDishes::-webkit-scrollbar{
+  width: 0;
+}
+
+.fCol {
+  flex-shrink: 0;
+  width: 250px;
+  height: 100%; 
+}
+
+.fCol:hover .postHoverLinskList {
+  bottom: -10px;
+}
+
+.fCol .title {
+  font-size: 13px;
+}
+
+.fCol .title a {
+  color: #707070;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.fCol .price {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  color: #444444;
+}
+
+.fCol .price del {
+  font-size: 14px;
+  line-height: 16px;
+  color: #bebebe;
+  font-weight: 400;
+  margin: 0 10px 0 0;
+}
+
+
+.fCol .postHoverLinskList {
+  line-height: 20px;
+  position: absolute;
+  background: linear-gradient(to right, #f65f26, #d41c18);
+  opacity: .8;
+  bottom: -250px;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.fCol .postHoverLinskList li {
+  -webkit-box-shadow: 0 1px 19px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 19px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fCol .postHoverLinskList li:first-child {
+  border-radius: 20px 0 0 20px;
+}
+
+.fCol .postHoverLinskList li:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+.fCol .postHoverLinskList a {
+  padding: 8px;
+  color: #444444;
+  background: #fff;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.fCol .postHoverLinskList a:hover {
   color: #fff;
 }
