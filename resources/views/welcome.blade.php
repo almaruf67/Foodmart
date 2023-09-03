@@ -93,9 +93,10 @@
                 <a href="#" class="slick-next"><i class="icon-rightarrow"></i></a>
             </div>
         </section>
-        <!-- featureSec -->
+
+        <!-- PopularSec -->
         <section
-            class="featureSec container-fluid overflow-hidden pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
+            class="featureSec container-fluid pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
             <!-- mainHeader -->
             <header class="col-12 mainHeader mb-7 text-center">
                 <h1 class="headingIV playfair fwEblod mb-4">Popular Dishes</h1>
@@ -103,241 +104,190 @@
                         alt="Header Border" class="img-fluid img-bdr"></span>
 
             </header>
-            <div class="col-12 p-0 overflow-hidden d-flex flex-wrap">
-                <!-- featureCol -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="border">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            <div class='postHoverLinskList d-flex justify-content-left m-0 px-2'>
-                                <p class="d-block pg-0 bg-secondary text-white px-2" style="font-size: 15px">Ingredients: <br> ½
-                                    tbsp olive oil <br>1 onion, peeled and finely chopped <br>1 tsp mixed dried herbs<br>1
-                                    egg, beaten<br>4 slices mature Cheddar (optional) </p>
+            <div class="ppDishes col-12">
+
+                <!-- PopularCol1 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html"><h6>Chicken Burger</h6></a></span>
-                            <span class="price d-block fwEbold">68.00 $</span>
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
                         </div>
                     </div>
                 </div>
-				
-                <!-- featureCol2 -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="border">
-						<div class="bb position-relative">
-							<div class="imgHolder position-relative w-100 overflow-hidden">
-								<img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-							</div>
-							<div class="overlay text-left">
-								<h4>Ingredients</h4>
-								<span>½ tbsp olive oil</span>
-								<span>1 onion, peeled and finely chopped</span>
-								<span>1 tsp mixed dried herbs</span>
-								<span>1 egg, beaten</span>
-								<span> 4 slices mature Cheddar (optional)</span>
-							</div>
-						</div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html"><h6>Special Beef Burger</h6></a></span>
-                            <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
-                            <span
-                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- featureCol3 -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="border">
-						<div class="bb position-relative">
-							<div class="imgHolder position-relative w-100 overflow-hidden">
-								<img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-							</div>
-							<div class="overlay text-left">
-								<h4>Ingredients</h4>
-								<span>½ tbsp olive oil</span>
-								<span>1 onion, peeled and finely chopped</span>
-								<span>1 tsp mixed dried herbs</span>
-								<span>1 egg, beaten</span>
-								<span> 4 slices mature Cheddar (optional)</span>
-							</div>
-						</div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html"><h6>Chicken Fry Pack</h6></a></span>
-                            <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
-                            <span
-                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- featureCol4 -->
-                <div class="featureCol px-3  mb-6">
-                    <div class="border">
-						<div class="bb position-relative">
-							<div class="imgHolder position-relative w-100 overflow-hidden">
-								<img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-							</div>
-							<div class="overlay text-left">
-								<h4>Ingredients</h4>
-								<span>½ tbsp olive oil</span>
-								<span>1 onion, peeled and finely chopped</span>
-								<span>1 tsp mixed dried herbs</span>
-								<span>1 egg, beaten</span>
-								<span> 4 slices mature Cheddar (optional)</span>
-							</div>
-						</div>
-                        
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><h6>Aspetur Autodit</h6></span>
-                            <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
-                            <span
-                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- featureCol -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="border">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-heart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-cart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-eye d-block"></a></li>
-                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
-                                </li>
-                            </ul>
+                <!-- PopularCol2 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
                         </div>
                         <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
-                            <span class="price d-block fwEbold">70.50 $</span>
-							<span class="d-block"><a href="javascript:void(0);"
-								class="icon-cart"></a></span>
-							
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
                         </div>
                     </div>
                 </div>
-                <!-- featureCol -->
-                <div class="featureCol position-relative px-3 mb-6">
-                    <div class="border">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-heart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-cart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-eye d-block"></a></li>
-                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
-                                </li>
-                            </ul>
+                <!-- PopularCol3 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
                         </div>
                         <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">Sint Incidunt Utlabore</a></span>
-                            <span class="price d-block fwEbold"><del>75.00 $</del>60.50 $</span>
-                            <span class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">HOT</span>
-                            <span
-                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block ml-8">Sale</span>
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
                         </div>
                     </div>
                 </div>
-                <!-- featureCol -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="border">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-heart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-cart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-eye d-block"></a></li>
-                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
-                                </li>
-                            </ul>
+                <!-- PopularCol4 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
                         </div>
                         <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
-                                    Voluptem</a></span>
-                            <span class="price d-block fwEbold">58.00 $</span>
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
                         </div>
                     </div>
                 </div>
-                <!-- featureCol -->
-                <div class="featureCol position-relative px-3 mb-6">
-                    <div class="border">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-heart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-cart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-eye d-block"></a></li>
-                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
-                                </li>
-                            </ul>
+                <!-- PopularCol5 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
                         </div>
                         <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">Neque Porro Quisquam</a></span>
-                            <span class="price d-block fwEbold"><del>60.00 $</del>48.00 $</span>
-                            <span
-                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
                         </div>
                     </div>
                 </div>
-                <!-- featureCol -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="border">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-heart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-cart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-eye d-block"></a></li>
-                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
-                                </li>
-                            </ul>
+                <!-- PopularCol6 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
                         </div>
                         <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
-                            <span class="price d-block fwEbold">65.00 $</span>
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
                         </div>
                     </div>
                 </div>
-                <!-- featureCol -->
-                <div class="featureCol position-relative px-3 mb-6">
-                    <div class="border">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-heart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-cart d-block"></a></li>
-                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                        class="icon-eye d-block"></a></li>
-                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
-                                </li>
-                            </ul>
+                <!-- PopularCol7 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
                         </div>
                         <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
-                                    Voluptatem</a></span>
-                            <span class="price d-block fwEbold">80.00 $</span>
-                            <span class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">Hot</span>
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
                         </div>
                     </div>
                 </div>
+                <!-- PopularCol8 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- PopularCol9 -->
+                <div class="fCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder  w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </section>
         <!-- chooseUs-sec -->
@@ -381,6 +331,270 @@
                 </div>
             </div>
         </section>
+        <!-- featureSec -->
+        <section
+            class="featureSec container-fluid overflow-hidden pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
+            <!-- mainHeader -->
+            <header class="col-12 mainHeader mb-7 text-center">
+                <h1 class="headingIV playfair fwEblod mb-4">Regular Menu</h1>
+                <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
+                        alt="Header Border" class="img-fluid img-bdr"></span>
+
+            </header>
+            <div class="col-12 p-0 overflow-hidden d-flex flex-wrap">
+                <!-- featureCol -->
+                <div class="featureCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="imgHolder position-relative w-100 overflow-hidden">
+                            <img src="{{ asset('assets/images/burger.jpg') }}" alt="chicken burger"
+                                class="img-fluid w-100">
+                            <div class='postHoverLinskList d-flex justify-content-left m-0 px-2'>
+                                <p class="d-block pg-0 text-white px-2 pt-2" style="font-size: 15px"><span
+                                        class="fwEbold">Ingredients:</span> <br>½
+                                    tbsp olive oil <br>1 onion, peeled and finely chopped <br>1 tsp mixed dried herbs<br>1
+                                    egg, beaten<br>4 slices mature Cheddar (optional) </p>
+                            </div>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Chicken Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">68.00$<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- featureCol2 -->
+                <div class="featureCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb position-relative">
+                            <div class="imgHolder position-relative w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="overlay text-left overflow-hidden">
+                                <h4>Ingredients</h4>
+                                <span>½ tbsp olive oil</span>
+                                <span>1 onion, peeled and finely chopped</span>
+                                <span>1 tsp mixed dried herbs</span>
+                                <span>1 egg, beaten</span>
+                                <span> 4 slices mature Cheddar (optional)</span>
+                            </div>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Beef Burger</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold">66.00 $<span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span></span>
+                            <span
+                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- featureCol3 -->
+                <div class="featureCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb position-relative">
+                            <div class="imgHolder position-relative w-100">
+                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                            </div>
+                            <div class="overlay text-left overflow-auto">
+                                <h4>Ingredients</h4>
+                                <span>½ tbsp olive oil</span>
+                                <span>1 onion, peeled and finely chopped</span>
+                                <span>1 tsp mixed dried herbs</span>
+                                <span>1 egg, beaten</span>
+                                <span> 4 slices mature Cheddar (optional)</span>
+                            </div>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                                    <h6>Chicken Fry Pack</h6>
+                                </a></span>
+                            <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
+                            <span
+                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- featureCol4 -->
+                <div class="featureCol px-3  mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb position-relative">
+                            <div class="imgHolder position-relative w-100 overflow-hidden">
+                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                            </div>
+                            <div class="overlay text-left">
+                                <h4>Ingredients</h4>
+                                <span>½ tbsp olive oil</span>
+                                <span>1 onion, peeled and finely chopped</span>
+                                <span>1 tsp mixed dried herbs</span>
+                                <span>1 egg, beaten</span>
+                                <span> 4 slices mature Cheddar (optional)</span>
+                            </div>
+                        </div>
+
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2">
+                                <h6>Aspetur Autodit</h6>
+                            </span>
+                            <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
+                            <span
+                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- featureCol -->
+                <div class="featureCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="imgHolder position-relative w-100 overflow-hidden">
+                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-heart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-cart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-eye d-block"></a></li>
+                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
+                            <span class="price d-block fwEbold">70.50 $</span>
+                            <span class="d-block"><a href="javascript:void(0);" class="icon-cart"></a></span>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- featureCol -->
+                <div class="featureCol position-relative px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="imgHolder position-relative w-100 overflow-hidden">
+                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-heart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-cart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-eye d-block"></a></li>
+                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">Sint Incidunt Utlabore</a></span>
+                            <span class="price d-block fwEbold"><del>75.00 $</del>60.50 $</span>
+                            <span class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">HOT</span>
+                            <span
+                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block ml-8">Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- featureCol -->
+                <div class="featureCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="imgHolder position-relative w-100 overflow-hidden">
+                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-heart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-cart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-eye d-block"></a></li>
+                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
+                                    Voluptem</a></span>
+                            <span class="price d-block fwEbold">58.00 $</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- featureCol -->
+                <div class="featureCol position-relative px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="imgHolder position-relative w-100 overflow-hidden">
+                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-heart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-cart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-eye d-block"></a></li>
+                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">Neque Porro Quisquam</a></span>
+                            <span class="price d-block fwEbold"><del>60.00 $</del>48.00 $</span>
+                            <span
+                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- featureCol -->
+                <div class="featureCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="imgHolder position-relative w-100 overflow-hidden">
+                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-heart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-cart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-eye d-block"></a></li>
+                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
+                            <span class="price d-block fwEbold">65.00 $</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- featureCol -->
+                <div class="featureCol position-relative px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="imgHolder position-relative w-100 overflow-hidden">
+                            <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                            <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-heart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-cart d-block"></a></li>
+                                <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
+                                        class="icon-eye d-block"></a></li>
+                                <li class="overflow-hidden"><a href="javascript:void(0);" class="icon-arrow d-block"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
+                                    Voluptatem</a></span>
+                            <span class="price d-block fwEbold">80.00 $</span>
+                            <span class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">Hot</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- contactListBlock -->
         <div
@@ -456,7 +670,7 @@
                 <div>
                     <!-- featureCol -->
                     <div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
-                        <div class="border">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="imgHolder position-relative w-100 overflow-hidden">
                                 <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
                                 <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
@@ -485,7 +699,7 @@
                 <div>
                     <!-- featureCol -->
                     <div class="featureCol px-3 w-100 mb-sm-8 mb-6">
-                        <div class="border">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="imgHolder position-relative w-100 overflow-hidden">
                                 <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
                                 <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
@@ -510,7 +724,7 @@
                 <div>
                     <!-- featureCol -->
                     <div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
-                        <div class="border">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="imgHolder position-relative w-100 overflow-hidden">
                                 <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
                                 <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
@@ -537,7 +751,7 @@
                 <div>
                     <!-- featureCol -->
                     <div class="featureCol px-3 w-100 mb-sm-8 mb-6">
-                        <div class="border">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="imgHolder position-relative w-100 overflow-hidden">
                                 <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
                                 <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
@@ -561,7 +775,7 @@
                 <div>
                     <!-- featureCol -->
                     <div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
-                        <div class="border">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="imgHolder position-relative w-100 overflow-hidden">
                                 <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
                                 <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
@@ -588,7 +802,7 @@
                 <div>
                     <!-- featureCol -->
                     <div class="featureCol px-3 w-100 mb-sm-8 mb-6">
-                        <div class="border">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="imgHolder position-relative w-100 overflow-hidden">
                                 <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
                                 <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
@@ -612,7 +826,7 @@
                 <div>
                     <!-- featureCol -->
                     <div class="featureCol w-100 px-3 mb-sm-8 mb-6">
-                        <div class="border">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="imgHolder position-relative w-100 overflow-hidden">
                                 <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
                                 <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
