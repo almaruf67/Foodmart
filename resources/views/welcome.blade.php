@@ -93,7 +93,7 @@
 
         <!-- PopularSec -->
         <section
-            class="featureSec container-fluid pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
+            class="featureSec mx-5 container-fluid pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
             <!-- mainHeader -->
             <header class="col-12 mainHeader mb-7 text-center">
                 <h1 class="headingIV playfair fwEblod mb-4">Popular Dishes</h1>
@@ -101,6 +101,9 @@
                         alt="Header Border" class="img-fluid img-bdr"></span>
 
             </header>
+			<div>
+				
+			</div>
             <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button>
             <div class="ppDishes col-12">
                 {{-- <button id="slideLeft" type="button">Slide left</button>
@@ -1093,7 +1096,8 @@
         //     }
         // }
 
-		let currentDiv = null;
+        let currentDiv = null;
+
         function showDiv(divId) {
             // Hide the previously shown div (if any)
             if (currentDiv) {
