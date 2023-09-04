@@ -103,6 +103,11 @@ a {
   background-position: 50% 50%;
 }
 
+.slick-fade{
+  display: inline-block;
+  max-height: 700px;
+}
+
 .playfair {
   font-family: "Playfair Display", serif;
 }
