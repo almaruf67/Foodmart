@@ -24,7 +24,7 @@
                                     </div>
                                 </div>
                                 <div class="imgHolder pt-15">
-                                    <img style="width: 72%;" src="{{ asset('assets/images/platter1.png') }}"
+                                    <img style="width: 72%;" src="{{ asset('assets/images/burger4.png') }}"
                                         alt="image description" class="img-fluid">
                                 </div>
                             </div>
@@ -1425,8 +1425,7 @@
         //     }
         // }
 
-        let currentDiv = null;
-
+		let currentDiv = null;
         function showDiv(divId) {
             // Hide the previously shown div (if any)
             if (currentDiv) {
