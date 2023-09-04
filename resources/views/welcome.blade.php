@@ -92,8 +92,7 @@
         </section>
 
         <!-- PopularSec -->
-        <section
-            class="PopulerSec container pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
+        <section class="PopulerSec container pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
             <!-- mainHeader -->
             <header class="col-12 mainHeader mb-7 text-center">
                 <h1 class="headingIV playfair fwEblod mb-4">Popular Dishes</h1>
@@ -101,12 +100,12 @@
                         alt="Header Border" class="img-fluid img-bdr"></span>
 
             </header>
-			<div>
-				
-			</div>
+            <div>
+
+            </div>
             <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button>
             <div class="ppDishes row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 ">
-                
+
                 <!-- PopularCol1 -->
                 <div class="fCol px-3 mb-6">
                     <div class="shadow p-3 mb-5 bg-body rounded">
@@ -392,20 +391,20 @@
                 <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
                         alt="Header Border" class="img-fluid img-bdr"></span>
                 <div>
-                    <div class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3"
+                    <div class="btn btnTheme btnShop fwEbold text-white round m-3  py-2 px-3 py-md-3 px-md-4 py-2 px-3"
                         onclick="showDiv('desert')">Dessert</div>
-                    <div class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3"
+                    <div class="btn btnTheme btnShop fwEbold text-white round m-3 py-md-3 px-md-4 py-2 px-3"
                         onclick="showDiv('pizza')">Pizza</div>
-                    <div class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3"
+                    <div class="btn btnTheme btnShop fwEbold text-white round m-3 py-md-3 px-md-4 py-2 px-3"
                         onclick="showDiv('burger')">Burger</div>
-                    <div class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3"
+                    <div class="btn btnTheme btnShop fwEbold text-white round m-3 py-md-3 px-md-4 py-2 px-3"
                         onclick="showDiv('drinks')">Drinks</div>
                 </div>
 
             </header>
             <!-- Dessert -->
             <div id="desert" style="display:none;">
-                <div class="col-12 p-0  d-flex flex-wrap">
+                <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="shadow p-3 mb-5 bg-body rounded">
@@ -430,9 +429,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -463,9 +463,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -496,9 +497,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -529,9 +531,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -562,9 +565,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -575,7 +579,7 @@
             </div>
             <!-- Pizza -->
             <div id="pizza" style="display:none;">
-                <div class="col-12 p-0  d-flex flex-wrap">
+                <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="shadow p-3 mb-5 bg-body rounded">
@@ -600,9 +604,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -633,9 +638,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -666,16 +672,17 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- featureCol4 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="shadow p-3 mb-5 bg-body rounded">
@@ -700,9 +707,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -713,7 +721,7 @@
             </div>
             <!-- Burger -->
             <div id="burger" style="display:none;">
-                <div class="col-12 p-0  d-flex flex-wrap">
+                <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="shadow p-3 mb-5 bg-body rounded">
@@ -738,9 +746,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -771,9 +780,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -804,9 +814,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -837,9 +848,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -870,9 +882,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -883,7 +896,7 @@
             </div>
             <!-- Drinks -->
             <div id="drinks" style="display:none;">
-                <div class="col-12 p-0  d-flex flex-wrap">
+                <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="shadow p-3 mb-5 bg-body rounded">
@@ -908,9 +921,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -941,9 +955,10 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -974,19 +989,20 @@
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-    
+
                                     <span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
-            
+
 
             </div>
         </section>
@@ -1381,7 +1397,6 @@
 @endsection
 @section('script')
     <script>
-       
         function leftScroll() {
             const left = document.querySelector(".ppDishes");
             left.scrollBy(-200, 0);
@@ -1410,7 +1425,8 @@
         //     }
         // }
 
-		let currentDiv = null;
+        let currentDiv = null;
+
         function showDiv(divId) {
             // Hide the previously shown div (if any)
             if (currentDiv) {
@@ -1420,6 +1436,8 @@
             // Show the selected div
             let divToShow = document.getElementById(divId);
             divToShow.style.display = "block";
+            // divToShow.style.justifyContent = "center"; // Horizontal centering
+            // divToShow.style.alignItems = "center";
 
             // Update the currentDiv to the newly shown div
             currentDiv = divToShow;
