@@ -103,7 +103,7 @@
             </header>
             <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button>
             <div class="ppDishes col-12">
-                  {{-- <button id="slideLeft" type="button">Slide left</button>
+                {{-- <button id="slideLeft" type="button">Slide left</button>
                   <button id="slideRight" type="button">Slide right</button> --}}
                 <!-- PopularCol1 -->
                 <div class="fCol px-3 mb-6">
@@ -118,15 +118,15 @@
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -143,15 +143,15 @@
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,15 +168,15 @@
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -193,15 +193,15 @@
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -218,15 +218,15 @@
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -243,15 +243,15 @@
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,15 +268,15 @@
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -293,15 +293,15 @@
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -314,19 +314,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-						<div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
-								<span class="price fwEbold text-bottom">66.00 $</span>
-							</span>
-							<div class="d-flex justify-content-between align-items-end">
-								
-								<span>
-									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-											class="icon-cart"></i></a>
-								</span>
-							</div>
+                                <span class="price fwEbold text-bottom">66.00 $</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -348,8 +348,8 @@
                     <!-- chooseList -->
                     <ul class="list-unstyled chooseList">
                         <li class="d-flex justify-content-start mb-xl-7 mb-lg-5 mb-3">
-                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/clock.png') }}" alt="image description"
-								class="mr-2">
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/clock.png') }}"
+                                alt="image description" class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
                                 <h3 class="headingIII fwEbold mb-2">24/7 Service</h3>
                                 <p>There are many variations of passages of lorem ipsum available, but the majority have
@@ -357,8 +357,8 @@
                             </div>
                         </li>
                         <li class="d-flex justify-content-start mb-xl-6 mb-lg-5 mb-4">
-                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/chef.png') }}" alt="image description"
-								class="mr-2">
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/chef.png') }}"
+                                alt="image description" class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
                                 <h3 class="headingIII fwEbold mb-2">Super Chefs'</h3>
                                 <p>It is a long established fact that a reader will be distracted by the reable content of a
@@ -366,8 +366,8 @@
                             </div>
                         </li>
                         <li class="d-flex justify-content-start">
-                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/stand.png') }}" alt="image description"
-								class="mr-2">
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/stand.png') }}"
+                                alt="image description" class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
                                 <h3 class="headingIII fwEbold mb-2">Clean Kitchen</h3>
                                 <p>There are many variations of passages of lorem ipsum available, but the majority have
@@ -380,7 +380,7 @@
         </section>
 
 
-        
+
         <!-- featureSec -->
         <section
             class="featureSec container-fluid overflow-hidden pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
@@ -390,153 +390,19 @@
                 <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
                         alt="Header Border" class="img-fluid img-bdr"></span>
                 <div>
-                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" id="Dessert">Dessert</span>
-                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" id="Pizza">Pizza</span>
-                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" id="Bergur">Bergur</span>
-                        
-                        
-                    
+                    <div class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3"
+                        onclick="showDiv('desert')">Dessert</div>
+                    <div class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3"
+                        onclick="showDiv('pizza')">Pizza</div>
+                    <div class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3"
+                        onclick="showDiv('burger')">Burger</div>
+                    <div class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3"
+                        onclick="showDiv('drinks')">Drinks</div>
                 </div>
 
             </header>
             <!-- Dessert -->
-            <div id="dessert" style="display:none;">
-            <div class="col-12 p-0  d-flex flex-wrap">
-                <!-- featureCol -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="{{ asset('assets/images/burger.jpg') }}" alt="chicken burger"
-                                class="img-fluid w-100">
-                            <div class='postHoverLinskList d-flex justify-content-left m-0 px-2'>
-                                <p class="d-block pg-0 text-white px-2 pt-2" style="font-size: 15px"><span
-                                        class="fwEbold">Ingredients:</span> <br>½
-                                    tbsp olive oil <br>1 onion, peeled and finely chopped <br>1 tsp mixed dried herbs<br>1
-                                    egg, beaten<br>4 slices mature Cheddar (optional) </p>
-                            </div>
-                        </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
-                                    <h6>Chicken Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">68.00$<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- featureCol2 -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb position-relative">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                            <div class="overlay text-left overflow-hidden">
-                                <h4>Ingredients</h4>
-                                <span>½ tbsp olive oil</span>
-                                <span>1 onion, peeled and finely chopped</span>
-                                <span>1 tsp mixed dried herbs</span>
-                                <span>1 egg, beaten</span>
-                                <span> 4 slices mature Cheddar (optional)</span>
-                            </div>
-                        </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
-                                    <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
-                            <span
-                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- featureCol3 -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb position-relative">
-                            <div class="imgHolder position-relative w-100">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            </div>
-                            <div class="overlay text-left overflow-auto">
-                                <h4>Ingredients</h4>
-                                <span>½ tbsp olive oil</span>
-                                <span>1 onion, peeled and finely chopped</span>
-                                <span>1 tsp mixed dried herbs</span>
-                                <span>1 egg, beaten</span>
-                                <span> 4 slices mature Cheddar (optional)</span>
-                            </div>
-                        </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
-                                    <h6>Chicken Fry Pack</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
-                            <span
-                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- featureCol4 -->
-                <div class="featureCol px-3  mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb position-relative">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                            </div>
-                            <div class="overlay text-left">
-                                <h4>Ingredients</h4>
-                                <span>½ tbsp olive oil</span>
-                                <span>1 onion, peeled and finely chopped</span>
-                                <span>1 tsp mixed dried herbs</span>
-                                <span>1 egg, beaten</span>
-                                <span> 4 slices mature Cheddar (optional)</span>
-                            </div>
-                        </div>
-
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2">
-                                <h6>Aspetur Autodit</h6>
-                            </span>
-                            <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
-                            <span
-                                class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- featureCol -->
-                <div class="featureCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="imgHolder position-relative w-100 overflow-hidden">
-                            <img src="{{ asset('assets/images/burger.jpg') }}" alt="chicken burger"
-                                class="img-fluid w-100">
-                            <div class='postHoverLinskList d-flex justify-content-left m-0 px-2'>
-                                <p class="d-block pg-0 text-white px-2 pt-2" style="font-size: 15px"><span
-                                        class="fwEbold">Ingredients:</span> <br>½
-                                    tbsp olive oil <br>1 onion, peeled and finely chopped <br>1 tsp mixed dried herbs<br>1
-                                    egg, beaten<br>4 slices mature Cheddar (optional) </p>
-                            </div>
-                        </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
-                                    <h6>Chicken Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">68.00$<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <!-- Pizza -->
-            <div id="pizza" style="display:none;">
+            <div id="desert" style="display:none;">
                 <div class="col-12 p-0  d-flex flex-wrap">
                     <!-- featureCol -->
                     <div class="featureCol px-3 mb-6">
@@ -547,7 +413,8 @@
                                 <div class='postHoverLinskList d-flex justify-content-left m-0 px-2'>
                                     <p class="d-block pg-0 text-white px-2 pt-2" style="font-size: 15px"><span
                                             class="fwEbold">Ingredients:</span> <br>½
-                                        tbsp olive oil <br>1 onion, peeled and finely chopped <br>1 tsp mixed dried herbs<br>1
+                                        tbsp olive oil <br>1 onion, peeled and finely chopped <br>1 tsp mixed dried
+                                        herbs<br>1
                                         egg, beaten<br>4 slices mature Cheddar (optional) </p>
                                 </div>
                             </div>
@@ -556,7 +423,8 @@
                                         <h6>Chicken Burger</h6>
                                     </a></span>
                                 <span class="price d-block fwEbold">68.00$<span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span></span>
                             </div>
@@ -584,7 +452,8 @@
                                         <h6>Beef Burger</h6>
                                     </a></span>
                                 <span class="price d-block fwEbold">66.00 $<span>
-                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span></span>
                                 <span
@@ -597,7 +466,8 @@
                         <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100">
-                                    <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                                    <img src="http://placehold.it/320x355" alt="image description"
+                                        class="img-fluid w-100">
                                 </div>
                                 <div class="overlay text-left overflow-auto">
                                     <h4>Ingredients</h4>
@@ -623,7 +493,8 @@
                         <div class="shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
-                                    <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
+                                    <img src="http://placehold.it/320x355" alt="image description"
+                                        class="img-fluid w-100">
                                 </div>
                                 <div class="overlay text-left">
                                     <h4>Ingredients</h4>
@@ -634,7 +505,150 @@
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
                             </div>
-    
+
+                            <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                                <span class="title d-block mb-2">
+                                    <h6>Aspetur Autodit</h6>
+                                </span>
+                                <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
+                                <span
+                                    class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- featureCol -->
+                    <div class="featureCol px-3 mb-6">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
+                            <div class="imgHolder position-relative w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="chicken burger"
+                                    class="img-fluid w-100">
+                                <div class='postHoverLinskList d-flex justify-content-left m-0 px-2'>
+                                    <p class="d-block pg-0 text-white px-2 pt-2" style="font-size: 15px"><span
+                                            class="fwEbold">Ingredients:</span> <br>½
+                                        tbsp olive oil <br>1 onion, peeled and finely chopped <br>1 tsp mixed dried
+                                        herbs<br>1
+                                        egg, beaten<br>4 slices mature Cheddar (optional) </p>
+                                </div>
+                            </div>
+                            <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                                <span class="title d-block mb-2"><a href="shop-detail.html">
+                                        <h6>Chicken Burger</h6>
+                                    </a></span>
+                                <span class="price d-block fwEbold">68.00$<span>
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-cart"></i></a>
+                                    </span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pizza -->
+            <div id="pizza" style="display:none;">
+                <div class="col-12 p-0  d-flex flex-wrap">
+                    <!-- featureCol -->
+                    <div class="featureCol px-3 mb-6">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
+                            <div class="imgHolder position-relative w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/burger.jpg') }}" alt="chicken burger"
+                                    class="img-fluid w-100">
+                                <div class='postHoverLinskList d-flex justify-content-left m-0 px-2'>
+                                    <p class="d-block pg-0 text-white px-2 pt-2" style="font-size: 15px"><span
+                                            class="fwEbold">Ingredients:</span> <br>½
+                                        tbsp olive oil <br>1 onion, peeled and finely chopped <br>1 tsp mixed dried
+                                        herbs<br>1
+                                        egg, beaten<br>4 slices mature Cheddar (optional) </p>
+                                </div>
+                            </div>
+                            <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                                <span class="title d-block mb-2"><a href="shop-detail.html">
+                                        <h6>Chicken Burger</h6>
+                                    </a></span>
+                                <span class="price d-block fwEbold">68.00$<span>
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-cart"></i></a>
+                                    </span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- featureCol2 -->
+                    <div class="featureCol px-3 mb-6">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb position-relative">
+                                <div class="imgHolder position-relative w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="overlay text-left overflow-hidden">
+                                    <h4>Ingredients</h4>
+                                    <span>½ tbsp olive oil</span>
+                                    <span>1 onion, peeled and finely chopped</span>
+                                    <span>1 tsp mixed dried herbs</span>
+                                    <span>1 egg, beaten</span>
+                                    <span> 4 slices mature Cheddar (optional)</span>
+                                </div>
+                            </div>
+                            <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                                <span class="title d-block mb-2"><a href="shop-detail.html">
+                                        <h6>Beef Burger</h6>
+                                    </a></span>
+                                <span class="price d-block fwEbold">66.00 $<span>
+                                        <a href="javascript:void(0);"
+                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-cart"></i></a>
+                                    </span></span>
+                                <span
+                                    class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- featureCol3 -->
+                    <div class="featureCol px-3 mb-6">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb position-relative">
+                                <div class="imgHolder position-relative w-100">
+                                    <img src="http://placehold.it/320x355" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="overlay text-left overflow-auto">
+                                    <h4>Ingredients</h4>
+                                    <span>½ tbsp olive oil</span>
+                                    <span>1 onion, peeled and finely chopped</span>
+                                    <span>1 tsp mixed dried herbs</span>
+                                    <span>1 egg, beaten</span>
+                                    <span> 4 slices mature Cheddar (optional)</span>
+                                </div>
+                            </div>
+                            <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                                <span class="title d-block mb-2"><a href="shop-detail.html">
+                                        <h6>Chicken Fry Pack</h6>
+                                    </a></span>
+                                <span class="price d-block fwEbold"><del>80.00 $</del>66.00 $</span>
+                                <span
+                                    class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- featureCol4 -->
+                    <div class="featureCol px-3  mb-6">
+                        <div class="shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb position-relative">
+                                <div class="imgHolder position-relative w-100 overflow-hidden">
+                                    <img src="http://placehold.it/320x355" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="overlay text-left">
+                                    <h4>Ingredients</h4>
+                                    <span>½ tbsp olive oil</span>
+                                    <span>1 onion, peeled and finely chopped</span>
+                                    <span>1 tsp mixed dried herbs</span>
+                                    <span>1 egg, beaten</span>
+                                    <span> 4 slices mature Cheddar (optional)</span>
+                                </div>
+                            </div>
+
                             <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                                 <span class="title d-block mb-2">
                                     <h6>Aspetur Autodit</h6>
@@ -647,7 +661,7 @@
                     </div>
                 </div>
             </div>
-           
+
             </div>
         </section>
 
@@ -1038,71 +1052,63 @@
             </div>
         </aside>
     </main>
-    
 @endsection
 @section('script')
-<script>
-    // const buttonRight = document.getElementById('slideRight');
-    // const buttonLeft = document.getElementById('slideLeft');
+    <script>
+        // const buttonRight = document.getElementById('slideRight');
+        // const buttonLeft = document.getElementById('slideLeft');
 
-    // buttonRight.onclick = function () {
-    //   document.getElementById('ppDishes').scrollLeft += 20;
-    // };
-    // buttonLeft.onclick = function () {
-    //   document.getElementById('ppDishes').scrollLeft -= 20;
-    // };
-    
-      function leftScroll() {
-        const left = document.querySelector(".ppDishes");
-        left.scrollBy(-200, 0);
-      }
-      function rightScroll() {
-        const right = document.querySelector(".ppDishes");
-        right.scrollBy(200, 0);
-      }
+        // buttonRight.onclick = function () {
+        //   document.getElementById('ppDishes').scrollLeft += 20;
+        // };
+        // buttonLeft.onclick = function () {
+        //   document.getElementById('ppDishes').scrollLeft -= 20;
+        // };
 
-//       function sDesert() {
-//     var x = document.getElementById('dessert');
-//     if (x.style.display == 'none') {
-//         x.style.display = 'block';
-//     } else {
-//         x.style.display = 'none';
-//     }
-// }
-// function myFunc(drinks) {
-//     var x = document.getElementById('pizza');
-    
-//     if (x.style.display == 'none') {
-//         x.style.display = 'block';
-//     } else {
-//         x.style.display = 'none';
-//     }
-// }
-
-        const toggleButton1 = document.getElementById('Dessert');
-        const toggleButton2 = document.getElementById('Pizza');
-        
-
-        const hiddenDiv1 = document.getElementById('dessert');
-        const hiddenDiv2 = document.getElementById('pizza');
-        
-
-        toggleButton1.addEventListener('click', function() {
-            toggleVisibility(hiddenDiv1);
-        });
-
-        toggleButton2.addEventListener('click', function() {
-            toggleVisibility(hiddenDiv2);
-        });
-
-       
-
-        function toggleVisibility(element) {
-            if (element.style.display === 'none') {
-                element.style.display = 'block';
-            } else {
-                element.style.display = 'none';
-            }
+        function leftScroll() {
+            const left = document.querySelector(".ppDishes");
+            left.scrollBy(-200, 0);
         }
-</script>
+
+        function rightScroll() {
+            const right = document.querySelector(".ppDishes");
+            right.scrollBy(200, 0);
+        }
+
+        //       function sDesert() {
+        //     var x = document.getElementById('dessert');
+        //     if (x.style.display == 'none') {
+        //         x.style.display = 'block';
+        //     } else {
+        //         x.style.display = 'none';
+        //     }
+        // }
+        // function myFunc(drinks) {
+        //     var x = document.getElementById('pizza');
+
+        //     if (x.style.display == 'none') {
+        //         x.style.display = 'block';
+        //     } else {
+        //         x.style.display = 'none';
+        //     }
+        // }
+
+		let currentDiv = null;
+        function showDiv(divId) {
+            // Hide the previously shown div (if any)
+            if (currentDiv) {
+                currentDiv.style.display = "none";
+            }
+
+            // Show the selected div
+            let divToShow = document.getElementById(divId);
+            divToShow.style.display = "block";
+
+            // Update the currentDiv to the newly shown div
+            currentDiv = divToShow;
+        }
+
+        // Initially show Div 1
+        showDiv('desert');
+    </script>
 @endsection
