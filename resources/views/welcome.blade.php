@@ -338,7 +338,7 @@
         <section class="chooseUs-sec container pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
             <div class="row">
                 <div class="col-12 col-lg-6 mb-lg-0 mb-4">
-                    <img src="http://placehold.it/570x590" alt="image description" class="img-fluid">
+                    <img src="{{ asset('assets/images/chef-banner.jpg') }}" alt="image description" class="img-fluid">
                 </div>
                 <div class="col-12 col-lg-6 pr-4">
                     <h2 class="headingII fwEbold playfair position-relative mb-6 pb-5">Beyond food orders!</h2>
@@ -348,25 +348,28 @@
                     <!-- chooseList -->
                     <ul class="list-unstyled chooseList">
                         <li class="d-flex justify-content-start mb-xl-7 mb-lg-5 mb-3">
-                            <span class="icon"><i class="far fa-spin fa-clock fa-sm"></i></span>
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/clock.png') }}" alt="image description"
+								class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
-                                <h3 class="headingIII fwEbold mb-2">Hand Planted</h3>
+                                <h3 class="headingIII fwEbold mb-2">24/7 Service</h3>
                                 <p>There are many variations of passages of lorem ipsum available, but the majority have
                                     suffered alteration in some form.</p>
                             </div>
                         </li>
                         <li class="d-flex justify-content-start mb-xl-6 mb-lg-5 mb-4">
-                            <span class="icon icon-ic-plant"></span>
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/chef.png') }}" alt="image description"
+								class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
-                                <h3 class="headingIII fwEbold mb-2">Natural Sunlight</h3>
+                                <h3 class="headingIII fwEbold mb-2">Super Chefs'</h3>
                                 <p>It is a long established fact that a reader will be distracted by the reable content of a
                                     page.</p>
                             </div>
                         </li>
                         <li class="d-flex justify-content-start">
-                            <span class="icon icon-desert"></span>
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/stand.png') }}" alt="image description"
+								class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
-                                <h3 class="headingIII fwEbold mb-2">Clean Air</h3>
+                                <h3 class="headingIII fwEbold mb-2">Clean Kitchen</h3>
                                 <p>There are many variations of passages of lorem ipsum available, but the majority have
                                     suffered.</p>
                             </div>
