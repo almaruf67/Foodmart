@@ -382,7 +382,7 @@
 
         <!-- featureSec -->
         <section
-            class="featureSec container overflow-hidden pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
+            class="featureSec container overflow-hidden pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-5 px-lg-2">
             <!-- mainHeader -->
             <header class="col-12 mainHeader mb-7 text-center">
                 <h1 class="headingIV playfair fwEblod mb-4">Regular Menu</h1>
