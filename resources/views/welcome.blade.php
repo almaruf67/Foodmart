@@ -93,7 +93,7 @@
 
         <!-- PopularSec -->
         <section
-            class="featureSec container-fluid pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
+            class="PopulerSec container-fluid pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
             <!-- mainHeader -->
             <header class="col-12 mainHeader mb-7 text-center">
                 <h1 class="headingIV playfair fwEblod mb-4">Popular Dishes</h1>
@@ -102,7 +102,7 @@
 
             </header>
             <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button>
-            <div class="ppDishes col-12">
+            <div class="ppDishes row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 ">
                 
                 <!-- PopularCol1 -->
                 <div class="fCol px-3 mb-6">

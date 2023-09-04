@@ -2870,7 +2870,12 @@ a {
 
 .featureSec{
   position: relative;
-  max-width: 1200px;
+  
+}
+.PopulerSec{
+  position: relative;
+  
+  
 }
 
 .ppDishes{
