@@ -387,9 +387,9 @@
                 <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
                         alt="Header Border" class="img-fluid img-bdr"></span>
                 <div>
-                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" onclick="showDiv('desert')">Dessert</span>
-                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" onclick="showDiv('pizza')">Pizza</span>
-                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" onclick="sBergur('burger')">Bergur</span>
+                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" id="Dessert">Dessert</span>
+                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" id="Pizza">Pizza</span>
+                        <span class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" id="Bergur">Bergur</span>
                         
                         
                     
@@ -397,7 +397,7 @@
 
             </header>
             <!-- Dessert -->
-            <div id="desert" style="display:none;">
+            <div id="dessert" style="display:none;">
             <div class="col-12 p-0  d-flex flex-wrap">
                 <!-- featureCol -->
                 <div class="featureCol px-3 mb-6">
@@ -1076,18 +1076,30 @@
 //     }
 // }
 
-function showDiv(divId) {
-            // Hide all divs
-            var allDivs = document.querySelectorAll('div[id^=""]');
-            allDivs.forEach(function(div) {
-                div.style.display = "none";
-            });
+        const toggleButton1 = document.getElementById('Dessert');
+        const toggleButton2 = document.getElementById('Pizza');
+        
 
-            // Show the selected div
-            var divToShow = document.getElementById(divId);
-            divToShow.style.display = "block";
+        const hiddenDiv1 = document.getElementById('dessert');
+        const hiddenDiv2 = document.getElementById('pizza');
+        
+
+        toggleButton1.addEventListener('click', function() {
+            toggleVisibility(hiddenDiv1);
+        });
+
+        toggleButton2.addEventListener('click', function() {
+            toggleVisibility(hiddenDiv2);
+        });
+
+       
+
+        function toggleVisibility(element) {
+            if (element.style.display === 'none') {
+                element.style.display = 'block';
+            } else {
+                element.style.display = 'none';
+            }
         }
-
-
 </script>
 @endsection
