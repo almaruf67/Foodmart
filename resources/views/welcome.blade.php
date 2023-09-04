@@ -101,8 +101,10 @@
                         alt="Header Border" class="img-fluid img-bdr"></span>
 
             </header>
+            <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button>
             <div class="ppDishes col-12">
-
+                  {{-- <button id="slideLeft" type="button">Slide left</button>
+                  <button id="slideRight" type="button">Slide right</button> --}}
                 <!-- PopularCol1 -->
                 <div class="fCol px-3 mb-6">
                     <div class="shadow p-3 mb-5 bg-body rounded">
@@ -328,10 +330,10 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
+            <button class="right" onclick="rightScroll()"><i class="fas fa-chevron-right"></i></button>
         </section>
+
         <!-- chooseUs-sec -->
         <section class="chooseUs-sec container pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
             <div class="row">
@@ -1024,4 +1026,28 @@
             </div>
         </aside>
     </main>
+    
+@endsection
+@section('script')
+<script>
+    // const buttonRight = document.getElementById('slideRight');
+    // const buttonLeft = document.getElementById('slideLeft');
+
+    // buttonRight.onclick = function () {
+    //   document.getElementById('ppDishes').scrollLeft += 20;
+    // };
+    // buttonLeft.onclick = function () {
+    //   document.getElementById('ppDishes').scrollLeft -= 20;
+    // };
+    
+      function leftScroll() {
+        const left = document.querySelector(".ppDishes");
+        left.scrollBy(-200, 0);
+      }
+      function rightScroll() {
+        const right = document.querySelector(".ppDishes");
+        right.scrollBy(200, 0);
+      }
+
+</script>
 @endsection

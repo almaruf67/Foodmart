@@ -2868,23 +2868,41 @@ a {
 }
 
 
-/* .featureSec{
-  height:300px;
-  width:100%;
-} */
+.featureSec{
+  position: relative;
+}
 
 .ppDishes{
   
   width: 100%;
   height:100%;
   display: flex;
-  
-  
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
   overflow-x: auto;
 }
 
 .ppDishes::-webkit-scrollbar{
   width: 0;
+}
+.left {
+  position: absolute;
+  border: none;
+  background: none;
+  left: 0;
+  padding-left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  position: absolute;
+  right: 0;
+  border: none;
+  padding-right: 20px;
+  background: none;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .fCol {
