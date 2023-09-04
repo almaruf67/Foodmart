@@ -6,7 +6,7 @@
         <!-- introBlock -->
         <section class="introBlock position-relative">
             <div class="slick-fade">
-                <div style="height: 620px;">
+                <div>
                     <div class="align w-100 d-flex align-items-top bgCover"
                         style="background-image: url({{ asset('assets/images/bg1.jpg') }});">
                         <!-- holder -->
