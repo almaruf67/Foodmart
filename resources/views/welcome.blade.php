@@ -93,7 +93,7 @@
 
         <!-- PopularSec -->
         <section
-            class="PopulerSec container-fluid pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
+            class="PopulerSec container pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
             <!-- mainHeader -->
             <header class="col-12 mainHeader mb-7 text-center">
                 <h1 class="headingIV playfair fwEblod mb-4">Popular Dishes</h1>
@@ -101,9 +101,6 @@
                         alt="Header Border" class="img-fluid img-bdr"></span>
 
             </header>
-			<div>
-				
-			</div>
             <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button>
             <div class="ppDishes row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 ">
                 
@@ -449,17 +446,19 @@
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
                             </div>
-                            <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">
+                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
-                                    </a></span>
-                                <span class="price d-block fwEbold">66.00 $<span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                    </a>
+                                    <span class="price fwEbold text-bottom">66.00 $</span>
+                                </span>
+                                <div class="d-flex justify-content-between align-items-end">
+    
+                                    <span>
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
-                                    </span></span>
-                                <span
-                                    class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1068,24 +1067,6 @@
             const right = document.querySelector(".ppDishes");
             right.scrollBy(200, 0);
         }
-
-        //       function sDesert() {
-        //     var x = document.getElementById('dessert');
-        //     if (x.style.display == 'none') {
-        //         x.style.display = 'block';
-        //     } else {
-        //         x.style.display = 'none';
-        //     }
-        // }
-        // function myFunc(drinks) {
-        //     var x = document.getElementById('pizza');
-
-        //     if (x.style.display == 'none') {
-        //         x.style.display = 'block';
-        //     } else {
-        //         x.style.display = 'none';
-        //     }
-        // }
 
 		let currentDiv = null;
         function showDiv(divId) {
