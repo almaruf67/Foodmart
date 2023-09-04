@@ -106,8 +106,7 @@
 			</div>
             <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button>
             <div class="ppDishes col-12">
-                {{-- <button id="slideLeft" type="button">Slide left</button>
-                  <button id="slideRight" type="button">Slide right</button> --}}
+                
                 <!-- PopularCol1 -->
                 <div class="fCol px-3 mb-6">
                     <div class="shadow p-3 mb-5 bg-body rounded">
@@ -664,6 +663,7 @@
                     </div>
                 </div>
             </div>
+            
 
             </div>
         </section>
@@ -1058,16 +1058,7 @@
 @endsection
 @section('script')
     <script>
-        // const buttonRight = document.getElementById('slideRight');
-        // const buttonLeft = document.getElementById('slideLeft');
-
-        // buttonRight.onclick = function () {
-        //   document.getElementById('ppDishes').scrollLeft += 20;
-        // };
-        // buttonLeft.onclick = function () {
-        //   document.getElementById('ppDishes').scrollLeft -= 20;
-        // };
-
+       
         function leftScroll() {
             const left = document.querySelector(".ppDishes");
             left.scrollBy(-200, 0);
@@ -1078,26 +1069,7 @@
             right.scrollBy(200, 0);
         }
 
-        //       function sDesert() {
-        //     var x = document.getElementById('dessert');
-        //     if (x.style.display == 'none') {
-        //         x.style.display = 'block';
-        //     } else {
-        //         x.style.display = 'none';
-        //     }
-        // }
-        // function myFunc(drinks) {
-        //     var x = document.getElementById('pizza');
-
-        //     if (x.style.display == 'none') {
-        //         x.style.display = 'block';
-        //     } else {
-        //         x.style.display = 'none';
-        //     }
-        // }
-
-        let currentDiv = null;
-
+		let currentDiv = null;
         function showDiv(divId) {
             // Hide the previously shown div (if any)
             if (currentDiv) {
