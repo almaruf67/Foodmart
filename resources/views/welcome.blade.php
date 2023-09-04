@@ -348,7 +348,8 @@
                     <!-- chooseList -->
                     <ul class="list-unstyled chooseList">
                         <li class="d-flex justify-content-start mb-xl-7 mb-lg-5 mb-3">
-                            <span class="icon"><i class="far fa-spin fa-clock fa-sm"></i></span>
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/clock.png') }}" alt="image description"
+								class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
                                 <h3 class="headingIII fwEbold mb-2">Hand Planted</h3>
                                 <p>There are many variations of passages of lorem ipsum available, but the majority have
@@ -356,7 +357,8 @@
                             </div>
                         </li>
                         <li class="d-flex justify-content-start mb-xl-6 mb-lg-5 mb-4">
-                            <span class="icon icon-ic-plant"></span>
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/chef.png') }}" alt="image description"
+								class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
                                 <h3 class="headingIII fwEbold mb-2">Natural Sunlight</h3>
                                 <p>It is a long established fact that a reader will be distracted by the reable content of a
@@ -364,7 +366,8 @@
                             </div>
                         </li>
                         <li class="d-flex justify-content-start">
-                            <span class="icon icon-desert"></span>
+                            <img style="width: 10%; height: 10%" src="{{ asset('assets/images/stand.png') }}" alt="image description"
+								class="mr-2">
                             <div class="alignLeft d-flex justify-content-start flex-wrap">
                                 <h3 class="headingIII fwEbold mb-2">Clean Air</h3>
                                 <p>There are many variations of passages of lorem ipsum available, but the majority have

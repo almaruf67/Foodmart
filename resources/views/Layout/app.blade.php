@@ -122,6 +122,7 @@
     <script src="{{ asset('assets/js/jqueryCustome.js') }}"></script>
 @yield('script')
 
+
 </body>
 
 </html>
