@@ -684,7 +684,7 @@ a {
 }
 
 .featureCol:hover .postHoverLinskList {
-  bottom: 20px;
+  bottom: -10px;
 }
 
 .featureCol .title {
@@ -732,10 +732,11 @@ a {
 }
 
 .featureCol .postHoverLinskList {
-  font-size: 16px;
   line-height: 20px;
   position: absolute;
-  bottom: -50px;
+  background: linear-gradient(to right, #f65f26, #d41c18);
+  opacity: .8;
+  bottom: -250px;
   left: 0;
   right: 0;
   -webkit-transition: all 0.25s linear;
@@ -2826,5 +2827,133 @@ a {
 }
 
 .copyRightHolder.v-II p a {
+  color: #fff;
+}
+
+.cl{
+  font-weight: 100;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, #f65f26, #d41c18);
+  opacity: 0;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.bb:hover .overlay {
+  opacity: 0.85;
+}
+
+.overlay h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.overlay span {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+
+
+/* .featureSec{
+  height:300px;
+  width:100%;
+} */
+
+.ppDishes{
+  
+  width: 100%;
+  height:100%;
+  display: flex;
+  
+  
+  overflow-x: auto;
+}
+
+.ppDishes::-webkit-scrollbar{
+  width: 0;
+}
+
+.fCol {
+  flex-shrink: 0;
+  width: 250px;
+  height: 100%; 
+}
+
+.fCol:hover .postHoverLinskList {
+  bottom: -10px;
+}
+
+.fCol .title {
+  font-size: 13px;
+}
+
+.fCol .title a {
+  color: #707070;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.fCol .price {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  color: #444444;
+}
+
+.fCol .price del {
+  font-size: 14px;
+  line-height: 16px;
+  color: #bebebe;
+  font-weight: 400;
+  margin: 0 10px 0 0;
+}
+
+
+.fCol .postHoverLinskList {
+  line-height: 20px;
+  position: absolute;
+  background: linear-gradient(to right, #f65f26, #d41c18);
+  opacity: .8;
+  bottom: -250px;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+
+.fCol .postHoverLinskList li {
+  -webkit-box-shadow: 0 1px 19px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 19px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fCol .postHoverLinskList li:first-child {
+  border-radius: 20px 0 0 20px;
+}
+
+.fCol .postHoverLinskList li:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+.fCol .postHoverLinskList a {
+  padding: 8px;
+  color: #444444;
+  background: #fff;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.fCol .postHoverLinskList a:hover {
   color: #fff;
 }

@@ -397,7 +397,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  /* height: auto;  */
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -7641,7 +7642,9 @@ button.bg-dark:focus {
   overflow: auto !important; }
 
 .overflow-hidden {
-  overflow: hidden !important; }
+  overflow: hidden !important; 
+  /* scrollbar-gutter: stable; */
+}
 
 .position-static {
   position: static !important; }
