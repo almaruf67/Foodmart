@@ -101,6 +101,9 @@
                         alt="Header Border" class="img-fluid img-bdr"></span>
 
             </header>
+			<div>
+				
+			</div>
             <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button>
             <div class="ppDishes row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 ">
                 
@@ -1388,6 +1391,24 @@
             const right = document.querySelector(".ppDishes");
             right.scrollBy(200, 0);
         }
+
+        //       function sDesert() {
+        //     var x = document.getElementById('dessert');
+        //     if (x.style.display == 'none') {
+        //         x.style.display = 'block';
+        //     } else {
+        //         x.style.display = 'none';
+        //     }
+        // }
+        // function myFunc(drinks) {
+        //     var x = document.getElementById('pizza');
+
+        //     if (x.style.display == 'none') {
+        //         x.style.display = 'block';
+        //     } else {
+        //         x.style.display = 'none';
+        //     }
+        // }
 
 		let currentDiv = null;
         function showDiv(divId) {
