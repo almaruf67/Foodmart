@@ -1069,6 +1069,24 @@
             right.scrollBy(200, 0);
         }
 
+        //       function sDesert() {
+        //     var x = document.getElementById('dessert');
+        //     if (x.style.display == 'none') {
+        //         x.style.display = 'block';
+        //     } else {
+        //         x.style.display = 'none';
+        //     }
+        // }
+        // function myFunc(drinks) {
+        //     var x = document.getElementById('pizza');
+
+        //     if (x.style.display == 'none') {
+        //         x.style.display = 'block';
+        //     } else {
+        //         x.style.display = 'none';
+        //     }
+        // }
+
 		let currentDiv = null;
         function showDiv(divId) {
             // Hide the previously shown div (if any)

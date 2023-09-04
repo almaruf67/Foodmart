@@ -2870,7 +2870,6 @@ a {
 
 .featureSec{
   position: relative;
-  max-width: 1200px;
 }
 
 .ppDishes{
@@ -2878,6 +2877,7 @@ a {
   width: 100%;
   height:100%;
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
