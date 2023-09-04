@@ -7,8 +7,7 @@
         <section class="introBlock position-relative">
             <div class="slick-fade bgCover" style="background-image: url({{ asset('assets/images/bg1.jpg') }});">
                 <div>
-                    <div class="align w-100 d-flex align-items-top"
-                        >
+                    <div class="align w-100 d-flex align-items-top">
                         <!-- holder -->
                         <div class="container position-relative holder pt-xl-10 pt-0">
                             <!-- py-12 pt-lg-30 pb-lg-25 -->
@@ -113,14 +112,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -133,14 +137,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -153,14 +162,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -173,14 +187,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -193,14 +212,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -213,14 +237,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -233,14 +262,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -253,14 +287,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
@@ -273,14 +312,19 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
-                        <div class="text-center py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                            <span class="title d-block mb-2"><a href="shop-detail.html">
+						<div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
-                                </a></span>
-                            <span class="price d-block fwEbold">66.00 $<span>
-                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span></span>
+                                </a>
+								<span class="price fwEbold text-bottom">66.00 $</span>
+							</span>
+							<div class="d-flex justify-content-between align-items-end">
+								
+								<span>
+									<a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+											class="icon-cart"></i></a>
+								</span>
+							</div>
                         </div>
                     </div>
                 </div>
