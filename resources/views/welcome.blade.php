@@ -331,6 +331,9 @@
                 </div>
             </div>
         </section>
+
+
+        
         <!-- featureSec -->
         <section
             class="featureSec container-fluid overflow-hidden pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
@@ -339,6 +342,17 @@
                 <h1 class="headingIV playfair fwEblod mb-4">Regular Menu</h1>
                 <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
                         alt="Header Border" class="img-fluid img-bdr"></span>
+                <div>
+                        <a href="shop.html"
+                        class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Explore Food</a>
+                        <a href="shop.html"
+                        class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Explore Food</a>
+                        <a href="shop.html"
+                        class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Explore Food</a>
+                        <a href="shop.html"
+                        class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Explore Food</a>
+
+                </div>
 
             </header>
             <div class="col-12 p-0 overflow-hidden d-flex flex-wrap">
