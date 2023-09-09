@@ -1,4 +1,4 @@
-.text-green,
+.text-green, .rating,
 .pageNav2 a:hover,
 .langList a:hover,
 .wishList a:hover,
@@ -90,3 +90,8 @@
 .show-head .viewFilterLinks a:hover,
 .dealSlider .slick-dots button:before {
   border-color: #FF6A3D; }
+
+.item-container{
+  background-color: #FFFCF7;
+  border: 1px solid #faf5eb;
+}

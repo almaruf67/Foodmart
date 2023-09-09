@@ -32,10 +32,10 @@
   <!-- pageWrapper -->
 	<div id="pageWrapper">
 		<!-- header -->
-		<header id="header" class="position-relative">
+		<header id="header" class="position-fixed bg-white">
 			
 			<!-- headerHolder -->
-			<div class="headerHolder container pt-lg-3 pb-lg-5 py-1">
+			<div class="headerHolder container pt-lg-2 pb-lg-2 py-2">
 				<div class="row">
 					<div class="col-6 col-sm-2">
 						<!-- mainLogo -->
