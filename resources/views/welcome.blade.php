@@ -127,7 +127,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
-                                
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -169,7 +169,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
-                                
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -211,6 +211,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -223,13 +224,16 @@
                                 <span>(1)</span>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
+
                                 <span class="mr-2">
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-heart"></i></a>
@@ -249,7 +253,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
-                                
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -291,6 +295,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -303,13 +308,16 @@
                                 <span>(1)</span>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
+
                                 <span class="mr-2">
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-heart"></i></a>
@@ -329,6 +337,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -341,13 +350,16 @@
                                 <span>(1)</span>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
+
                                 <span class="mr-2">
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-heart"></i></a>
@@ -367,6 +379,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -379,13 +392,16 @@
                                 <span>(1)</span>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
+
                                 <span class="mr-2">
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-heart"></i></a>
@@ -405,6 +421,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -417,13 +434,16 @@
                                 <span>(1)</span>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
+
                                 <span class="mr-2">
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-heart"></i></a>
@@ -443,6 +463,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -456,13 +477,15 @@
                             </p>
                         </div>
 
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
+
                                 <span class="mr-2">
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-heart"></i></a>
@@ -477,6 +500,75 @@
                 </div>
             </div>
             <button class="right" onclick="rightScroll()"><i class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <section class="introBlock position-relative">
+            <div class="bgCover" style="background-image: url({{ asset('assets/images/bg-blured44.png') }});">
+                <div id="booking"
+                    class="section container d-flex justify-content-end pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
+
+                    <div class="section-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="booking-form">
+                                    <form>
+                                        <div class="form-header">
+                                            <h2>Make your reservation</h2>
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="form-label">Name</span>
+                                            <input class="form-control" type="text" placeholder="Enter your name">
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="form-label">Email</span>
+                                            <input class="form-control" type="email" placeholder="Enter your email">
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <span class="form-label">Select Time</span>
+                                                    <input class="form-control" type="time" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <span class="form-label">Select Date</span>
+                                                    <input class="form-control" type="date" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <span class="form-label">Phone</span>
+                                                    <input class="form-control" type="tel"
+                                                        placeholder="Enter your phone number">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <span class="form-label">Person</span>
+                                                    <input class="form-control" type="text"
+                                                        placeholder="Enter person count">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-btn d-flex justify-content-end">
+                                            <button
+                                                class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Book
+                                                Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <!-- chooseUs-sec -->
@@ -1223,7 +1315,7 @@
             <!-- dealSlider -->
             <div class="dealSlider w-100 px-lg-10 px-md-5">
                 <!-- BlogCol1 -->
-                <div>                    
+                <div>
                     <div class="blogCol px-3 mb-sm-8 mb-6">
                         <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb">
@@ -1264,7 +1356,7 @@
                     </div>
                 </div>
                 <!-- BlogCol2 -->
-                <div>                    
+                <div>
                     <div class="blogCol px-3 mb-sm-8 mb-6">
                         <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb">
@@ -1305,7 +1397,7 @@
                     </div>
                 </div>
                 <!-- BlogCol3 -->
-                <div>                    
+                <div>
                     <div class="blogCol px-3 mb-sm-8 mb-6">
                         <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb">
@@ -1346,7 +1438,7 @@
                     </div>
                 </div>
                 <!-- BlogCol4 -->
-                <div>                    
+                <div>
                     <div class="blogCol px-3 mb-sm-8 mb-6">
                         <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb">
@@ -1388,126 +1480,126 @@
                 </div>
                 <!-- BlogCol5 -->
                 <div>
-                     
+
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                    <div class="pp shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb">
-                            <div class="imgHolder w-100 overflow-hidden">
-                                <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb">
+                                <div class="imgHolder w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
                             </div>
-                        </div>
-                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <div class="imgHolder overflow-hidden">
-                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                            <div class="d-flex pl-5 align-items-center">
-                                <span class="d-flex flex-column title d-block">
-                                    <p class="fwEbold">Nico Ni</h5>
-                                    <p style="color: #FF6A3D">23 Jan 2023</p>
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-center">
+                            <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <div class="imgHolder overflow-hidden">
+                                    <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex pl-5 align-items-center">
+                                    <span class="d-flex flex-column title d-block">
+                                        <p class="fwEbold">Nico Ni</h5>
+                                        <p style="color: #FF6A3D">23 Jan 2023</p>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center">
 
-                                <span>
-                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
-                                            style="color: #FF6A3D"></i></a>
-                                </span>
+                                    <span>
+                                        <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                                style="color: #FF6A3D"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                        <h6>The Secret Menu Gem</h6>
+                                    </a>
+                                    <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                        regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                            class="btnMore"><i>Learn More</i></a></p>
+
                             </div>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
-                                    <h6>The Secret Menu Gem</h6>
-                                </a>
-                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
-                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
-                                        class="btnMore"><i>Learn More</i></a></p>
-
-                        </div>
-                    </div>
                     </div>
                 </div>
                 <!-- BlogCol6 -->
-                <div>                     
+                <div>
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                    <div class="pp shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb">
-                            <div class="imgHolder w-100 overflow-hidden">
-                                <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
-                                    class="img-fluid w-100">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb">
+                                <div class="imgHolder w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
                             </div>
-                        </div>
-                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <div class="imgHolder overflow-hidden">
-                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                            <div class="d-flex pl-5 align-items-center">
-                                <span class="d-flex flex-column title d-block">
-                                    <p class="fwEbold">Nico Ni</h5>
-                                    <p style="color: #FF6A3D">23 Jan 2023</p>
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-center">
+                            <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <div class="imgHolder overflow-hidden">
+                                    <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex pl-5 align-items-center">
+                                    <span class="d-flex flex-column title d-block">
+                                        <p class="fwEbold">Nico Ni</h5>
+                                        <p style="color: #FF6A3D">23 Jan 2023</p>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center">
 
-                                <span>
-                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
-                                            style="color: #FF6A3D"></i></a>
-                                </span>
+                                    <span>
+                                        <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                                style="color: #FF6A3D"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                        <h6>The Secret Menu Gem</h6>
+                                    </a>
+                                    <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                        regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                            class="btnMore"><i>Learn More</i></a></p>
+
                             </div>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
-                                    <h6>The Secret Menu Gem</h6>
-                                </a>
-                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
-                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
-                                        class="btnMore"><i>Learn More</i></a></p>
-
-                        </div>
-                    </div>
                     </div>
                 </div>
                 <!-- BlogCol7 -->
-                <div>                     
+                <div>
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                    <div class="pp shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb">
-                            <div class="imgHolder w-100 overflow-hidden">
-                                <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb">
+                                <div class="imgHolder w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
                             </div>
-                        </div>
-                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <div class="imgHolder overflow-hidden">
-                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                            <div class="d-flex pl-5 align-items-center">
-                                <span class="d-flex flex-column title d-block">
-                                    <p class="fwEbold">Nico Ni</h5>
-                                    <p style="color: #FF6A3D">23 Jan 2023</p>
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-center">
+                            <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <div class="imgHolder overflow-hidden">
+                                    <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex pl-5 align-items-center">
+                                    <span class="d-flex flex-column title d-block">
+                                        <p class="fwEbold">Nico Ni</h5>
+                                        <p style="color: #FF6A3D">23 Jan 2023</p>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center">
 
-                                <span>
-                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
-                                            style="color: #FF6A3D"></i></a>
-                                </span>
+                                    <span>
+                                        <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                                style="color: #FF6A3D"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                        <h6>The Secret Menu Gem</h6>
+                                    </a>
+                                    <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                        regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                            class="btnMore"><i>Learn More</i></a></p>
+
                             </div>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
-                                    <h6>The Secret Menu Gem</h6>
-                                </a>
-                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
-                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
-                                        class="btnMore"><i>Learn More</i></a></p>
-
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -1520,56 +1612,56 @@
                     <div class="partnerSlider d-flex flex-wrap">
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
-                                        class="img-fluid"></a>
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
+                                        alt="Partner Logo" class="img-fluid"></a>
                             </div>
                         </div>
                     </div>
@@ -1780,15 +1872,18 @@
                         <li class="mb-3 d-flex flex-nowrap"><span class="icon icon-phone mr-3"></span> <span
                                 class="leftAlign">Phone : <a href="javascript:void(0);">(+032) 3456 7890</a></span></li>
                         <li class="email d-flex flex-nowrap"><span class="icon icon-email mr-2"></span> <span
-                                class="leftAlign">Email: <a href="javascript:void(0);">Botanicalstore@gmail.com</a></span>
+                                class="leftAlign">Email: <a
+                                    href="javascript:void(0);">Botanicalstore@gmail.com</a></span>
                         </li>
                     </ul>
                     <ul class="list-unstyled followSocailNetwork d-flex flex-nowrap">
                         <li class="fwEbold mr-xl-11 mr-sm-6 mr-4">Follow us:</li>
                         <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-facebook-f"></a>
                         </li>
-                        <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-twitter"></a></li>
-                        <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-pinterest"></a></li>
+                        <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-twitter"></a>
+                        </li>
+                        <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-pinterest"></a>
+                        </li>
                         <li class="mr-2"><a href="javascript:void(0);" class="fab fa-google-plus-g"></a></li>
                     </ul>
                 </div>

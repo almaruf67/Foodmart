@@ -15,6 +15,7 @@
         rel="stylesheet">
     <!-- include the site bootstrap stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
+	
     <!-- include the site fontawesome stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.css') }}">
     <!-- include the site stylesheet -->
