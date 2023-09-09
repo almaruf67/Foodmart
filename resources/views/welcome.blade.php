@@ -106,7 +106,7 @@
 
                 <!-- PopularCol1 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -131,7 +131,7 @@
                 </div>
                 <!-- PopularCol2 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -156,7 +156,7 @@
                 </div>
                 <!-- PopularCol3 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -181,7 +181,7 @@
                 </div>
                 <!-- PopularCol4 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -206,7 +206,7 @@
                 </div>
                 <!-- PopularCol5 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -231,7 +231,7 @@
                 </div>
                 <!-- PopularCol6 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -256,7 +256,7 @@
                 </div>
                 <!-- PopularCol7 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -281,7 +281,7 @@
                 </div>
                 <!-- PopularCol8 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -306,7 +306,7 @@
                 </div>
                 <!-- PopularCol9 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -405,7 +405,7 @@
                 <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -439,7 +439,7 @@
                     </div>
                     <!-- featureCol2 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -473,7 +473,7 @@
                     </div>
                     <!-- featureCol3 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -507,7 +507,7 @@
                     </div>
                     <!-- featureCol4 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -541,7 +541,7 @@
                     </div>
                     <!-- featureCol5 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -580,7 +580,7 @@
                 <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -614,7 +614,7 @@
                     </div>
                     <!-- featureCol2 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -648,7 +648,7 @@
                     </div>
                     <!-- featureCol3 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -683,7 +683,7 @@
 
                     <!-- featureCol4 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -722,7 +722,7 @@
                 <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -756,7 +756,7 @@
                     </div>
                     <!-- featureCol2 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -790,7 +790,7 @@
                     </div>
                     <!-- featureCol3 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -824,7 +824,7 @@
                     </div>
                     <!-- featureCol4 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -858,7 +858,7 @@
                     </div>
                     <!-- featureCol5 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -897,7 +897,7 @@
                 <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -931,7 +931,7 @@
                     </div>
                     <!-- featureCol2 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -965,7 +965,7 @@
                     </div>
                     <!-- featureCol3 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -1079,7 +1079,7 @@
                 <!-- BlogCol1 -->
                 <div>                    
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb">
                                 <div class="imgHolder w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
@@ -1120,7 +1120,7 @@
                 <!-- BlogCol2 -->
                 <div>                    
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb">
                                 <div class="imgHolder w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
@@ -1161,7 +1161,7 @@
                 <!-- BlogCol3 -->
                 <div>                    
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb">
                                 <div class="imgHolder w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
@@ -1202,7 +1202,7 @@
                 <!-- BlogCol4 -->
                 <div>                    
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb">
                                 <div class="imgHolder w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
@@ -1244,7 +1244,7 @@
                 <div>
                      
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
@@ -1285,7 +1285,7 @@
                 <!-- BlogCol6 -->
                 <div>                     
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
@@ -1326,7 +1326,7 @@
                 <!-- BlogCol7 -->
                 <div>                     
                     <div class="blogCol px-3 mb-sm-8 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
