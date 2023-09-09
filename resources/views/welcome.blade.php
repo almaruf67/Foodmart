@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- main -->
-    <main style="background-color: #FFFFFF" class="pt-20">
+    <main style="background-color: #fffcf7" class="pt-20">
         <!-- introBlock -->
         <section class="introBlock position-relative">
             <div class="slick-fade bgCover" style="background-image: url({{ asset('assets/images/bg1.jpg') }});">

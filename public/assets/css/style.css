@@ -2924,11 +2924,6 @@ a {
   height: 150%;
 }
 
-.bb .imgHolder{
-  width: 100%;
-  height: 200px;
-}
-
 .fCol:hover .postHoverLinskList {
   bottom: -10px;
 }
