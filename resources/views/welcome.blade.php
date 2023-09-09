@@ -23,8 +23,8 @@
                                             Food <i class="fas fa-arrow-right ml-2"></i></a>
                                     </div>
                                 </div>
-                                <div class="imgHolder pt-15">
-                                    <img style="width: 72%;" src="{{ asset('assets/images/burger4.png') }}"
+                                <div style="padding-left: 50px;" class="imgHolder pt-15">
+                                    <img style="width: 68%;" src="{{ asset('assets/images/burger4.png') }}"
                                         alt="image description" class="img-fluid">
                                 </div>
                             </div>
@@ -49,8 +49,8 @@
                                             Food <i class="fas fa-arrow-right ml-2"></i></a>
                                     </div>
                                 </div>
-                                <div class="imgHolder pt-15">
-                                    <img style="width: 72%;" src="{{ asset('assets/images/platter1.png') }}"
+                                <div style="padding-left: 50px;" class="imgHolder pt-15">
+                                    <img style="width: 68%;" src="{{ asset('assets/images/pizza.png') }}"
                                         alt="image description" class="img-fluid">
                                 </div>
                             </div>
@@ -76,8 +76,8 @@
                                             Food <i class="fas fa-arrow-right ml-2"></i></a>
                                     </div>
                                 </div>
-                                <div class="imgHolder pt-15">
-                                    <img style="width: 72%;" src="{{ asset('assets/images/platter1.png') }}"
+                                <div style="padding-left: 50px;" class="imgHolder pt-15">
+                                    <img style="width: 68%;" src="{{ asset('assets/images/platter2.png') }}"
                                         alt="image description" class="img-fluid">
                                 </div>
                             </div>

@@ -35,7 +35,7 @@
 		<header id="header" class="position-relative">
 			
 			<!-- headerHolder -->
-			<div class="headerHolder container pt-lg-5 pb-lg-7 py-4">
+			<div class="headerHolder container pt-lg-3 pb-lg-5 py-1">
 				<div class="row">
 					<div class="col-6 col-sm-2">
 						<!-- mainLogo -->
