@@ -1374,43 +1374,55 @@
                     <div class="partnerSlider d-flex flex-wrap">
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
+                                        class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="logoColumn d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
+                                        class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="logoColumn d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
@@ -1418,11 +1430,11 @@
                 </div>
             </div>
         </div>
-        <!-- BlogSec -->
+        <!-- AjairaSec -->
         <section class="PopulerSec container pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
             <!-- mainHeader -->
             <header class="col-12 mainHeader mb-7 text-center">
-                <h1 class="headingIV playfair fwEblod mb-4">Blog Post</h1>
+                <h1 class="headingIV playfair fwEblod mb-4">***</h1>
                 <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
                         alt="Header Border" class="img-fluid img-bdr"></span>
 
