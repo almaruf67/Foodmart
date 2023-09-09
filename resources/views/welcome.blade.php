@@ -127,6 +127,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+                                
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -139,13 +140,16 @@
                                 <span>(1)</span>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
+
                                 <span class="mr-2">
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-heart"></i></a>
@@ -165,6 +169,7 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+                                
                             </div>
                         </div>
                         <div class="text-left text-black pt-3 px-xl-2 px-1">
@@ -177,13 +182,16 @@
                                 <span>(1)</span>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
+
                                 <span class="mr-2">
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-heart"></i></a>

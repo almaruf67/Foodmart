@@ -2919,8 +2919,17 @@ a {
 
 .fCol {
   flex-shrink: 0;
-  width: 350px;
-  height: 150%;
+  min-width: 300px;
+  width: 25%;
+  height: 100%;
+}
+
+.bb .imgHolder{
+  width: 100%;
+  height: 200px;
+}
+.bb .imgHolder .img-fluid{
+  height:100%;
 }
 
 .fCol:hover .postHoverLinskList {
