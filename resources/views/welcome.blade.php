@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- main -->
-    <main style="background-color: #FFFCF7">
+    <main style="background-color: #FFFFFF" class="pt-20">
         <!-- introBlock -->
         <section class="introBlock position-relative">
             <div class="slick-fade bgCover" style="background-image: url({{ asset('assets/images/bg1.jpg') }});">
@@ -18,13 +18,19 @@
                                                 class="text-break d-block">Feast Your Senses.</span></h1>
                                         <p class="mb-xl-15 mb-lg-10">Buckle up your taste buds-<br>you're about to take a
                                             flavor-filled ride!</p>
-                                        <a href="shop.html"
-                                            class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3">Explore
-                                            Food <i class="fas fa-arrow-right ml-2"></i></a>
+                                        <div>
+                                            <a href="shop.html"
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3 mr-2">Explore
+                                                Food <i class="fas fa-arrow-right ml-2"></i></a>
+                                            <a style="min-width: 50px;" href="tel:+8801792950000"
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3"><i
+                                                    class="fas fa-phone"></i></a>
+                                        </div>
+
                                     </div>
                                 </div>
-                                <div class="imgHolder pt-15">
-                                    <img style="width: 72%;" src="{{ asset('assets/images/platter1.png') }}"
+                                <div style="padding-left: 50px;" class="imgHolder pt-15">
+                                    <img style="width: 68%;" src="{{ asset('assets/images/burger4.png') }}"
                                         alt="image description" class="img-fluid">
                                 </div>
                             </div>
@@ -44,13 +50,18 @@
                                             to yumzy</span>
                                         <h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Savor the flavors.</h2>
                                         <p class="mb-xl-15 mb-lg-10">Discover a world of taste with a click!</p>
-                                        <a href="shop.html"
-                                            class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Explore
-                                            Food <i class="fas fa-arrow-right ml-2"></i></a>
+                                        <div>
+                                            <a href="shop.html"
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3 mr-2">Explore
+                                                Food <i class="fas fa-arrow-right ml-2"></i></a>
+                                            <a style="min-width: 50px;" href="tel:+8801792950000"
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3"><i
+                                                    class="fas fa-phone"></i></a>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="imgHolder pt-15">
-                                    <img style="width: 72%;" src="{{ asset('assets/images/platter1.png') }}"
+                                <div style="padding-left: 50px;" class="imgHolder pt-15">
+                                    <img style="width: 68%;" src="{{ asset('assets/images/pizza.png') }}"
                                         alt="image description" class="img-fluid">
                                 </div>
                             </div>
@@ -71,13 +82,18 @@
                                         <h2 class="fwEbold position-relative mb-xl-7 mb-lg-5">Rapid Refueling</h2>
                                         <p class="mb-xl-15 mb-lg-10">Fuel your appetite with flair - you've just arrived at
                                             the right place.</p>
-                                        <a href="shop.html"
-                                            class="btn btnTheme btnShop fwEbold text-white md-round py-2 px-3 py-md-3 px-md-4">Explore
-                                            Food <i class="fas fa-arrow-right ml-2"></i></a>
+                                        <div>
+                                            <a href="shop.html"
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3 mr-2">Explore
+                                                Food <i class="fas fa-arrow-right ml-2"></i></a>
+                                            <a style="min-width: 50px;" href="tel:+8801792950000"
+                                                class="btn btnTheme btnShop fwEbold text-white md-round py-md-3 px-md-4 py-2 px-3"><i
+                                                    class="fas fa-phone"></i></a>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="imgHolder pt-15">
-                                    <img style="width: 72%;" src="{{ asset('assets/images/platter1.png') }}"
+                                <div style="padding-left: 50px;" class="imgHolder pt-15">
+                                    <img style="width: 68%;" src="{{ asset('assets/images/platter2.png') }}"
                                         alt="image description" class="img-fluid">
                                 </div>
                             </div>
@@ -113,6 +129,16 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
                         <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
@@ -120,7 +146,10 @@
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
-
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
@@ -138,6 +167,16 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
                         <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
@@ -145,7 +184,10 @@
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
-
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
@@ -163,6 +205,16 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
                         <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
@@ -170,7 +222,10 @@
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
-
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
@@ -186,9 +241,22 @@
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
                                     class="img-fluid w-100">
+                                
                             </div>
                         </div>
-                        <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
+
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
                                 </a>
@@ -196,6 +264,10 @@
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
 
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
@@ -213,6 +285,16 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
                         <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
@@ -220,7 +302,10 @@
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
-
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
@@ -238,6 +323,16 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
                         <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
@@ -245,7 +340,10 @@
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
-
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
@@ -263,6 +361,16 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
                         <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
@@ -270,7 +378,10 @@
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
-
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
@@ -288,6 +399,16 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
                         <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
@@ -295,7 +416,10 @@
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
-
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
@@ -313,6 +437,17 @@
                                     class="img-fluid w-100">
                             </div>
                         </div>
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
+
                         <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
                             <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                     <h6>Beef Burger</h6>
@@ -320,7 +455,10 @@
                                 <span class="price fwEbold text-bottom">66.00 $</span>
                             </span>
                             <div class="d-flex justify-content-between align-items-end">
-
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
+                                </span>
                                 <span>
                                     <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                             class="icon-cart"></i></a>
