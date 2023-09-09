@@ -6101,7 +6101,12 @@ a.close.disabled {
 
 .align-text-top {
   vertical-align: text-top !important; }
-
+.bg-offwhite{
+  background-color: #FFFCF7 !important;
+}
+.bg-white{
+  background-color: #FFFFFF !important;
+}
 .bg-primary {
   background-color: #007bff !important; }
 

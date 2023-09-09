@@ -663,6 +663,9 @@ a {
 /* ---------------------------------------------------------
 15	 chooseUs-sec
 ---------------------------------------------------------*/
+.chooseUs-sec{
+  background-color: #fdf6ea;
+}
 .chooseUs-sec .btnMore {
   color: #FF6A3D;
 }

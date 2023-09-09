@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- main -->
-    <main style="background-color: #FFFFFF" class="pt-20">
+    <main style="background-color: #FFFCF7" class="pt-20">
         <!-- introBlock -->
         <section class="introBlock position-relative">
             <div class="slick-fade bgCover" style="background-image: url({{ asset('assets/images/bg1.jpg') }});">
@@ -480,8 +480,8 @@
         </section>
 
         <!-- chooseUs-sec -->
-        <section class="chooseUs-sec container pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
-            <div class="row">
+        <section class="chooseUs-sec container-fluid d-flex justify-content-center pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
+            <div class="row container py-3">
                 <div class="col-12 col-lg-6 mb-lg-0 mb-4">
                     <img src="{{ asset('assets/images/chef-banner.jpg') }}" alt="image description" class="img-fluid">
                 </div>
@@ -1449,6 +1449,7 @@
         <!-- productOfferSec -->
         <div class="productOfferSec container overflow-hidden py-xl-12 py-lg-10 py-md-8 py-5">
             <div class="row">
+                
                 <div class="col-12 col-sm-6 mb-sm-0 mb-2">
                     <a href="shop.html" class="w-100"><img src="http://placehold.it/570x350" alt="image description"
                             class="img-fluid"></a>
