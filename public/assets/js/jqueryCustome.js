@@ -46,7 +46,7 @@ $(document).ready(function() {
             dots: true,
             speed: 800,
             infinite: true,
-            slidesToShow: 5,
+            slidesToShow: 3,
             slidesToScroll: 1,
             adaptiveHeight: true,
             autoplay: true,

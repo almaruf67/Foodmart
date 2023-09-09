@@ -122,7 +122,7 @@
 
                 <!-- PopularCol1 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="item-container shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -160,7 +160,7 @@
                 </div>
                 <!-- PopularCol2 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="item-container shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -198,7 +198,7 @@
                 </div>
                 <!-- PopularCol3 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="item-container shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -236,7 +236,7 @@
                 </div>
                 <!-- PopularCol4 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="shadow item-container p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -278,7 +278,7 @@
                 </div>
                 <!-- PopularCol5 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="item-container shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -316,7 +316,7 @@
                 </div>
                 <!-- PopularCol6 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="item-container shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -354,7 +354,7 @@
                 </div>
                 <!-- PopularCol7 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="item-container shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -392,7 +392,7 @@
                 </div>
                 <!-- PopularCol8 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="item-container shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -430,7 +430,7 @@
                 </div>
                 <!-- PopularCol9 -->
                 <div class="fCol px-3 mb-6">
-                    <div class="item-container shadow p-3 mb-5 bg-body rounded">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
                         <div class="bb">
                             <div class="imgHolder  w-100 overflow-hidden">
                                 <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -543,7 +543,7 @@
                 <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -577,7 +577,7 @@
                     </div>
                     <!-- featureCol2 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -611,7 +611,7 @@
                     </div>
                     <!-- featureCol3 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -645,7 +645,7 @@
                     </div>
                     <!-- featureCol4 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -679,7 +679,7 @@
                     </div>
                     <!-- featureCol5 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -718,7 +718,7 @@
                 <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -752,7 +752,7 @@
                     </div>
                     <!-- featureCol2 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -786,7 +786,7 @@
                     </div>
                     <!-- featureCol3 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -821,7 +821,7 @@
 
                     <!-- featureCol4 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -860,7 +860,7 @@
                 <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -894,7 +894,7 @@
                     </div>
                     <!-- featureCol2 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -928,7 +928,7 @@
                     </div>
                     <!-- featureCol3 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -962,7 +962,7 @@
                     </div>
                     <!-- featureCol4 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -996,7 +996,7 @@
                     </div>
                     <!-- featureCol5 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -1035,7 +1035,7 @@
                 <div class="col-12 p-0  d-flex justify-content-center">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -1069,7 +1069,7 @@
                     </div>
                     <!-- featureCol2 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -1103,7 +1103,7 @@
                     </div>
                     <!-- featureCol3 -->
                     <div class="featureCol px-3 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
                             <div class="bb position-relative">
                                 <div class="imgHolder position-relative w-100 overflow-hidden">
                                     <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
@@ -1203,196 +1203,303 @@
                 </div>
             </div>
         </div>
-        <!-- dealSecHolder -->
+        <!-- BlogSecHolder -->
         <section class="dealSecHolder container-fluid overflow-hidden py-xl-12 py-lg-10 py-md-8 py-5">
             <!-- mainHeader -->
             <header class="col-12 mainHeader mb-7 text-center">
-                <h1 class="headingIV playfair fwEblod mb-5">Daily Deal</h1>
+                <h1 class="headingIV playfair fwEblod mb-5">News & Blog</h1>
                 <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
                         alt="Header Border" class="img-fluid img-bdr"></span>
-                <p class="mb-6">There are many variations of passages of lorem ipsum available.</p>
-                <div id="defaultCountdown" class="comming-timer"></div>
+                {{-- <div id="defaultCountdown" class="comming-timer"></div> --}}
             </header>
             <!-- dealSlider -->
             <div class="dealSlider w-100 px-lg-10 px-md-5">
-                <div>
-                    <!-- featureCol -->
-                    <div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                                <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-heart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-cart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-eye d-block"></a></li>
-                                    <li class="overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-arrow d-block"></a></li>
-                                </ul>
+                <!-- BlogCol1 -->
+                <div>                    
+                    <div class="blogCol px-3 mb-sm-8 mb-6">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb">
+                                <div class="imgHolder w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
                             </div>
-                            <div class="text-center py-5 px-2">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Sint Incidunt
-                                        Utlabore</a></span>
-                                <span class="price d-block fwEbold"><del>75.00 $</del>60.50 $</span>
-                                <span
-                                    class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">HOT</span>
-                                <span
-                                    class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                            <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <div class="imgHolder overflow-hidden">
+                                    <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex pl-5 align-items-center">
+                                    <span class="d-flex flex-column title d-block">
+                                        <p class="fwEbold">Nico Ni</h5>
+                                        <p style="color: #FF6A3D">23 Jan 2023</p>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <span>
+                                        <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                                style="color: #FF6A3D"></i></a>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <!-- featureCol -->
-                    <div class="featureCol px-3 w-100 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                                <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-heart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-cart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-eye d-block"></a></li>
-                                    <li class="overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-arrow d-block"></a></li>
-                                </ul>
-                            </div>
-                            <div class="text-center py-5 px-2">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
-                                        Voluptem</a></span>
-                                <span class="price d-block fwEbold">58.00 $</span>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                        <h6>The Secret Menu Gem</h6>
+                                    </a>
+                                    <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                        regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                            class="btnMore"><i>Learn More</i></a></p>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <!-- featureCol -->
-                    <div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                                <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-heart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-cart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-eye d-block"></a></li>
-                                    <li class="overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-arrow d-block"></a></li>
-                                </ul>
+                <!-- BlogCol2 -->
+                <div>                    
+                    <div class="blogCol px-3 mb-sm-8 mb-6">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb">
+                                <div class="imgHolder w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
                             </div>
-                            <div class="text-center py-5 px-2">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Neque Porro
-                                        Quisquam</a></span>
-                                <span class="price d-block fwEbold"><del>60.00 $</del>48.00 $</span>
-                                <span
-                                    class="hotOffer green fwEbold text-uppercase text-white position-absolute d-block">Sale</span>
+                            <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <div class="imgHolder overflow-hidden">
+                                    <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex pl-5 align-items-center">
+                                    <span class="d-flex flex-column title d-block">
+                                        <p class="fwEbold">Nico Ni</h5>
+                                        <p style="color: #FF6A3D">23 Jan 2023</p>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <span>
+                                        <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                                style="color: #FF6A3D"></i></a>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <!-- featureCol -->
-                    <div class="featureCol px-3 w-100 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                                <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-heart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-cart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-eye d-block"></a></li>
-                                    <li class="overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-arrow d-block"></a></li>
-                                </ul>
-                            </div>
-                            <div class="text-center py-5 px-2">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
-                                <span class="price d-block fwEbold">65.00 $</span>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                        <h6>The Secret Menu Gem</h6>
+                                    </a>
+                                    <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                        regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                            class="btnMore"><i>Learn More</i></a></p>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <!-- featureCol -->
-                    <div class="featureCol position-relative w-100 px-3 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                                <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-heart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-cart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-eye d-block"></a></li>
-                                    <li class="overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-arrow d-block"></a></li>
-                                </ul>
+                <!-- BlogCol3 -->
+                <div>                    
+                    <div class="blogCol px-3 mb-sm-8 mb-6">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb">
+                                <div class="imgHolder w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
                             </div>
-                            <div class="text-center py-5 px-2">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Aliquam Quaerat
-                                        Voluptatem</a></span>
-                                <span class="price d-block fwEbold">80.00 $</span>
-                                <span
-                                    class="hotOffer fwEbold text-uppercase text-white position-absolute d-block">HOT</span>
+                            <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <div class="imgHolder overflow-hidden">
+                                    <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex pl-5 align-items-center">
+                                    <span class="d-flex flex-column title d-block">
+                                        <p class="fwEbold">Nico Ni</h5>
+                                        <p style="color: #FF6A3D">23 Jan 2023</p>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <span>
+                                        <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                                style="color: #FF6A3D"></i></a>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <!-- featureCol -->
-                    <div class="featureCol px-3 w-100 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                                <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-heart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-cart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-eye d-block"></a></li>
-                                    <li class="overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-arrow d-block"></a></li>
-                                </ul>
-                            </div>
-                            <div class="text-center py-5 px-2">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
-                                <span class="price d-block fwEbold">65.00 $</span>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                        <h6>The Secret Menu Gem</h6>
+                                    </a>
+                                    <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                        regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                            class="btnMore"><i>Learn More</i></a></p>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <!-- featureCol -->
-                    <div class="featureCol w-100 px-3 mb-sm-8 mb-6">
-                        <div class="shadow p-3 mb-5 bg-body rounded">
-                            <div class="imgHolder position-relative w-100 overflow-hidden">
-                                <img src="http://placehold.it/320x355" alt="image description" class="img-fluid w-100">
-                                <ul class="list-unstyled postHoverLinskList d-flex justify-content-center m-0">
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-heart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-cart d-block"></a></li>
-                                    <li class="mr-2 overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-eye d-block"></a></li>
-                                    <li class="overflow-hidden"><a href="javascript:void(0);"
-                                            class="icon-arrow d-block"></a></li>
-                                </ul>
+                <!-- BlogCol4 -->
+                <div>                    
+                    <div class="blogCol px-3 mb-sm-8 mb-6">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb">
+                                <div class="imgHolder w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
                             </div>
-                            <div class="text-center py-5 px-2">
-                                <span class="title d-block mb-2"><a href="shop-detail.html">Sit voluptatem</a></span>
-                                <span class="price d-block fwEbold">65.00 $</span>
+                            <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <div class="imgHolder overflow-hidden">
+                                    <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="d-flex pl-5 align-items-center">
+                                    <span class="d-flex flex-column title d-block">
+                                        <p class="fwEbold">Nico Ni</h5>
+                                        <p style="color: #FF6A3D">23 Jan 2023</p>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center">
+
+                                    <span>
+                                        <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                                style="color: #FF6A3D"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                        <h6>The Secret Menu Gem</h6>
+                                    </a>
+                                    <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                        regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                            class="btnMore"><i>Learn More</i></a></p>
+
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!-- BlogCol5 -->
+                <div>
+                     
+                    <div class="blogCol px-3 mb-sm-8 mb-6">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <div class="imgHolder overflow-hidden">
+                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="d-flex pl-5 align-items-center">
+                                <span class="d-flex flex-column title d-block">
+                                    <p class="fwEbold">Nico Ni</h5>
+                                    <p style="color: #FF6A3D">23 Jan 2023</p>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                            style="color: #FF6A3D"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                    <h6>The Secret Menu Gem</h6>
+                                </a>
+                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                        class="btnMore"><i>Learn More</i></a></p>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- BlogCol6 -->
+                <div>                     
+                    <div class="blogCol px-3 mb-sm-8 mb-6">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <div class="imgHolder overflow-hidden">
+                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="d-flex pl-5 align-items-center">
+                                <span class="d-flex flex-column title d-block">
+                                    <p class="fwEbold">Nico Ni</h5>
+                                    <p style="color: #FF6A3D">23 Jan 2023</p>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                            style="color: #FF6A3D"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                    <h6>The Secret Menu Gem</h6>
+                                </a>
+                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                        class="btnMore"><i>Learn More</i></a></p>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- BlogCol7 -->
+                <div>                     
+                    <div class="blogCol px-3 mb-sm-8 mb-6">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <div class="imgHolder overflow-hidden">
+                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="d-flex pl-5 align-items-center">
+                                <span class="d-flex flex-column title d-block">
+                                    <p class="fwEbold">Nico Ni</h5>
+                                    <p style="color: #FF6A3D">23 Jan 2023</p>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                            style="color: #FF6A3D"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                    <h6>The Secret Menu Gem</h6>
+                                </a>
+                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                        class="btnMore"><i>Learn More</i></a></p>
+
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -1405,43 +1512,55 @@
                     <div class="partnerSlider d-flex flex-wrap">
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
                         <div>
                             <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="http://placehold.it/105x59" alt="Partner Logo"
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
+                                        class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="logoColumn d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}" alt="Partner Logo"
+                                        class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="logoColumn d-flex align-items-center justify-content-center">
+                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}" alt="Partner Logo"
                                         class="img-fluid"></a>
                             </div>
                         </div>
@@ -1449,6 +1568,180 @@
                 </div>
             </div>
         </div>
+        <!-- AjairaSec -->
+        <section class="PopulerSec container pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
+            <!-- mainHeader -->
+            <header class="col-12 mainHeader mb-7 text-center">
+                <h1 class="headingIV playfair fwEblod mb-4">***</h1>
+                <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
+                        alt="Header Border" class="img-fluid img-bdr"></span>
+
+            </header>
+
+            {{-- <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button> --}}
+            <div class="blog row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 ">
+
+                <!-- BlogCol1 -->
+                <div class="blogCol px-3 mb-sm-8 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <div class="imgHolder overflow-hidden">
+                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="d-flex pl-5 align-items-center">
+                                <span class="d-flex flex-column title d-block">
+                                    <p class="fwEbold">Nico Ni</h5>
+                                    <p style="color: #FF6A3D">23 Jan 2023</p>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                            style="color: #FF6A3D"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                    <h6>The Secret Menu Gem</h6>
+                                </a>
+                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                        class="btnMore"><i>Learn More</i></a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- BlogCol2 -->
+                <div class="blogCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <div class="imgHolder overflow-hidden">
+                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="d-flex pl-5 align-items-center">
+                                <span class="d-flex flex-column title d-block">
+                                    <p class="fwEbold">Nico Ni</h5>
+                                    <p style="color: #FF6A3D">23 Jan 2023</p>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                            style="color: #FF6A3D"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                    <h6>The Secret Menu Gem</h6>
+                                </a>
+                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                        class="btnMore"><i>Learn More</i></a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- BlogCol3 -->
+                <div class="blogCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <div class="imgHolder overflow-hidden">
+                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="d-flex pl-5 align-items-center">
+                                <span class="d-flex flex-column title d-block">
+                                    <p class="fwEbold">Nico Ni</h5>
+                                    <p style="color: #FF6A3D">23 Jan 2023</p>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                            style="color: #FF6A3D"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                    <h6>The Secret Menu Gem</h6>
+                                </a>
+                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                        class="btnMore"><i>Learn More</i></a></p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- BlogCol4 -->
+                <div class="blogCol px-3 mb-6">
+                    <div class="shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb">
+                            <div class="imgHolder w-100 overflow-hidden">
+                                <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <div class="imgHolder overflow-hidden">
+                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
+                                    class="img-fluid w-100">
+                            </div>
+                            <div class="d-flex pl-5 align-items-center">
+                                <span class="d-flex flex-column title d-block">
+                                    <p class="fwEbold">Nico Ni</h5>
+                                    <p style="color: #FF6A3D">23 Jan 2023</p>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center">
+
+                                <span>
+                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
+                                            style="color: #FF6A3D"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
+                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
+                                    <h6>The Secret Menu Gem</h6>
+                                </a>
+                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
+                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
+                                        class="btnMore"><i>Learn More</i></a></p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            {{-- <button class="right" onclick="rightScroll()"><i class="fas fa-chevron-right"></i></button> --}}
+        </section>
+
         <div class="container-fluid px-xl-20 px-lg-14">
             <!-- subscribeSecBlock -->
             <section class="subscribeSecBlock bgCover col-12 pt-xl-24 pb-xl-12 pt-lg-20 pt-md-16 pt-10 pb-md-8 pb-5"

@@ -687,6 +687,9 @@ a {
 .featureCol {
   width: 100%;
 }
+.pp{
+  background-color: white;
+}
 
 .featureCol:hover .postHoverLinskList {
   bottom: -10px;
@@ -851,6 +854,10 @@ a {
 /* ---------------------------------------------------------
 20	 dealSlider
 ---------------------------------------------------------*/
+/* .dealSlider{
+
+} */
+
 .dealSlider .slick-dots {
   margin: 0;
   padding: 0;
@@ -1246,6 +1253,11 @@ a {
 ---------------------------------------------------------*/
 .partnerSlider .logoColumn {
   width: 155px;
+}
+
+.logoColumn .img-fluid{
+ width: 155px;
+  height: 100px;
 }
 
 /* ---------------------------------------------------------
@@ -2876,17 +2888,12 @@ a {
 }
 
 .ppDishes{
-  
   width: 100%;
   height:100%;
   display: flex;
-  justify-content: center;
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
-  overflow-x: auto;
-  overflow-x: scroll;
-  white-space: nowrap;
 }
 
 .ppDishes::-webkit-scrollbar{
@@ -2917,6 +2924,10 @@ a {
   height: 150%;
 }
 
+.bb .imgHolder{
+  width: 100%;
+  height: 200px;
+}
 
 .fCol:hover .postHoverLinskList {
   bottom: -10px;
@@ -2987,3 +2998,103 @@ a {
 .fCol .postHoverLinskList a:hover {
   color: #fff;
 }
+
+
+.blog{
+  
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.blog::-webkit-scrollbar{
+  width: 0;
+}
+/* .left {
+  position: absolute;
+  border: none;
+  background: none;
+  left: 0;
+  padding-left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  position: absolute;
+  right: 0;
+  border: none;
+  padding-right: 20px;
+  background: none;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+.blogCol {
+  flex-shrink: 0;
+  width: 400px;
+  height: 100%;
+}
+
+.blogCol .imgHolder{
+  height: 200px;
+  /* width:320px; */
+}
+
+.blogCol .imgHolder .img-fluid{
+  height: 100%;
+  /* width:100%; */
+}
+
+.blog{
+  position: relative;
+}
+
+.blogCol:hover .postHoverLinskList {
+  bottom: -10px;
+}
+
+.blogCol .title {
+  font-size: 13px;
+}
+
+.blogCol .title a {
+  color: #707070;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.blogCol .price {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  color: #444444;
+}
+
+.blogCol .price del {
+  font-size: 14px;
+  line-height: 16px;
+  color: #bebebe;
+  font-weight: 400;
+  margin: 0 10px 0 0;
+}
+
+.blogger .imgHolder{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.blogger .title {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  color: #555555
+}
+
+
+
