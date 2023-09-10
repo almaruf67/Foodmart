@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- main -->
-    <main style="background-color: #fffcf7" class="pt-20">
+    <main style="background-color: #FFFCF7" class="pt-20">
         <!-- introBlock -->
         <section class="introBlock position-relative">
             <div class="slick-fade bgCover" style="background-image: url({{ asset('assets/images/bg1.jpg') }});">
@@ -572,8 +572,8 @@
         </section>
 
         <!-- chooseUs-sec -->
-        <section class="chooseUs-sec container pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
-            <div class="row">
+        <section class="chooseUs-sec container-fluid d-flex justify-content-center pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
+            <div class="row container py-3">
                 <div class="col-12 col-lg-6 mb-lg-0 mb-4">
                     <img src="{{ asset('assets/images/chef.jpg') }}" alt="image description" class="img-fluid">
                 </div>
@@ -640,7 +640,7 @@
             </header>
             <!-- Dessert -->
             <div id="desert" style="display:none;">
-                <div class="col-12 p-0  d-flex justify-content-center">
+                <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="pp shadow p-3 mb-5 bg-body rounded">
@@ -657,18 +657,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -691,18 +703,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -725,18 +749,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -759,18 +795,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -793,18 +841,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -815,7 +875,7 @@
             </div>
             <!-- Pizza -->
             <div id="pizza" style="display:none;">
-                <div class="col-12 p-0  d-flex justify-content-center">
+                <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="pp shadow p-3 mb-5 bg-body rounded">
@@ -832,18 +892,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -866,18 +938,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -900,53 +984,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
-                                    <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                class="icon-cart"></i></a>
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
                                     </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- featureCol4 -->
-                    <div class="featureCol px-3 mb-6">
-                        <div class="pp shadow p-3 mb-5 bg-body rounded">
-                            <div class="bb position-relative">
-                                <div class="imgHolder position-relative w-100 overflow-hidden">
-                                    <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
-                                        class="img-fluid w-100">
-                                </div>
-                                <div class="overlay text-left overflow-hidden">
-                                    <h4>Ingredients</h4>
-                                    <span>½ tbsp olive oil</span>
-                                    <span>1 onion, peeled and finely chopped</span>
-                                    <span>1 tsp mixed dried herbs</span>
-                                    <span>1 egg, beaten</span>
-                                    <span> 4 slices mature Cheddar (optional)</span>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
-                                <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
-                                        <h6>Beef Burger</h6>
-                                    </a>
-                                    <span class="price fwEbold text-bottom">66.00 $</span>
-                                </span>
-                                <div class="d-flex justify-content-between align-items-end">
-
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -957,7 +1018,7 @@
             </div>
             <!-- Burger -->
             <div id="burger" style="display:none;">
-                <div class="col-12 p-0  d-flex justify-content-center">
+                <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="pp shadow p-3 mb-5 bg-body rounded">
@@ -974,18 +1035,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -1008,18 +1081,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -1042,18 +1127,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -1076,18 +1173,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -1110,18 +1219,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -1132,7 +1253,7 @@
             </div>
             <!-- Drinks -->
             <div id="drinks" style="display:none;">
-                <div class="col-12 p-0  d-flex justify-content-center">
+                <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
                         <div class="pp shadow p-3 mb-5 bg-body rounded">
@@ -1149,18 +1270,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -1183,18 +1316,30 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
@@ -1217,25 +1362,128 @@
                                     <span>1 egg, beaten</span>
                                     <span> 4 slices mature Cheddar (optional)</span>
                                 </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="d-flex justify-content-between text-left py-xl-5 py-sm-4 py-2 px-xl-2 px-1">
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                 <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
                                         <h6>Beef Burger</h6>
                                     </a>
                                     <span class="price fwEbold text-bottom">66.00 $</span>
                                 </span>
                                 <div class="d-flex justify-content-between align-items-end">
-
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
                                     <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                 class="icon-cart"></i></a>
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    <!-- featureCol4 -->
+                    <div class="featureCol px-3 mb-6">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb position-relative">
+                                <div class="imgHolder position-relative w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="overlay text-left overflow-hidden">
+                                    <h4>Ingredients</h4>
+                                    <span>½ tbsp olive oil</span>
+                                    <span>1 onion, peeled and finely chopped</span>
+                                    <span>1 tsp mixed dried herbs</span>
+                                    <span>1 egg, beaten</span>
+                                    <span> 4 slices mature Cheddar (optional)</span>
+                                </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
+                                        <h6>Beef Burger</h6>
+                                    </a>
+                                    <span class="price fwEbold text-bottom">66.00 $</span>
+                                </span>
+                                <div class="d-flex justify-content-between align-items-end">
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
+                                    <span>
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-cart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- featureCol5 -->
+                    <div class="featureCol px-3 mb-6">
+                        <div class="pp shadow p-3 mb-5 bg-body rounded">
+                            <div class="bb position-relative">
+                                <div class="imgHolder position-relative w-100 overflow-hidden">
+                                    <img src="{{ asset('assets/images/burger.jpg') }}" alt="image description"
+                                        class="img-fluid w-100">
+                                </div>
+                                <div class="overlay text-left overflow-hidden">
+                                    <h4>Ingredients</h4>
+                                    <span>½ tbsp olive oil</span>
+                                    <span>1 onion, peeled and finely chopped</span>
+                                    <span>1 tsp mixed dried herbs</span>
+                                    <span>1 egg, beaten</span>
+                                    <span> 4 slices mature Cheddar (optional)</span>
+                                </div>
+                                <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                    <p class="rating">
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <i class="fas fa-star" aria-hidden="true"></i>
+                                        <span>(1)</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
+                                <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
+                                        <h6>Beef Burger</h6>
+                                    </a>
+                                    <span class="price fwEbold text-bottom">66.00 $</span>
+                                </span>
+                                <div class="d-flex justify-content-between align-items-end">
+                                    <span class="mr-2">
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-heart"></i></a>
+                                    </span>
+                                    <span>
+                                        <a href="javascript:void(0);" class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                class="icon-cart"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

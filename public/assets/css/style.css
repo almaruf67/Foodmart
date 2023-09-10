@@ -663,6 +663,9 @@ a {
 /* ---------------------------------------------------------
 15	 chooseUs-sec
 ---------------------------------------------------------*/
+.chooseUs-sec{
+  background-color: #fdf6ea;
+}
 .chooseUs-sec .btnMore {
     color: #ff6a3d;
 }
@@ -685,10 +688,11 @@ a {
 17	 featureCol
 ---------------------------------------------------------*/
 .featureCol {
-    width: 100%;
-}
-.pp {
-    background-color: white;
+  min-width: 300px;
+  width: 25%;
+  height: 100%;}
+.pp{
+  background-color: white;
 }
 
 .featureCol:hover .postHoverLinskList {
@@ -2876,16 +2880,16 @@ a {
 }
 
 .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: linear-gradient(to right, #f65f26, #d41c18);
-    opacity: 0;
-    padding: 20px;
-    border-radius: 10px;
-    transition: all 0.3s;
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, #f65f26, #d41c18);
+  opacity: 0;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s;
 }
 .bb:hover .overlay {
     opacity: 0.85;
