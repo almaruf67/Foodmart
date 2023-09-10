@@ -503,7 +503,7 @@
         </section>
 
         <section class="introBlock position-relative">
-            <div class="bgCover" style="background-image: url({{ asset('assets/images/bg-blured44.png') }});">
+            <div class="bgCover" style="background-image: url({{ asset('assets/images/bg44.png') }});">
                 <div id="booking"
                     class="section container d-flex justify-content-end pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
 
@@ -575,7 +575,7 @@
         <section class="chooseUs-sec container-fluid d-flex justify-content-center pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
             <div class="row container py-3">
                 <div class="col-12 col-lg-6 mb-lg-0 mb-4">
-                    <img src="{{ asset('assets/images/chef-banner.jpg') }}" alt="image description" class="img-fluid">
+                    <img src="{{ asset('assets/images/chef.jpg') }}" alt="image description" class="img-fluid">
                 </div>
                 <div class="col-12 col-lg-6 pr-4">
                     <h2 class="headingII fwEbold playfair position-relative mb-6 pb-5">Beyond food orders!</h2>
@@ -1538,20 +1538,103 @@
                 </div>
             </div>
         </div>
-        <!-- productOfferSec -->
-        <div class="productOfferSec container overflow-hidden py-xl-12 py-lg-10 py-md-8 py-5">
+        <!-- customerReviewSec -->
+        <section
+            class="partnerSec container overflow-hidden pt-xl-12 pb-xl-23 pt-lg-10 pt-md-8 pt-5 pb-lg-20 pb-md-16 pb-10">
             <div class="row">
-                
-                <div class="col-12 col-sm-6 mb-sm-0 mb-2">
-                    <a href="shop.html" class="w-100"><img src="http://placehold.it/570x350" alt="image description"
-                            class="img-fluid"></a>
-                </div>
-                <div class="col-12 col-sm-6">
-                    <a href="shop.html" class="w-100"><img src="http://placehold.it/570x350" alt="image description"
-                            class="img-fluid"></a>
+                <div class="col-12">
+                    <!-- partnerSlider -->
+                    <div class="partnerSlider d-flex flex-wrap">
+                        <div class="col-md-10 mb-5 mb-md-0 d-flex align-items-center">
+                            <div style="border: none;" class="card testimonial-card shadow mb-5 rounded">
+                                <div class="card-up rounded" style="background-color: #FFB648;"></div>
+                                <div class="avatar mx-auto bg-white">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                        class="rounded-circle img-fluid" />
+                                </div>
+                                <div class="card-body bg-white">
+                                    <h4 class="mb-4">Maria Smantha</h4>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet eos adipisci,
+                                        consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 mb-5 mb-md-0 d-flex align-items-stretch">
+                            <div style="border: none;" class="card testimonial-card shadow mb-5 rounded">
+                                <div class="card-up rounded" style="background-color: #FFB648;"></div>
+                                <div class="avatar mx-auto bg-white">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                        class="rounded-circle img-fluid" />
+                                </div>
+                                <div class="card-body bg-white">
+                                    <h4 class="mb-4">Lisa Cudrow</h4>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>Neque cupiditate assumenda in maiores
+                                        repudi mollitia architecto.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 mb-0 d-flex align-items-stretch">
+                            <div style="border: none;" class="card testimonial-card shadow mb-5 rounded">
+                                <div class="card-up rounded" style="background-color: #FFB648;"></div>
+                                <div class="avatar mx-auto bg-white">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                                        class="rounded-circle img-fluid" />
+                                </div>
+                                <div class="card-body bg-white">
+                                    <h4 class="mb-4">John Smith</h4>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>Delectus impedit saepe officiis ab
+                                        aliquam repellat rem unde ducimus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 mb-5 mb-md-0 d-flex align-items-stretch">
+                            <div style="border: none;" class="card testimonial-card shadow mb-5 rounded">
+                                <div class="card-up rounded" style="background-color: #FFB648;"></div>
+                                <div class="avatar mx-auto bg-white">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                        class="rounded-circle img-fluid" />
+                                </div>
+                                <div class="card-body bg-white">
+                                    <h4 class="mb-4">Lisa Cudrow</h4>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>Neque cupiditate assumenda in maiores
+                                        repudi mollitia architecto.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 mb-0 d-flex align-items-stretch">
+                            <div style="border: none;" class="card testimonial-card shadow mb-5 rounded">
+                                <div class="card-up rounded" style="background-color: #FFB648;"></div>
+                                <div class="avatar mx-auto bg-white">
+                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                                        class="rounded-circle img-fluid" />
+                                </div>
+                                <div class="card-body bg-white">
+                                    <h4 class="mb-4">John Smith</h4>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>Delectus impedit saepe officiis ab
+                                        aliquam repellat rem unde ducimus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+
+        </section>
         <!-- BlogSecHolder -->
         <section class="dealSecHolder container-fluid overflow-hidden py-xl-12 py-lg-10 py-md-8 py-5">
             <!-- mainHeader -->
@@ -1853,243 +1936,9 @@
                 </div>
             </div>
         </section>
-        <!-- partnerSec -->
-        <div class="partnerSec container overflow-hidden pt-xl-12 pb-xl-23 pt-lg-10 pt-md-8 pt-5 pb-lg-20 pb-md-16 pb-10">
-            <div class="row">
-                <div class="col-12">
-                    <!-- partnerSlider -->
-                    <div class="partnerSlider d-flex flex-wrap">
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog2.jpeg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="logoColumn d-flex align-items-center justify-content-center">
-                                <a href="javascript:void(0);"><img src="{{ asset('assets/images/blog1.jpg') }}"
-                                        alt="Partner Logo" class="img-fluid"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- AjairaSec -->
-        <section class="PopulerSec container pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
-            <!-- mainHeader -->
-            <header class="col-12 mainHeader mb-7 text-center">
-                <h1 class="headingIV playfair fwEblod mb-4">***</h1>
-                <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
-                        alt="Header Border" class="img-fluid img-bdr"></span>
 
-            </header>
+        
 
-            {{-- <button class="left" onclick="leftScroll()"><i class="fas fa-chevron-left"></i></button> --}}
-            <div class="blog row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 ">
-
-                <!-- BlogCol1 -->
-                <div class="blogCol px-3 mb-sm-8 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb">
-                            <div class="imgHolder w-100 overflow-hidden">
-                                <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                        </div>
-                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <div class="imgHolder overflow-hidden">
-                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                            <div class="d-flex pl-5 align-items-center">
-                                <span class="d-flex flex-column title d-block">
-                                    <p class="fwEbold">Nico Ni</h5>
-                                    <p style="color: #FF6A3D">23 Jan 2023</p>
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-center">
-
-                                <span>
-                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
-                                            style="color: #FF6A3D"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
-                                    <h6>The Secret Menu Gem</h6>
-                                </a>
-                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
-                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
-                                        class="btnMore"><i>Learn More</i></a></p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- BlogCol2 -->
-                <div class="blogCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb">
-                            <div class="imgHolder w-100 overflow-hidden">
-                                <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                        </div>
-                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <div class="imgHolder overflow-hidden">
-                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                            <div class="d-flex pl-5 align-items-center">
-                                <span class="d-flex flex-column title d-block">
-                                    <p class="fwEbold">Nico Ni</h5>
-                                    <p style="color: #FF6A3D">23 Jan 2023</p>
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-center">
-
-                                <span>
-                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
-                                            style="color: #FF6A3D"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
-                                    <h6>The Secret Menu Gem</h6>
-                                </a>
-                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
-                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
-                                        class="btnMore"><i>Learn More</i></a></p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- BlogCol3 -->
-                <div class="blogCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb">
-                            <div class="imgHolder w-100 overflow-hidden">
-                                <img src="{{ asset('assets/images/blog1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                        </div>
-                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <div class="imgHolder overflow-hidden">
-                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                            <div class="d-flex pl-5 align-items-center">
-                                <span class="d-flex flex-column title d-block">
-                                    <p class="fwEbold">Nico Ni</h5>
-                                    <p style="color: #FF6A3D">23 Jan 2023</p>
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-center">
-
-                                <span>
-                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
-                                            style="color: #FF6A3D"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
-                                    <h6>The Secret Menu Gem</h6>
-                                </a>
-                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
-                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
-                                        class="btnMore"><i>Learn More</i></a></p>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- BlogCol4 -->
-                <div class="blogCol px-3 mb-6">
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb">
-                            <div class="imgHolder w-100 overflow-hidden">
-                                <img src="{{ asset('assets/images/blog2.jpeg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                        </div>
-                        <div class="blogger d-flex text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <div class="imgHolder overflow-hidden">
-                                <img src="{{ asset('assets/images/chef1.jpg') }}" alt="image description"
-                                    class="img-fluid w-100">
-                            </div>
-                            <div class="d-flex pl-5 align-items-center">
-                                <span class="d-flex flex-column title d-block">
-                                    <p class="fwEbold">Nico Ni</h5>
-                                    <p style="color: #FF6A3D">23 Jan 2023</p>
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-center">
-
-                                <span>
-                                    <a href="javascript:void(0);" class="py-2 px-2 "><i class="far fa-comments"
-                                            style="color: #FF6A3D"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1 py-2 px-xl-2 px-1">
-                            <span class="d-flex flex-column title d-block"><a href="javascript:void(0);">
-                                    <h6>The Secret Menu Gem</h6>
-                                </a>
-                                <p class="title overflow-hidden">Some of the best items at Yumzy can't be found on the
-                                    regular menu. Ask for their secret menu,...<a href="javascript:void(0);"
-                                        class="btnMore"><i>Learn More</i></a></p>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            {{-- <button class="right" onclick="rightScroll()"><i class="fas fa-chevron-right"></i></button> --}}
-        </section>
 
         <div class="container-fluid px-xl-20 px-lg-14">
             <!-- subscribeSecBlock -->

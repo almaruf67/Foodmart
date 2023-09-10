@@ -94,7 +94,7 @@ $(document).ready(function() {
             dots: false,
             speed: 800,
             infinite: true,
-            slidesToShow: 6,
+            slidesToShow: 3,
             slidesToScroll: 1,
             adaptiveHeight: true,
             autoplay: true,

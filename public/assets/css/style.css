@@ -1253,6 +1253,25 @@ a {
     z-index: -1;
 }
 
+/* ----------customer Review------- */
+
+.logoColumn2 .img-fluid {
+    height: 60px;
+    width: 60px;
+}
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+
 /* ---------------------------------------------------------
 29	 partnerSlider
 ---------------------------------------------------------*/
