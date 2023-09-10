@@ -87,17 +87,19 @@
 										<li class="nav-item">
 											<a class="d-block" href="contact-us.html">contact</a>
 										</li>
+										
 									</ul>
 								</div>
 							</nav>
 						</div>
 					</div>
-					<div class="col-sm-3 col-lg-2">
+					<div class="col-sm-1 col-lg-2">
 						<!-- wishListII -->
-						<ul class="nav nav-tabs wishListII pt-5 justify-content-end border-bottom-0">
+						<ul class="nav nav-tabs wishListII justify-content-end align-items-center pt-2 border-bottom-0">
 							<li class="nav-item ml-0"><a class="nav-link icon-search" href="javascript:void(0);"></a></li>
-							<li class="nav-item"><a class="nav-link position-relative icon-cart" href="javascript:void(0);"><span class="num rounded d-block">2</span></a></li>
-							<li class="nav-item"><a class="nav-link icon-profile" href="javascript:void(0);"></a></li>
+							{{-- <li class="nav-item"><a class="nav-link position-relative icon-cart" href="javascript:void(0);"><span class="num rounded d-block">2</span></a></li>
+							<li class="nav-item"><a class="nav-link icon-profile" href="javascript:void(0);"></a></li> --}}
+							<li class="nav-item"><a class="btn btnTheme fwEbold text-white sm-round py-2 px-3" href="">Login</a></li>
 						</ul>
 					</div>
 				</div>

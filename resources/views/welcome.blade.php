@@ -1689,26 +1689,50 @@
             </div>
         </section>
 
-        
+        <section class="introBlock position-relative">
+            <div class="bgCover" style="background-image: url({{ asset('assets/images/bg55.jpg') }});">
+                <div id="booking"
+                    class="section container d-flex justify-content-center pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
+
+                    <div class="section-center">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="booking-form">
+                                    <form>
+                                        <div class="form-header">
+                                            <h2>Make your reservation</h2>
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="form-label">Name</span>
+                                            <input class="form-control" type="text" placeholder="Enter your name">
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="form-label">Email</span>
+                                            <input class="form-control" type="email" placeholder="Enter your email">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <span class="form-label">Comment</span>
+                                            <input class="form-control input-lg" type="text" placeholder="Enter your thoughts">
+                                        </div>
+
+                                        <div class="form-btn d-flex justify-content-end">
+                                            <button
+                                                class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Book
+                                                Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
 
-        <div class="container-fluid px-xl-20 px-lg-14">
-            <!-- subscribeSecBlock -->
-            <section class="subscribeSecBlock bgCover col-12 pt-xl-24 pb-xl-12 pt-lg-20 pt-md-16 pt-10 pb-md-8 pb-5"
-                style="background-image: url(http://placehold.it/1720x465)">
-                <header class="col-12 mainHeader mb-sm-9 mb-6 text-center">
-                    <h1 class="headingIV playfair fwEblod mb-4">Subscribe Our Newsletter</h1>
-                    <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
-                            alt="Header Border" class="img-fluid img-bdr"></span>
-                    <p class="mb-sm-6 mb-3">Enter Your email address to join our mailing list and keep yourself update</p>
-                </header>
-                <form class="emailForm1 mx-auto overflow-hidden d-flex flex-wrap">
-                    <input type="email" class="form-control px-4 border-0" placeholder="Enter your mail...">
-                    <button type="submit" class="btn btnTheme btnShop fwEbold text-white py-3 px-4">Explore Food <i
-                            class="fas fa-arrow-right ml-2"></i></button>
-                </form>
-            </section>
-        </div>
+
         <!-- footerHolder -->
         <aside
             class="footerHolder container-fluid overflow-hidden px-xl-20 px-lg-14 pt-xl-12 pb-xl-8 pt-lg-12 pt-md-8 pt-10 pb-lg-8">
