@@ -107,37 +107,138 @@
                             @guest
                                 @if (Route::has('login'))
                                     <li class="nav-item"><a class="btn btnTheme fwEbold text-white sm-round py-2 px-3"
+                                            data-toggle="modal" data-target="#Modallogin"
                                             href="{{ route('login') }}">Login</a></li>
                                 @endif
                             @else
                                 <li class="nav-item"><a class="nav-link position-relative icon-cart"
                                         href="javascript:void(0);"><span class="num rounded d-block">2</span></a></li>
-                                <li class="nav-item"><a class="nav-link icon-profile" href="javascript:void(0);"></a></li>
-                                <li class="nav-item"><a id="navbarDropdown" class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <li class="nav-item"><a class="nav-link icon-profile" href="javascript:void(0);"></a>
+                                </li>
+                                <li class="nav-item"><a id="navbarDropdown" class="dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
                                         {{ Auth::user()->name }}
                                     </a>
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							<a class="dropdown-item" href="#">
-							    Orders
-							</a>
-							<a class="dropdown-item" href="{{ route('logout') }}"
-							    onclick="event.preventDefault();
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">
+                                            Orders
+                                        </a>
+                                        <a class="dropdown-item" href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
 						   document.getElementById('logout-form').submit();">
-							    LogOut
-							</a>
-	
-							<form id="logout-form" action="{{ route('logout') }}" method="POST"
-							    class="d-none">
-							    @csrf
-							</form>
-						  </div>
-					</li>	  
+                                            LogOut
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                            class="d-none">
+                                            @csrf
+                                        </form>
+                                    </div>
+                                </li>
                             @endguest
                         </ul>
                     </div>
                 </div>
             </div>
         </header>
+        {{-- Modal begin --}}
+        <div class="modal fade" id="Modallogin" tabindex="-1" role="dialog"
+            aria-labelledby="ModalloginModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content booking-form">
+                    <div class="modal-header">
+                        
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-header">
+                                <h2>Make your reservation</h2>
+                            </div>
+                            <div class="form-group">
+                                <span class="form-label">Name</span>
+                                <input class="form-control" type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <span class="form-label">Email</span>
+                                <input class="form-control" type="email" placeholder="Enter your email">
+                            </div>
+
+                            <div class="form-group">
+                                <span class="form-label">Comment</span>
+                                <input class="form-control input-lg" type="text"
+                                    placeholder="Enter your thoughts">
+                            </div>
+
+                            <div class="form-btn d-flex justify-content-end">
+                                <button
+                                    class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Book
+                                    Now</button>
+                                    <button
+                                    class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" data-dismiss="modal"  data-toggle="modal" data-target="#Modalsignup">Sign up</button>
+                            </div>
+                        </form>
+                    </div>
+
+
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="Modalsignup" tabindex="-1" role="dialog"
+            aria-labelledby="ModalsignupLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content booking-form">
+                    <div class="modal-header">
+                        
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-header">
+                                <h2>Make your reservation</h2>
+                            </div>
+                            <div class="form-group">
+                                <span class="form-label">Name</span>
+                                <input class="form-control" type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <span class="form-label">Email</span>
+                                <input class="form-control" type="email" placeholder="Enter your email">
+                            </div>
+
+                            <div class="form-group">
+                                <span class="form-label">Comment</span>
+                                <input class="form-control input-lg" type="text"
+                                    placeholder="Enter your thoughts">
+                            </div>
+
+                            <div class="form-btn d-flex justify-content-end">
+                                <button
+                                    class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Book
+                                    Now</button>
+                                    <button
+                                    class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" data-dismiss="modal"  data-toggle="modal" data-target="#Modallogin">Sign up</button>
+                            </div>
+                        </form>
+                    </div>
+
+
+                   
+                </div>
+            </div>
+        </div>
+        {{-- Modal end --}}
         <!-- main -->
         @yield('content')
         <!-- footer -->
@@ -160,5 +261,6 @@
 
 
 </body>
+<!-- Modal -->
 
 </html>
