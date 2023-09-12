@@ -113,29 +113,27 @@
                             @else
                                 <li class="nav-item"><a class="nav-link position-relative icon-cart"
                                         href="javascript:void(0);"><span class="num rounded d-block">2</span></a></li>
-                                <li class="nav-item"><a class="nav-link icon-profile" href="javascript:void(0);"></a>
-                                </li>
-                                <li class="nav-item"><a id="navbarDropdown" class="dropdown-toggle" type="button"
+                                <li class="nav-item"><a class="nav-link icon-profile dropdown-toggle"
                                         id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        {{ Auth::user()->name }}
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">
-                                            Orders
-                                        </a>
-                                        <a class="dropdown-item" href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-						   document.getElementById('logout-form').submit();">
-                                            LogOut
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                            class="d-none">
-                                            @csrf
-                                        </form>
-                                    </div>
+                                        aria-expanded="false" href="javascript:void(0);"></a>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											<a class="dropdown-item" href="#">{{ Auth::user()->name }}</a>
+											<a class="dropdown-item" href="#">
+												Orders
+											</a>
+											<a class="dropdown-item" href="{{ route('logout') }}"
+												onclick="event.preventDefault();
+							   document.getElementById('logout-form').submit();">
+												LogOut
+											</a>
+	
+											<form id="logout-form" action="{{ route('logout') }}" method="POST"
+												class="d-none">
+												@csrf
+											</form>
+										</div>
                                 </li>
+                                
                             @endguest
                         </ul>
                     </div>
@@ -148,12 +146,13 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content booking-form">
                     <div class="d-flex justify-content-center pt-3">
-						
-						<div class="col-9 form-header d-flex justify-content-end">
-							<h2>Feel The Taste</h2>
-						</div>
-                        
-                        <button type="button" class="col-3 close d-flex justify-content-end pr-3 pt-2" data-dismiss="modal" aria-label="Close">
+
+                        <div class="col-9 form-header d-flex justify-content-end">
+                            <h2>Feel The Taste</h2>
+                        </div>
+
+                        <button type="button" class="col-3 close d-flex justify-content-end pr-3 pt-2"
+                            data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -161,7 +160,7 @@
 
                     <div class="modal-body">
                         <form>
-                            
+
                             <div class="form-group">
                                 <span class="form-label">Email</span>
                                 <input class="form-control" type="email" placeholder="Enter your email">
@@ -169,39 +168,41 @@
 
                             <div class="form-group">
                                 <span class="form-label">Password</span>
-                                <input class="form-control" type="password"
-                                    placeholder="Enter your thoughts">
+                                <input class="form-control" type="password" placeholder="Enter your thoughts">
                             </div>
 
                             <div class="form-btn d-flex justify-content-end">
                                 <button
-                                    class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2">Log In</button>
-                                    
+                                    class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2">Log
+                                    In</button>
+
                             </div>
-							<div class="d-flex justify-content-center mt-3">
-								<span>Don't have an account? <button style="color: #FF6A3D;" class="border-0 bg-transparent"
-                                     data-dismiss="modal"  data-toggle="modal" data-target="#Modalsignup">Sign up</button></span>
-							</div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <span>Don't have an account? <button style="color: #FF6A3D;"
+                                        class="border-0 bg-transparent" data-dismiss="modal" data-toggle="modal"
+                                        data-target="#Modalsignup">Sign up</button></span>
+                            </div>
                         </form>
                     </div>
 
 
-                   
+
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="Modalsignup" tabindex="-1" role="dialog"
-            aria-labelledby="ModalsignupLabel" aria-hidden="true">
+        <div class="modal fade" id="Modalsignup" tabindex="-1" role="dialog" aria-labelledby="ModalsignupLabel"
+            aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content booking-form">
                     <div class="d-flex justify-content-center pt-3">
-						
-						<div class="col-8 form-header d-flex justify-content-end">
-							<h2>Sign Up</h2>
-						</div>
-                        
-                        <button type="button" class="col-4 close d-flex justify-content-end pr-3 pt-2" data-dismiss="modal" aria-label="Close">
+
+                        <div class="col-8 form-header d-flex justify-content-end">
+                            <h2>Sign Up</h2>
+                        </div>
+
+                        <button type="button" class="col-4 close d-flex justify-content-end pr-3 pt-2"
+                            data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -209,7 +210,7 @@
 
                     <div class="modal-body">
                         <form>
-                        
+
                             <div class="form-group">
                                 <span class="form-label">Name</span>
                                 <input class="form-control" type="text" placeholder="Enter your name">
@@ -220,37 +221,37 @@
                                 <input class="form-control" type="text" placeholder="Enter your number">
                             </div>
 
-							<div class="form-group">
+                            <div class="form-group">
                                 <span class="form-label">Email</span>
                                 <input class="form-control" type="email" placeholder="Enter your email">
                             </div>
 
-							<div class="form-group">
+                            <div class="form-group">
                                 <span class="form-label">Password</span>
-                                <input class="form-control" type="password"
-                                    placeholder="Enter strong password">
+                                <input class="form-control" type="password" placeholder="Enter strong password">
                             </div>
 
-							<div class="form-group">
+                            <div class="form-group">
                                 <span class="form-label">Confirm Password</span>
-                                <input class="form-control" type="password"
-                                    placeholder="Re-enter password">
+                                <input class="form-control" type="password" placeholder="Re-enter password">
                             </div>
 
                             <div class="form-btn d-flex justify-content-end">
                                 <button
-                                    class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2">Sign Up</button>
-                                    
+                                    class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2">Sign
+                                    Up</button>
+
                             </div>
-							<div class="d-flex justify-content-center mt-3">
-								<span>Already have an account? <button style="color: #FF6A3D;" class="border-0 bg-transparent"
-                                     data-dismiss="modal"  data-toggle="modal" data-target="#Modallogin">Sign In</button></span>
-							</div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <span>Already have an account? <button style="color: #FF6A3D;"
+                                        class="border-0 bg-transparent" data-dismiss="modal" data-toggle="modal"
+                                        data-target="#Modallogin">Sign In</button></span>
+                            </div>
                         </form>
                     </div>
 
 
-                   
+
                 </div>
             </div>
         </div>
