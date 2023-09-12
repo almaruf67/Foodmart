@@ -570,6 +570,7 @@
             </div>
 
         </section>
+        <!-- Button trigger modal -->
 
         <!-- chooseUs-sec -->
         <section class="chooseUs-sec container-fluid d-flex justify-content-center pt-xl-22 pt-lg-20 pt-md-16 pt-10 pb-xl-12 pb-md-7 pb-2">
