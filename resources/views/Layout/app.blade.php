@@ -147,9 +147,13 @@
             aria-labelledby="ModalloginModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content booking-form">
-                    <div class="modal-header">
+                    <div class="d-flex justify-content-center pt-3">
+						
+						<div class="col-9 form-header d-flex justify-content-end">
+							<h2>Feel The Taste</h2>
+						</div>
                         
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="col-3 close d-flex justify-content-end pr-3 pt-2" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -157,31 +161,27 @@
 
                     <div class="modal-body">
                         <form>
-                            <div class="form-header">
-                                <h2>Make your reservation</h2>
-                            </div>
-                            <div class="form-group">
-                                <span class="form-label">Name</span>
-                                <input class="form-control" type="text" placeholder="Enter your name">
-                            </div>
+                            
                             <div class="form-group">
                                 <span class="form-label">Email</span>
                                 <input class="form-control" type="email" placeholder="Enter your email">
                             </div>
 
                             <div class="form-group">
-                                <span class="form-label">Comment</span>
-                                <input class="form-control input-lg" type="text"
+                                <span class="form-label">Password</span>
+                                <input class="form-control" type="password"
                                     placeholder="Enter your thoughts">
                             </div>
 
                             <div class="form-btn d-flex justify-content-end">
                                 <button
-                                    class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Book
-                                    Now</button>
-                                    <button
-                                    class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" data-dismiss="modal"  data-toggle="modal" data-target="#Modalsignup">Sign up</button>
+                                    class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2">Log In</button>
+                                    
                             </div>
+							<div class="d-flex justify-content-center mt-3">
+								<span>Don't have an account? <button style="color: #FF6A3D;" class="border-0 bg-transparent"
+                                     data-dismiss="modal"  data-toggle="modal" data-target="#Modalsignup">Sign up</button></span>
+							</div>
                         </form>
                     </div>
 
@@ -195,9 +195,13 @@
             aria-labelledby="ModalsignupLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content booking-form">
-                    <div class="modal-header">
+                    <div class="d-flex justify-content-center pt-3">
+						
+						<div class="col-8 form-header d-flex justify-content-end">
+							<h2>Sign Up</h2>
+						</div>
                         
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="col-4 close d-flex justify-content-end pr-3 pt-2" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -205,31 +209,43 @@
 
                     <div class="modal-body">
                         <form>
-                            <div class="form-header">
-                                <h2>Make your reservation</h2>
-                            </div>
+                        
                             <div class="form-group">
                                 <span class="form-label">Name</span>
                                 <input class="form-control" type="text" placeholder="Enter your name">
                             </div>
+
                             <div class="form-group">
+                                <span class="form-label">Phone</span>
+                                <input class="form-control" type="text" placeholder="Enter your number">
+                            </div>
+
+							<div class="form-group">
                                 <span class="form-label">Email</span>
                                 <input class="form-control" type="email" placeholder="Enter your email">
                             </div>
 
-                            <div class="form-group">
-                                <span class="form-label">Comment</span>
-                                <input class="form-control input-lg" type="text"
-                                    placeholder="Enter your thoughts">
+							<div class="form-group">
+                                <span class="form-label">Password</span>
+                                <input class="form-control" type="password"
+                                    placeholder="Enter strong password">
+                            </div>
+
+							<div class="form-group">
+                                <span class="form-label">Confirm Password</span>
+                                <input class="form-control" type="password"
+                                    placeholder="Re-enter password">
                             </div>
 
                             <div class="form-btn d-flex justify-content-end">
                                 <button
-                                    class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Book
-                                    Now</button>
-                                    <button
-                                    class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3" data-dismiss="modal"  data-toggle="modal" data-target="#Modallogin">Sign up</button>
+                                    class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2">Sign Up</button>
+                                    
                             </div>
+							<div class="d-flex justify-content-center mt-3">
+								<span>Already have an account? <button style="color: #FF6A3D;" class="border-0 bg-transparent"
+                                     data-dismiss="modal"  data-toggle="modal" data-target="#Modallogin">Sign In</button></span>
+							</div>
                         </form>
                     </div>
 
