@@ -1948,7 +1948,7 @@
                                 <div class="booking-form">
                                     <form>
                                         <div class="form-header">
-                                            <h2>Make your reservation</h2>
+                                            <h2>Enter your thoughts</h2>
                                         </div>
                                         <div class="form-group">
                                             <span class="form-label">Name</span>
@@ -1966,8 +1966,7 @@
 
                                         <div class="form-btn d-flex justify-content-end">
                                             <button
-                                                class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Book
-                                                Now</button>
+                                                class="btn btnTheme btnShop fwEbold text-white round py-md-3 px-md-4 py-2 px-3">Submit</button>
                                         </div>
                                     </form>
                                 </div>
