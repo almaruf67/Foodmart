@@ -64,7 +64,7 @@
                             </div>
                           </div>
                           <div class="col-12">
-                            <div class="login-separater text-center"> <span>OR SIGN IN WITH EMAIL</span>
+                            <div class=" text-center"> <span>OR SIGN IN WITH EMAIL</span>
                               <hr>
                             </div>
                           </div>
