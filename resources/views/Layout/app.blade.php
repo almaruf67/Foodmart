@@ -113,27 +113,34 @@
                             @else
                                 <li class="nav-item"><a class="nav-link position-relative icon-cart"
                                         href="javascript:void(0);"><span class="num rounded d-block">2</span></a></li>
+                                @if (Auth::user()->image == null)
                                 <li class="nav-item"><a class="nav-link icon-profile dropdown-toggle"
+                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false" href="javascript:void(0);"></a>
+                                    @else
+                                    <li class="nav-item"><a class="nav-link dropdown-toggle"
                                         id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false" href="javascript:void(0);"></a>
-										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-											<a class="dropdown-item" href="#">{{ Auth::user()->name }}</a>
-											<a class="dropdown-item" href="#">
-												Orders
-											</a>
-											<a class="dropdown-item" href="{{ route('logout') }}"
-												onclick="event.preventDefault();
+                                        aria-expanded="false" href="javascript:void(0);"><img src="{{ Auth::user()->image }}" alt="" width="35px" class="rounded-circle"></a>
+                                @endif
+                               
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">{{ Auth::user()->name }}</a>
+                                        <a class="dropdown-item" href="#">
+                                            Orders
+                                        </a>
+                                        <a class="dropdown-item" href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
 							   document.getElementById('logout-form').submit();">
-												LogOut
-											</a>
-	
-											<form id="logout-form" action="{{ route('logout') }}" method="POST"
-												class="d-none">
-												@csrf
-											</form>
-										</div>
+                                            LogOut
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                            class="d-none">
+                                            @csrf
+                                        </form>
+                                    </div>
                                 </li>
-                                
+
                             @endguest
                         </ul>
                     </div>
@@ -159,24 +166,78 @@
 
 
                     <div class="modal-body">
-                        <form>
-
+                        <form method="POST" action="{{ route('login') }}">
+                            @csrf
                             <div class="form-group">
                                 <span class="form-label">Email</span>
-                                <input class="form-control" type="email" placeholder="Enter your email">
+                                <input id="email" class="form-control @error('email') is-invalid @enderror"
+                                    type="email" placeholder="Enter your email" name="email"
+                                    value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+
                             </div>
 
                             <div class="form-group">
                                 <span class="form-label">Password</span>
-                                <input class="form-control" type="password" placeholder="Enter your thoughts">
+                                <input type="password" class="form-control" type="password" id="password"
+                                    placeholder="Enter your Password" @error('password') is-invalid @enderror
+                                    name="password" required autocomplete="current-password">
+
+
+
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
+
 
                             <div class="form-btn d-flex justify-content-end">
-                                <button
+                                <button type="submit"
                                     class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2">Log
                                     In</button>
+                            </div>
+
+                            <div class="form-group pt-2 remember">
+                                <div class="form-check form-switch d-flex justify-content-between">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked"
+                                        {{ old('remember') ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="flexSwitchCheckChecked">Remember Me</label>
+                                    @if (Route::has('password.request'))
+                                        <a href="{{ route('password.request') }}">Forgot Password ?</a>
+                                    @endif
+                                </div>
 
                             </div>
+
+                            <div class="col-12">
+                                <div class=" text-center"> <span>OR SIGN IN WITH</span>
+                                    <hr>
+                                </div>
+
+                            </div>
+                            <div class="form-group d-flex justify-content-center">
+                                <a href="#" target="_blank" class="px-2">
+                                    <img src="https://www.dpreview.com/files/p/articles/4698742202/facebook.jpeg" width="30px"
+                                        alt="">
+                                </a>
+                                <a href="/auth/google/redirect" target="_blank" class="px-2">
+                                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" width="30px"
+                                        alt="">
+                                </a>
+
+                                <a href="/auth/github/redirect" target="_blank" class="px-2">
+                                    <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" width="30px"
+                                        alt="">
+                                </a>
+                            </div>
+
                             <div class="d-flex justify-content-center mt-3">
                                 <span>Don't have an account? <button style="color: #FF6A3D;"
                                         class="border-0 bg-transparent" data-dismiss="modal" data-toggle="modal"
@@ -190,7 +251,7 @@
                 </div>
             </div>
         </div>
-
+{{-- For register modal --}}
         <div class="modal fade" id="Modalsignup" tabindex="-1" role="dialog" aria-labelledby="ModalsignupLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -209,38 +270,87 @@
 
 
                     <div class="modal-body">
-                        <form>
-
+                        <form method="POST" action="{{ route('register') }}">
+                            @csrf
                             <div class="form-group">
                                 <span class="form-label">Name</span>
-                                <input class="form-control" type="text" placeholder="Enter your name">
-                            </div>
 
-                            <div class="form-group">
-                                <span class="form-label">Phone</span>
-                                <input class="form-control" type="text" placeholder="Enter your number">
+                                <input id="inputName" type="text" placeholder="Enter Name"
+                                    class="form-control radius-30 ps-5 @error('name') is-invalid @enderror"
+                                    name="name" value="{{ old('name') }}" required autocomplete="name"
+                                    autofocus>
+
+                                @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
 
                             <div class="form-group">
                                 <span class="form-label">Email</span>
-                                <input class="form-control" type="email" placeholder="Enter your email">
+                                <input id="email" type="email" placeholder="Email"
+                                    class="form-control radius-30 ps-5 @error('email') is-invalid @enderror"
+                                    name="email" value="{{ old('email') }}" required autocomplete="email">
+
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+
+                            <div class="form-group">
+                                <span class="form-label">Phone</span>
+                                <input class="form-control" type="text" id="phone" name="phone" placeholder="Enter your number">
                             </div>
 
                             <div class="form-group">
                                 <span class="form-label">Password</span>
-                                <input class="form-control" type="password" placeholder="Enter strong password">
+                                <input id="password" type="password" placeholder="Password"
+                                    class="form-control radius-30 ps-5 @error('password') is-invalid @enderror"
+                                    name="password" required autocomplete="new-password">
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
 
                             <div class="form-group">
                                 <span class="form-label">Confirm Password</span>
-                                <input class="form-control" type="password" placeholder="Re-enter password">
+                                <input id="password-confirm" type="password" placeholder="Confirm Password"
+                                    class="form-control radius-30 ps-5" name="password_confirmation" required
+                                    autocomplete="new-password">
                             </div>
 
                             <div class="form-btn d-flex justify-content-end">
-                                <button
-                                    class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2">Sign
-                                    Up</button>
+                                <button class="btn btnTheme btnShop fwEbold text-white rounded-0 py-md-3 w-100 py-2"
+                                    type="submit">Sign Up</button>
 
+                            </div>
+
+                            <div class="col-12">
+                                <div class=" text-center"> <span>OR SIGN IN WITH</span>
+                                    <hr>
+                                </div>
+
+                            </div>
+                            <div class="form-group d-flex justify-content-center">
+                                <a href="#" target="_blank" class="px-2">
+                                    <img src="https://www.dpreview.com/files/p/articles/4698742202/facebook.jpeg" width="30px"
+                                        alt="">
+                                </a>
+                                <a href="/auth/google/redirect" target="_blank" class="px-2">
+                                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" width="30px"
+                                        alt="">
+                                </a>
+
+                                <a href="/auth/github/redirect" target="_blank" class="px-2">
+                                    <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" width="30px"
+                                        alt="">
+                                </a>
+                            </div>
                             </div>
                             <div class="d-flex justify-content-center mt-3">
                                 <span>Already have an account? <button style="color: #FF6A3D;"
