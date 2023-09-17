@@ -27,6 +27,11 @@ class HomeController extends Controller
         return view('welcome');
     }
 
+    public function details(): View
+    {
+        return view('Pages/product');
+    }
+
     /**
      * Show the application dashboard.
      *

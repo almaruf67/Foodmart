@@ -15,6 +15,7 @@
         rel="stylesheet">
     <!-- include the site bootstrap stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 
     <!-- include the site fontawesome stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.css') }}">
@@ -29,7 +30,7 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 
-<body>
+<body class="yumzy-df">
     <!-- pageWrapper -->
     <div id="pageWrapper">
         <!-- header -->
@@ -114,31 +115,32 @@
                                 <li class="nav-item"><a class="nav-link position-relative icon-cart"
                                         href="javascript:void(0);"><span class="num rounded d-block">2</span></a></li>
                                 @if (Auth::user()->image == null)
-                                <li class="nav-item"><a class="nav-link icon-profile dropdown-toggle"
-                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false" href="javascript:void(0);"></a>
+                                    <li class="nav-item"><a class="nav-link icon-profile" id="dropdownMenuButton"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            href="javascript:void(0);"></a>
                                     @else
-                                    <li class="nav-item"><a class="nav-link dropdown-toggle"
-                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false" href="javascript:void(0);"><img src="{{ Auth::user()->image }}" alt="" width="35px" class="rounded-circle"></a>
+                                    <li class="nav-item"><a class="nav-link" id="dropdownMenuButton"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            href="javascript:void(0);"><img src="{{ Auth::user()->image }}"
+                                                alt="" width="25px" class="rounded-circle"></a>
                                 @endif
-                               
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">{{ Auth::user()->name }}</a>
-                                        <a class="dropdown-item" href="#">
-                                            Orders
-                                        </a>
-                                        <a class="dropdown-item" href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-							   document.getElementById('logout-form').submit();">
-                                            LogOut
-                                        </a>
 
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                            class="d-none">
-                                            @csrf
-                                        </form>
-                                    </div>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">{{ Auth::user()->name }}</a>
+                                    <a class="dropdown-item" href="#">
+                                        Orders
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                        onclick="event.preventDefault();
+							   document.getElementById('logout-form').submit();">
+                                        LogOut
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                        class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
                                 </li>
 
                             @endguest
@@ -217,24 +219,24 @@
                             </div>
 
                             <div class="col-12">
-                                <div class=" text-center"> <span>OR SIGN IN WITH</span>
+                                <div class="text-center"> <span>OR SIGN IN WITH</span>
                                     <hr>
                                 </div>
 
                             </div>
                             <div class="form-group d-flex justify-content-center">
                                 <a href="#" target="_blank" class="px-2">
-                                    <img src="https://www.dpreview.com/files/p/articles/4698742202/facebook.jpeg" width="30px"
-                                        alt="">
+                                    <img src="https://www.dpreview.com/files/p/articles/4698742202/facebook.jpeg"
+                                        width="30px" alt="">
                                 </a>
                                 <a href="/auth/google/redirect" target="_blank" class="px-2">
-                                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" width="30px"
-                                        alt="">
+                                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
+                                        width="30px" alt="">
                                 </a>
 
                                 <a href="/auth/github/redirect" target="_blank" class="px-2">
-                                    <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" width="30px"
-                                        alt="">
+                                    <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png"
+                                        width="30px" alt="">
                                 </a>
                             </div>
 
@@ -251,7 +253,7 @@
                 </div>
             </div>
         </div>
-{{-- For register modal --}}
+        {{-- For register modal --}}
         <div class="modal fade" id="Modalsignup" tabindex="-1" role="dialog" aria-labelledby="ModalsignupLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -302,7 +304,8 @@
 
                             <div class="form-group">
                                 <span class="form-label">Phone</span>
-                                <input class="form-control" type="text" id="phone" name="phone" placeholder="Enter your number">
+                                <input class="form-control" type="text" id="phone" name="phone"
+                                    placeholder="Enter your number">
                             </div>
 
                             <div class="form-group">
@@ -330,7 +333,7 @@
 
                             </div>
 
-                            <div class="col-12">
+                            <div class="col-12 mt-2">
                                 <div class=" text-center"> <span>OR SIGN IN WITH</span>
                                     <hr>
                                 </div>
@@ -338,43 +341,110 @@
                             </div>
                             <div class="form-group d-flex justify-content-center">
                                 <a href="#" target="_blank" class="px-2">
-                                    <img src="https://www.dpreview.com/files/p/articles/4698742202/facebook.jpeg" width="30px"
-                                        alt="">
+                                    <img src="https://www.dpreview.com/files/p/articles/4698742202/facebook.jpeg"
+                                        width="30px" alt="">
                                 </a>
                                 <a href="/auth/google/redirect" target="_blank" class="px-2">
-                                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" width="30px"
-                                        alt="">
+                                    <img src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png"
+                                        width="30px" alt="">
                                 </a>
 
                                 <a href="/auth/github/redirect" target="_blank" class="px-2">
-                                    <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png" width="30px"
-                                        alt="">
+                                    <img src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png"
+                                        width="30px" alt="">
                                 </a>
                             </div>
-                            </div>
-                            <div class="d-flex justify-content-center mt-3">
-                                <span>Already have an account? <button style="color: #FF6A3D;"
-                                        class="border-0 bg-transparent" data-dismiss="modal" data-toggle="modal"
-                                        data-target="#Modallogin">Sign In</button></span>
-                            </div>
-                        </form>
                     </div>
-
-
-
+                    <div class="d-flex justify-content-center">
+                        <span>Already have an account? <button style="color: #FF6A3D;" class="border-0 bg-transparent"
+                                data-dismiss="modal" data-toggle="modal" data-target="#Modallogin">Sign
+                                In</button></span>
+                    </div>
+                    </form>
                 </div>
+
+
+
             </div>
         </div>
-        {{-- Modal end --}}
-        <!-- main -->
-        @yield('content')
-        <!-- footer -->
-        <footer id="footer" class="container-fluid overflow-hidden px-lg-20">
-            <div class="copyRightHolder text-center pt-lg-5 pb-lg-4 py-3">
-                <p class="mb-0">Coppyright 2023 by <a href="javascript:void(0);">Yumzy Food</a> - All right
-                    reserved</p>
+    </div>
+    {{-- Modal end --}}
+    <!-- main -->
+    @yield('content')
+
+    <!-- footerHolder -->
+    <aside
+        class="footerHolder container-fluid overflow-hidden yumzy-df px-xl-20 px-lg-14 pt-xl-12 pb-xl-8 pt-lg-12 pt-md-8 pb-lg-8">
+        <div class="d-flex flex-wrap flex-lg-nowrap">
+            <div class="coll-1 pr-3 mb-sm-4 mb-3 mb-lg-0">
+                <h3 class="headingVI fwEbold text-uppercase mb-7">Contact Us</h3>
+                <ul class="list-unstyled footerContactList mb-3">
+                    <li class="mb-3 d-flex flex-nowrap"><span class="icon icon-place mr-3"></span>
+                        <address class="fwEbold m-0">Address: London Oxford Street, 012 United Kingdom.</address>
+                    </li>
+                    <li class="mb-3 d-flex flex-nowrap"><span class="icon icon-phone mr-3"></span> <span
+                            class="leftAlign">Phone : <a href="javascript:void(0);">(+032) 3456 7890</a></span></li>
+                    <li class="email d-flex flex-nowrap"><span class="icon icon-email mr-2"></span> <span
+                            class="leftAlign">Email: <a href="javascript:void(0);">Botanicalstore@gmail.com</a></span>
+                    </li>
+                </ul>
+                <ul class="list-unstyled followSocailNetwork d-flex flex-nowrap">
+                    <li class="fwEbold mr-xl-11 mr-sm-6 mr-4">Follow us:</li>
+                    <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-facebook-f"></a>
+                    </li>
+                    <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-twitter"></a>
+                    </li>
+                    <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-pinterest"></a>
+                    </li>
+                    <li class="mr-2"><a href="javascript:void(0);" class="fab fa-google-plus-g"></a></li>
+                </ul>
             </div>
-        </footer>
+            <div class="coll-2 mb-sm-4 mb-3 mb-lg-0">
+                <h3 class="headingVI fwEbold text-uppercase mb-6">Information</h3>
+                <ul class="list-unstyled footerNavList">
+                    <li class="mb-1"><a href="javascript:void(0);">New Products</a></li>
+                    <li class="mb-2"><a href="javascript:void(0);">Top Sellers</a></li>
+                    <li class="mb-2"><a href="javascript:void(0);">Our Blog</a></li>
+                    <li class="mb-2"><a href="javascript:void(0);">About Our Shop</a></li>
+                    <li><a href="javascript:void(0);">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="coll-3 mb-sm-4 mb-3 mb-lg-0">
+                <h3 class="headingVI fwEbold text-uppercase mb-6">My Account</h3>
+                <ul class="list-unstyled footerNavList">
+                    <li class="mb-1"><a href="javascript:void(0);">My account</a></li>
+                    <li class="mb-2"><a href="javascript:void(0);">Discount</a></li>
+                    <li class="mb-2"><a href="javascript:void(0);">Orders history</a></li>
+                    <li><a href="javascript:void(0);">Personal information</a></li>
+                </ul>
+            </div>
+            <div class="coll-4 mb-sm-4 mb-3 mb-lg-0">
+                <h3 class="headingVI fwEbold text-uppercase mb-7 pl-xl-14 pl-lg-10">Popular Tag</h3>
+                <ul class="list-unstyled tagNavList d-flex flex-wrap justify-content-lg-end mb-0">
+                    <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
+                            class="md-round d-block py-2 px-2">Trend</a></li>
+                    <li class="text-center mb-2"><a href="javascript:void(0);"
+                            class="md-round d-block py-2 px-2">Decor</a></li>
+                    <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
+                            class="md-round d-block py-2 px-2">Plant</a></li>
+                    <li class="text-center mb-2"><a href="javascript:void(0);"
+                            class="md-round d-block py-2 px-2">Table tree</a></li>
+                    <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
+                            class="md-round d-block py-2 px-2">Bedroom tree</a></li>
+                    <li class="text-center mb-2"><a href="javascript:void(0);"
+                            class="md-round d-block py-2 px-2">Living room</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+    <!-- footer -->
+    <footer id="footer" class="container-fluid overflow-hidden px-lg-20 bg-white">
+        <div class="copyRightHolder text-center pt-lg-5 pb-lg-4 py-3">
+            <p class="mb-0">Coppyright 2023 by <a href="javascript:void(0);">Yumzy Food</a> - All right
+                reserved</p>
+        </div>
+    </footer>
     </div>
     <!-- include jQuery library -->
     <script src="{{ asset('assets/js/jquery-3.4.1.min.js') }}"></script>
