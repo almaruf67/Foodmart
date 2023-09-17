@@ -54,8 +54,6 @@ class LoginController extends Controller
             'password' => 'required',
         ]);
 
-        $remember_me  = ( !empty( $request->remember_me ) )? TRUE : FALSE;
-
         if(auth()->attempt(array('email' => $input['email'], 'password' => $input['password'])))
         {
             if (auth()->user()->type == 'admin') {
@@ -67,7 +65,6 @@ class LoginController extends Controller
             return redirect()->route('login')
                 ->with('error','Email-Address And Password Are Wrong.');
         }
-
 
     }
 }

@@ -122,7 +122,7 @@
                                         id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                                         aria-expanded="false" href="javascript:void(0);"><img src="{{ Auth::user()->image }}" alt="" width="35px" class="rounded-circle"></a>
                                 @endif
-
+                               
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#">{{ Auth::user()->name }}</a>
                                         <a class="dropdown-item" href="#">
