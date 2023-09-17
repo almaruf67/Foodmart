@@ -1,8 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\GoogleController;
+use App\Http\Controllers\Auth\ProviderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,3 +47,7 @@ All Admin Routes List
 Route::group(['prefix' => 'admin', 'middleware' => ['auth:web,admin']], function() {
     Route::get('/home', [HomeController::class, 'adminHome'])->name('admin.home');
 });
+
+
+Route::get('/auth/{provider}/redirect',[ProviderController::class,'redirect']);
+Route::get('/auth/{provider}/callback',[ProviderController::class,'callback']);

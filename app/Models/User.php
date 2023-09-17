@@ -24,10 +24,12 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'image',
         'phone',
         'password',
         'type',
-        'google_id'
+        'provider',
+        'provider_id',
     ];
 
     /**
@@ -51,10 +53,7 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
-    ];
-
-    protected $appends = [
-        'profile_photo_url',
+        'password' => 'hashed',
     ];
 
     /**
