@@ -3,7 +3,7 @@
     <div class="sidebar-header">
       <div>
         <img
-          src="assets/images/logo-icon.png"
+          src="{{ asset("admin/assets/images/logo-icon.png") }}"
           class="logo-icon"
           alt="logo icon"
         />

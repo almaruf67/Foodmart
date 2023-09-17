@@ -39,14 +39,25 @@
                     <label for="poster" class="form-label">Image *</label>
                     <input type="file" class="form-control" name="poster" id="poster" required>
                 </div>
+
+                <div class="mb-3">
+                    <label for="Short_description" class="form-label">Short Description *</label>
+                    <textarea id="short_des" class="form-control" name="short_description" cols="50" rows="2"></textarea>
+                </div>
+
                 <div class="mb-3">
                     <label for="des" class="form-label">Description *</label>
                     <textarea id="des" class="form-control" name="description" cols="50" rows="2"></textarea>
-
-                  </div>
+                </div>
+                
                 <div class="mb-3">
                   <label for="price" class="form-label">Price *</label>
                   <input type="number" class="form-control" id="price" name="price" min="0" max="1000" step="0.05" >
+                </div>
+
+                <div class="mb-3">
+                    <label for="old_price" class="form-label">Old Price *</label>
+                    <input type="number" class="form-control" id="old_price" name="old_price" min="0" max="1000" step="0.05" >
                 </div>
 
                 <button type="submit" class="btn btn-primary">Add New Product</button>

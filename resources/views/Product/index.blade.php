@@ -1,7 +1,7 @@
 @extends('Admin.layout.app')
-
 @section('content')
 
+    <div class="container">
 
         <div class="row mb-2 pt-2">
             <div class="col-sm-12">
@@ -23,8 +23,10 @@
                                 <th>Category</th>
                                 <th>Name</th>
                                 <th>Image</th>
+                                <th>Short Description </th>
                                 <th>Description </th>
                                 <th>Price</th>
+                                <th>Old Price</th>
                                 <th>Action</th>
                             </thead>
                         <tbody>
@@ -34,8 +36,10 @@
                                 <td>{{ $product->Category }}</td>
                                 <td>{{ $product->Title }}</td>
                                 <td><img style="width: 100px;" src="{{ asset( $product->Poster) }}" alt=""></td>
+                                <td>{{ $product->Short_Description }}</td>
                                 <td>{{ $product->Description }}</td>
                                 <td>{{ $product->Price }}</td>
+                                <td>{{ $product->Old_Price }}</td>
                                 <td>
                                     <form action="{{ route('product.destroy', $product->id) }}" method="post" style="display: inline-block;">
                                         @method("DELETE")
@@ -54,6 +58,6 @@
                 </div>
             </div>
         </div>
-
+    </div>
 
     @endsection

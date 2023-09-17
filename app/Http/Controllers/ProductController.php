@@ -46,6 +46,8 @@ class ProductController extends Controller
         $product->Poster = $path;
         $product->Description = $request->description;
         $product->Price = $request->price;
+        $product->Short_Description = $request->short_description;
+        $product->Old_Price = $request->old_price;
 
         $product->save();
 

@@ -17,7 +17,9 @@ return new class extends Migration
             $table->string('Title');
             $table->text('Poster')->nullable();
             $table->text('Description');
+            $table->text('Short_Description');
             $table->float('Price');
+            $table->float('Old_Price')->nullable();
             $table->timestamps();
         });
     }
