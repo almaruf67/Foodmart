@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Auth\ProviderController;
 
 /*
@@ -39,6 +40,17 @@ All Admin Routes List
 --------------------------------------------*/
 Route::group(['prefix' => 'admin', 'middleware' => ['auth:web,admin']], function() {
     Route::get('/home', [HomeController::class, 'adminHome'])->name('admin.home');
+
+    Route::resource('/product', ProductController::class);
+
+    // Route::resource('/user', UserController::class);
+    // Route::get('/orders', [OrderController::class, 'orders'])->name('adminorders');
+    // Route::get('/invoice/{id}', [OrderController::class, 'invoice'])->name('admininvoice');
+    // Route::put('/orderupdate', [OrderController::class, 'update'])->name('order.update');
+    // Route::get('/delete/{id}', [OrderController::class, 'destroy'])->name('delete.item');
+
+    // Route::get('/editorder/{id}', [OrderController::class, 'edit'])->name('editOrder');
+
 });
 
 

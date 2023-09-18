@@ -502,6 +502,9 @@
             <button class="right" onclick="rightScroll()"><i class="fas fa-chevron-right"></i></button>
         </section>
 
+
+        {{-- Reservation Start --}}
+
         <section class="introBlock position-relative">
             <div class="bgCover" style="background-image: url({{ asset('assets/images/bg44.png') }});">
                 <div id="booking"
