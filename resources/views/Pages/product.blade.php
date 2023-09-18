@@ -135,7 +135,7 @@
                 <div class="col-12 wow fadeInUp" data-wow-duration="1s"
                     style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
                     <div class="tf__menu_description_area mt_100 xs_mt_70">
-                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <ul class="nav nav-pills border-bottom mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="active btn btnTheme btnShop fwEbold text-white py-md-3 px-md-4 py-3 px-3 mr-2" id="pills-home-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-home" type="button" role="tab"
