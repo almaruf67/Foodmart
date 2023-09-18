@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- include the site fontawesome stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.css') }}">
     <!-- include the site stylesheet -->
@@ -39,14 +41,14 @@
             <!-- headerHolder -->
             <div class="headerHolder container pt-lg-2 pb-lg-2 py-2">
                 <div class="row">
-                    <div class="col-6 col-sm-2">
+                    <div class="col-6 col-sm-6 col-lg-2">
                         <!-- mainLogo -->
                         <div class="logo">
                             <a href="home.html"><img src="{{ asset('assets/images/logo1.png') }}" alt="Botanical"
                                     class="img-fluid"></a>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-7 col-lg-8 static-block">
+                    <div class="col-6 col-sm-6 col-lg-8 static-block">
                         <!-- mainHolder -->
                         <div class="mainHolder pt-lg-5 pt-3 justify-content-center">
                             <!-- pageNav2 -->
@@ -95,19 +97,23 @@
                                             <a class="d-block" href="contact-us.html">contact</a>
                                         </li>
 
+                                        <li class="hide">
+                                            <a class="d-block yumzy-or text-white" href="">Sign in</a>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </nav>
                         </div>
                     </div>
-                    <div class="col-sm-1 col-lg-2 dropdown">
+                    <div class="col-sm-1 col-lg-2 dropdown srchLogin">
                         <!-- wishListII -->
                         <ul class="nav nav-tabs wishListII justify-content-end align-items-center pt-2 border-bottom-0">
                             <li class="nav-item ml-0"><a class="nav-link icon-search" href="javascript:void(0);"></a>
                             </li>
                             @guest
                                 @if (Route::has('login'))
-                                    <li class="nav-item"><a class="btn btnTheme fwEbold text-white sm-round py-2 px-3"
+                                    <li class="nav-item"><a class="btn btnTheme fwEbold text-white xs-round py-2 px-3"
                                             data-toggle="modal" data-target="#Modallogin"
                                             href="{{ route('login') }}">Login</a></li>
                                 @endif

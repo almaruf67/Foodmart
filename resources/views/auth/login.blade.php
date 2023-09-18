@@ -1,121 +1,65 @@
-<html lang="en" class="minimal-theme">
-
-<head>
-    <!-- Required meta tags -->
-    {{-- <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" /> --}}
-    <!--plugins-->
-    {{-- <link href="admin/assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="admin/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
-    <link href="admin/assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" /> --}}
-    <!-- Bootstrap CSS -->
-    <link href="admin/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="admin/assets/css/bootstrap-extended.css" rel="stylesheet" />
-    
-    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-
-   
-
-    <title>Skodash - Bootstrap 5 Admin Template</title>
-</head>
-<body>
+@extends('Layout.app')
+@section('content')
     
 
-<div class="container">
-    <main class="authentication-content">
+    <section class="ftco-section mt-25 mb-25">
         <div class="container">
-          <div class="mt-4">
-            <div class="card rounded-0 overflow-hidden shadow-none border mb-5 mb-lg-0">
-              <div class="row g-0">
-                <div class="col-12 order-1 col-xl-8 d-flex align-items-center justify-content-center border-end">
-                  <img src="admin/assets/images/error/auth-img-7.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-12 col-xl-4 order-xl-2">
-                  <div class="card-body p-4 p-sm-5">
-                    <h5 class="card-title">Sign In</h5>
-                    <p class="card-text mb-4">See your growth and get consulting support!</p>
-                     <form class="form-body" method="POST" action="{{ route('login') }}">
-                        @csrf
-    
-                        <div class="row g-3">
-                          <div class="col-12">
-                            <label for="email" class="form-label">{{ __('Email Address') }}</label>
-    
-                            <div class="ms-auto position-relative">
-                              <div class="position-absolute top-50 translate-middle-y search-icon px-3"><i class="bi bi-envelope-fill"></i></div>
-    
-                              <input id="email" type="email" placeholder="Email" class="form-control radius-30 ps-5 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-    
-                                    @error('email')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
-                                    @enderror
+
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-10">
+                    <div class="wrap d-md-flex mt-10">
+                        <div class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
+                            <div class="text w-100">
+                                <h2>Welcome to Foodmart</h2>
+                                <p>Don't have an account?</p>
+                                <a href="#" class="btn btn-white btn-outline-white md-round">Sign Up</a>
                             </div>
-                          </div>
-                          <div class="col-12">
-    
-                            <label for="password" class="form-label">{{ __('Password') }}</label>
-    
-    
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-    
-                            <div class="ms-auto position-relative">
-                              <div class="position-absolute top-50 translate-middle-y search-icon px-3"><i class="bi bi-lock-fill"></i></div>
-    
-                              <input type="password" class="form-control radius-30 ps-5" type="password" id="password" placeholder="Password" @error('password') is-invalid @enderror name="password" required autocomplete="current-password">
-    
-                              @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                          </div>
-                          <div class="col-6">
-                            <div class="form-check form-switch">
-                              <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
-                              <label class="form-check-label" for="flexSwitchCheckChecked">Remember Me</label>
-                            </div>
-                          </div>
-                          <div class="col-6 text-end">	<a href="authentication-forgot-password.html">Forgot Password ?</a>
-                          </div>
-                          <div class="col-12">
-                            <div class="d-grid">
-                              <button type="submit" class="btn btn-primary radius-30">{{ __('Login') }}</button>
-                            </div>
-                          </div>
-                          <div class="col-12">
-                            <div class="login-separater text-center"> <span>OR SIGN IN WITH EMAIL</span>
-                              <hr>
-                            </div>
-                          </div>
-                          <div class="col-12">
-                            <div class="d-flex align-items-center gap-3 justify-content-center">
-                              <button type="button" class="btn btn-white text-danger"><i class="bi bi-google me-0"></i></button>
-                              <button type="button" class="btn btn-white text-primary"><i class="bi bi-linkedin me-0"></i></button>
-                              <button type="button" class="btn btn-white text-info"><i class="bi bi-facebook me-0"></i></button>
-                            </div>
-                          </div>
-                          <div class="col-12 text-center">
-                            <p class="mb-0">Don't have an account yet? <a href="authentication-signup-with-header-footer.html">Sign up here</a></p>
-                          </div>
                         </div>
-                    </form>
-                 </div>
+                        <div class="login-wrap p-4 p-lg-5">
+                            <div class="d-flex">
+                                <div class="w-100">
+                                    <h3 class="mb-4">Sign In</h3>
+                                </div>
+                                <div class="w-100">
+                                    <p class="social-media d-flex justify-content-end">
+                                        <a href="#"
+                                            class="social-icon d-flex align-items-center justify-content-center"><span
+                                                class="fab fa-github"></span></a>
+                                        <a href="#"
+                                            class="social-icon d-flex align-items-center justify-content-center"><span
+                                                class="fab fa-google"></span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <form action="#" class="signin-form">
+                                <div class="form-group mb-3">
+                                    <label class="label" for="name">EMAIL</label>
+                                    <input type="email" class="md-round form-control" placeholder="Email" required autofocus>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="label" for="password">PASSWORD</label>
+                                    <input type="password" class="md-round form-control" placeholder="Password" required>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="form-control btn btn-primary md-round submit yumzy-or px-3">Sign
+                                        In</button>
+                                </div>
+                                <div class="form-group d-md-flex">
+                                    <div class="w-50 text-left">
+                                        <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
+                                            <input type="checkbox" checked>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="w-50 text-md-right">
+                                        <a href="#">Forgot Password</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-       </main>
-</div>
-</body>
-</html>
+    </section>
+@endsection
