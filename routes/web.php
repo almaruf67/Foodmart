@@ -18,6 +18,8 @@ use App\Http\Controllers\Auth\ProviderController;
 
 Route::get('/', [HomeController::class,'index'])->name('home');
 
+Route::get('/products', [HomeController::class,'details'])->name('product');
+
 Auth::routes();
 
 /*------------------------------------------

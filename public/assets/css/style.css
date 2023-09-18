@@ -159,6 +159,10 @@ a {
     background-repeat: no-repeat;
 }
 
+.postion-left {
+    left: -95px !important;
+}
+
 /* ---------------------------------------------------------
 3	 headingII
 ---------------------------------------------------------*/
@@ -3240,8 +3244,8 @@ a {
     margin-top: 10px;
 }
 .bg-blur {
-  filter: blur(8px);
   -webkit-filter: blur(8px);
+  filter: blur(8px);
 }
 /* .booking-form .submit-btn {
     color: #fff;
@@ -3261,3 +3265,188 @@ a {
         margin-left: 0px;
     }
 }
+
+
+/* product details */
+
+
+.item-details .item-img-cover {
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 10px solid transparent;
+    box-shadow: 0 0 0 1px;
+    color: #e5e5e5
+}
+
+.item-details .item-img-cover .item-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center
+}
+
+.small-img {
+    width: 350px;
+    height: 70px;
+    margin-top: 10px;
+    position: relative
+}
+
+.small-img .icon-left,
+.small-img .icon-right {
+    width: 12px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0
+}
+
+.small-img .icon-left {
+    transform: rotate(180deg)
+}
+
+.small-img .icon-right {
+    right: 0
+}
+
+.small-img .icon-left:hover,
+.small-img .icon-right:hover {
+    opacity: .5
+}
+
+.small-container {
+    width: 310px;
+    height: 70px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
+
+.small-container div {
+    width: 800%;
+    position: relative
+}
+
+.small-container .show-small-img {
+    width: 70px;
+    height: 70px;
+    margin-right: 6px;
+    cursor: pointer;
+    float: left;
+    border-radius: 10px
+}
+
+.small-container .show-small-img:last-of-type {
+    margin-right: 0
+}
+
+
+.item-details .item-content .item-heading img {
+    width: 35px;
+    margin-right: 5px
+}
+
+.item-details .item-content .item-title {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.item-details .item-content .item-price {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--viola_black)
+}
+
+.item-details .item-content .item-detail-wrapper {
+    max-height: 340px;
+    overflow-y: auto
+}
+
+.item-details .item-description h4 {
+    font-size: 2rem;
+    color: var(--viola_black)
+}
+
+
+@keyframes click-wave {
+    0% {
+      height: 40px;
+      width: 40px;
+      opacity: 0.15;
+      position: relative;
+    }
+    100% {
+      height: 200px;
+      width: 200px;
+      margin-left: -80px;
+      margin-top: -80px;
+      opacity: 0;
+    }
+  }
+  
+  .option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+  }
+  .option-input:hover {
+    background: #9faab7;
+  }
+  .option-input:checked {
+    background: #E91E63;
+  }
+  .option-input:checked::before {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .option-input:checked::after {
+    -webkit-animation: click-wave 0.25s;
+    -moz-animation: click-wave 0.25s;
+    animation: click-wave 0.25s;
+    background: #E91E63;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  .option-input.radio {
+    border-radius: 50%;
+  }
+  .option-input.radio::after {
+    border-radius: 50%;
+  }

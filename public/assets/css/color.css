@@ -1,4 +1,6 @@
-.text-green, .rating,
+.text-green,
+.rating,
+.item-title,
 .pageNav2 a:hover,
 .langList a:hover,
 .wishList a:hover,
@@ -47,7 +49,8 @@
 .commentsBlock .commentArea .commentDate .link,
 .langList .dropdown-menu .dropdown-item a:hover,
 .langListII .dropdown-menu .dropdown-item:hover {
-  color: #FF6A3D; }
+    color: #ff6a3d;
+}
 
 .ui-widget-header,
 .pagination a:hover,
@@ -74,9 +77,11 @@
 .testimonailSlider .slick-dots .slick-active button,
 .cartHolder .cartTable .jcf-number .jcf-btn-inc:hover,
 .cartHolder .cartTable .jcf-number .jcf-btn-dec:hover,
-.ui-state-default, .ui-widget-content .ui-state-default,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
 .productTextHolder .sizeList [type="checkbox"]:checked + .fake-input {
-  background: #FF6A3D; }
+    background: #ff6a3d;
+}
 
 .tabSetList a:after,
 .pagination a:hover,
@@ -89,4 +94,9 @@
 .footerHolder .tagNavList a:hover,
 .show-head .viewFilterLinks a:hover,
 .dealSlider .slick-dots button:before {
-  border-color: #FF6A3D; }
+    border-color: #ff6a3d;
+}
+
+.yumzy-df {
+    background-color: var(--yumzy-df);
+}
