@@ -38,7 +38,11 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label class="label" for="email">EMAIL</label>
-                                    <input type="text" class="md-round form-control" placeholder="email" required>
+                                    <input type="text" class="md-round form-control" placeholder="Email" required>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="label" for="number">Phone</label>
+                                    <input type="text" class="md-round form-control" placeholder="Phone" required>
                                 </div>
                                 <div class="form-group mb-3">
                                     <label class="label" for="password">PASSWORD</label>

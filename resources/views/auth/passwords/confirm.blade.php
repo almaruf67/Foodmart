@@ -1,49 +1,49 @@
-@extends('layouts.app')
-
+@extends('Layout.app')
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Confirm Password') }}</div>
+    <section class="ftco-section mt-25 mb-25">
+        <div class="container">
 
-                <div class="card-body">
-                    {{ __('Please confirm your password before continuing.') }}
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-10">
+                    <div class="wrap d-md-flex mt-10">
+                        <div class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
 
-                    <form method="POST" action="{{ route('password.confirm') }}">
-                        @csrf
-
-                        <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
                         </div>
+                        <div class="login-wrap p-4 p-lg-5">
+                            <div class="d-flex">
+                                <div class="w-90">
+                                    <h3 class="mb-4">Set New Password</h3>
+                                </div>
+                                <div class="w-10">
+                                    <p class="social-media d-flex justify-content-end">
+                                        <a href="#"
+                                            class="social-icon d-flex align-items-center justify-content-center"><span
+                                                class="fas fa-key"></span></a>
 
-                        <div class="row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Confirm Password') }}
-                                </button>
-
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
+                                    </p>
+                                </div>
                             </div>
+
+                            <form action="#" class="signin-form">
+                                <div class="form-group mb-3">
+                                    <label class="label" for="password">NEW PASSWORD</label>
+                                    <input type="password" class="md-round form-control" placeholder="Password" required>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="label" for="confirm password">Confirm Password</label>
+                                    <input type="password" class="md-round form-control" placeholder="Confirm Password" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <button type="submit"
+                                        class="form-control btn btn-primary md-round submit yumzy-or px-3">SAVE CHANGES</button>
+                                </div>
+
+                            </form>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 @endsection
