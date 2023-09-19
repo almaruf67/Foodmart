@@ -3269,6 +3269,76 @@ a {
 
 /* product details */
 
+/* size : radio buttons start*/
+fieldset {
+	display: inline-block;
+	border: none;
+}
+
+input[type="radio"] {
+	appearance: none;
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #6e6e6e;
+	border-radius: 50%;
+	margin-right: 10px;
+	background-color: transparent;
+	position: relative;
+    bottom: 3px;
+}
+
+input[type="radio"]:checked::before {
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	background-color: var(--yumzy-or);
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: appear 0.8s;
+}
+
+.size-version {
+	font-size: 24px;
+	font-weight: bold;
+	color: #202020;
+}
+
+.size-version-text {
+    color: #6e6e6e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@keyframes appear {
+	0% {
+		transform: translate(-50%, -50%) scale(0);
+		background-color: #fff;
+	}
+	45% {
+		transform: translate(-50%, -50%) scale(1.6);
+		background-color: #64aedf;
+	}
+	50% {
+		transform: translate(-50%, -50%) scale(1.7);
+		background-color: #ad97b3;
+	}
+	55% {
+		transform: translate(-50%, -50%) scale(1.6);
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+		background-color: #ca8489;
+	}
+}
+
+
+/* size : radio buttons end*/
+
 .item-details .item-img-cover {
     overflow: hidden;
     height: auto;
@@ -3390,63 +3460,6 @@ a {
     }
 }
 
-.option-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    -o-appearance: none;
-    appearance: none;
-    position: relative;
-    top: 13.33333px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 40px;
-    width: 40px;
-    transition: all 0.15s ease-out 0s;
-    background: #cbd1d8;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    margin-right: 0.5rem;
-    outline: none;
-    position: relative;
-    z-index: 1000;
-}
-.option-input:hover {
-    background: #9faab7;
-}
-.option-input:checked {
-    background: #ff6a3d;
-}
-.option-input:checked::before {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    content: "\f111";
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    font-size: 26.66667px;
-    text-align: center;
-    line-height: 40px;
-}
-.option-input:checked::after {
-    -webkit-animation: click-wave 0.25s;
-    -moz-animation: click-wave 0.25s;
-    animation: click-wave 0.25s;
-    background: #e91e63;
-    content: "";
-    display: block;
-    position: relative;
-    z-index: 100;
-}
-.option-input.radio {
-    border-radius: 50%;
-}
-.option-input.radio::after {
-    border-radius: 50%;
-}
 
 .item-des {
     margin-top: 100px;
@@ -3464,7 +3477,6 @@ a {
     font-size: 25px;
 }
 
-/* test */
 @media print {
     .ftco-section {
         padding: 7em 0;
@@ -3647,12 +3659,9 @@ a {
     display: block;
     content: "\f14a";
     font-family: "FontAwesome";
-    color: rgba(0, 0, 0, 0.2);
-  }
-  /* Style the checkmark/indicator */
-.checkbox-primary {
     color: #ff6a3d;
   }
+  /* Style the checkmark/indicator */
   .checkbox-primary input:checked ~ .checkmark:after {
     color: #ff6a3d;
   }
