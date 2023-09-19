@@ -10,7 +10,7 @@
                             <div class="text w-100">
                                 <h2>Welcome to Foodmart</h2>
                                 <p>Don't have an account?</p>
-                                <a href="#" class="btn btn-white btn-outline-white md-round">Sign Up</a>
+                                <a href="{{ route('register') }}" class="btn btn-white btn-outline-white md-round">Sign Up</a>
                             </div>
                         </div>
                         <div class="login-wrap p-4 p-lg-5">
@@ -20,10 +20,10 @@
                                 </div>
                                 <div class="w-100">
                                     <p class="social-media d-flex justify-content-end">
-                                        <a href="#"
+                                        <a href="/auth/github/redirect"
                                             class="social-icon d-flex align-items-center justify-content-center"><span
                                                 class="fab fa-github"></span></a>
-                                        <a href="#"
+                                        <a href="/auth/google/redirect"
                                             class="social-icon d-flex align-items-center justify-content-center"><span
                                                 class="fab fa-google"></span></a>
                                     </p>
@@ -60,9 +60,7 @@
                                                 {{ old('remember') ? 'checked' : '' }}>
                                             <label class="checkbox-wrap checkbox-primary mb-0"
                                                 for="remember">{{ __('Remember Me') }}</label>
-                                            {{-- <input class="form-check-input " type="checkbox" id="flexSwitchCheckChecked"
-                                        {{ old('remember') ? 'checked' : '' }} name='remember_me'>  
-                                    <label class="checkbox-wrap checkbox-primary mb-0" for="flexSwitchCheckChecked">Remember Me</label> --}}
+                                           
                                         </div>
                                         @if (Route::has('password.request'))
                                             <div class="w-50 text-md-right">
