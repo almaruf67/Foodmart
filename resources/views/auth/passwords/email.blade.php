@@ -10,7 +10,7 @@
                             <div class="text w-100">
 
                                 <h4>Don't have an account?</h4>
-                                <a href="#" class="btn btn-white btn-outline-white md-round">Sign Up</a>
+                                <a href="{{ route('register') }}" class="btn btn-white btn-outline-white md-round">Sign Up</a>
                             </div>
                         </div>
                         <div class="login-wrap p-4 p-lg-5">
@@ -29,12 +29,26 @@
                                     </p>
                                 </div>
                             </div>
-
-                            <form action="#" class="signin-form">
+                            @if (session('status'))
+                                <div class="alert alert-success" role="alert">
+                                    {{ session('status') }}
+                                </div>
+                            @endif
+                            <form method="POST" action="{{ route('password.email') }}" class="signin-form">
+                                @csrf
                                 <div class="form-group mb-3">
                                     <label class="label" for="name">EMAIL</label>
-                                    <input type="email" class="md-round form-control" placeholder="Email" required
+
+                                    <input id="email" type="email"
+                                        class="md-round form-control @error('email') is-invalid @enderror" name="email"
+                                        placeholder="Email" value="{{ old('email') }}" required autocomplete="email"
                                         autofocus>
+
+                                    @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
                                 </div>
 
                                 <div class="form-group">

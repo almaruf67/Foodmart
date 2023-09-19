@@ -22,10 +22,10 @@
                                 </div>
                                 <div class="w-100">
                                     <p class="social-media d-flex justify-content-end">
-                                        <a href="#"
+                                        <a href="/auth/github/redirect"
                                             class="social-icon d-flex align-items-center justify-content-center"><span
                                                 class="fab fa-github"></span></a>
-                                        <a href="#"
+                                        <a href="/auth/google/redirect"
                                             class="social-icon d-flex align-items-center justify-content-center"><span
                                                 class="fab fa-google"></span></a>
                                     </p>
