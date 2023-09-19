@@ -114,7 +114,6 @@
                             @guest
                                 @if (Route::has('login'))
                                     <li class="nav-item"><a class="btn btnTheme fwEbold text-white xs-round py-2 px-3"
-                                            data-toggle="modal" data-target="#Modallogin"
                                             href="{{ route('login') }}">Login</a></li>
                                 @endif
                             @else

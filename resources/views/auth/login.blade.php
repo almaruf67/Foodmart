@@ -1,7 +1,5 @@
 @extends('Layout.app')
 @section('content')
-    
-
     <section class="ftco-section mt-25 mb-25">
         <div class="container">
 
@@ -31,30 +29,54 @@
                                     </p>
                                 </div>
                             </div>
-                            <form action="#" class="signin-form">
+                            <form action="{{ route('login') }}" method="POST" class="signin-form">
+                                @csrf
                                 <div class="form-group mb-3">
                                     <label class="label" for="name">EMAIL</label>
-                                    <input type="email" class="md-round form-control" placeholder="Email" required autofocus>
+                                    <input id="email" class="md-round form-control @error('email') is-invalid @enderror"
+                                        type="email" placeholder="Enter your email" name="email"
+                                        value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                                    @error('email')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+
                                 </div>
                                 <div class="form-group mb-3">
                                     <label class="label" for="password">PASSWORD</label>
-                                    <input type="password" class="md-round form-control" placeholder="Password" required>
+                                    <input type="password" class="md-round form-control" type="password" id="password"
+                                        placeholder="Enter your Password" @error('password') is-invalid @enderror
+                                        name="password" required autocomplete="current-password">
+                                    @error('password')
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $message }}</strong>
+                                        </span>
+                                    @enderror
+                                    <div class="form-group d-md-flex">
+                                        <div class="w-50 text-left">
+                                            <input class="form-check-input" type="checkbox" name="remember" id="remember"
+                                                {{ old('remember') ? 'checked' : '' }}>
+                                            <label class="checkbox-wrap checkbox-primary mb-0"
+                                                for="remember">{{ __('Remember Me') }}</label>
+                                            {{-- <input class="form-check-input " type="checkbox" id="flexSwitchCheckChecked"
+                                        {{ old('remember') ? 'checked' : '' }} name='remember_me'>  
+                                    <label class="checkbox-wrap checkbox-primary mb-0" for="flexSwitchCheckChecked">Remember Me</label> --}}
+                                        </div>
+                                        @if (Route::has('password.request'))
+                                            <div class="w-50 text-md-right">
+                                                <a href="{{ route('password.request') }}">Forgot Password</a>
+                                            </div>
+                                        @endif
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="form-control btn btn-primary md-round submit yumzy-or px-3">Sign
+                                    <button type="submit"
+                                        class="form-control btn btn-primary md-round submit yumzy-or px-3">Sign
                                         In</button>
                                 </div>
-                                <div class="form-group d-md-flex">
-                                    <div class="w-50 text-left">
-                                        <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
-                                            <input type="checkbox" checked>
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                    <div class="w-50 text-md-right">
-                                        <a href="{{ route('password.request') }}">Forgot Password</a>
-                                    </div>
-                                </div>
+
                             </form>
                         </div>
                     </div>

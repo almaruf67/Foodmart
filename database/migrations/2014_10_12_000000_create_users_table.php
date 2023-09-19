@@ -15,16 +15,16 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->string('password');
+            $table->rememberToken();
             $table->text('image')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->integer('phone')->nullable();
-            $table->string('password');
             $table->tinyInteger('type')->default(0);
             /* Users: 0=>User, 1=>Admin */
             $table->string('google_id')->nullable();
             $table->string('github_id')->nullable();
             $table->string('facebook_id')->nullable();
-            $table->rememberToken();
             $table->timestamps();
         });
     }
