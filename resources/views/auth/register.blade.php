@@ -83,7 +83,7 @@
                                     
                                 </div>
                                 <div class="form-group">
-                                    <label for="password-confirmation-status">Password Confirmation</label>
+                                    <label for="password-confirmation-status"></label>
                                     <span id="password-confirmation-status"></span>
                                 </div>
                                 <div class="form-group">
