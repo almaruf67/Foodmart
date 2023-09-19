@@ -54,25 +54,28 @@
                                             <strong>{{ $message }}</strong>
                                         </span>
                                     @enderror
-                                    <div class="form-group d-md-flex">
-                                        <div class="w-50 text-left">
-                                            <input class="form-check-input" type="checkbox" name="remember" id="remember"
-                                                {{ old('remember') ? 'checked' : '' }}>
+                                    <div class="form-group d-md-flex pt-2">
+                                        <div class="w-100 text-left">
+                                            
                                             <label class="checkbox-wrap checkbox-primary mb-0"
-                                                for="remember">{{ __('Remember Me') }}</label>
+                                                for="remember">{{ __('Remember Me') }}<input type="checkbox" name="remember" id="remember"
+                                                {{ old('remember') ? 'checked' : '' }}><span class="checkmark"></span></label>
                                            
                                         </div>
-                                        @if (Route::has('password.request'))
-                                            <div class="w-50 text-md-right">
-                                                <a href="{{ route('password.request') }}">Forgot Password</a>
-                                            </div>
-                                        @endif
+                                        
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <button type="submit"
                                         class="form-control btn btn-primary md-round submit yumzy-or px-3">Sign
                                         In</button>
+                                </div>
+                                <div class="form-group">
+                                    @if (Route::has('password.request'))
+                                            <div class="w-100 text-md-right pr-2 pt-1">
+                                                <a href="{{ route('password.request') }}">Forgot Password</a>
+                                            </div>
+                                        @endif
                                 </div>
 
                             </form>
