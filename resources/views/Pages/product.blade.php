@@ -1,4 +1,4 @@
-@extends('Layout.app')
+@extends('Pages.Layout.app')
 
 @section('content')
     <section class="mt-25 yumzy-df">
