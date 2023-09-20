@@ -11,7 +11,7 @@ class ProductController extends Controller
     public function index()
     {
         $products = Product::orderBy('id', 'asc')->paginate(10);
-        return view('product.index', compact('products'));
+        return view('Admin.product.index', compact('products'));
     }
 
     /**
@@ -19,7 +19,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('product.create');
+        return view('Admin.product.create');
     }
 
     /**
@@ -33,8 +33,8 @@ class ProductController extends Controller
         if ($file) {
             $extension = $file->getClientOriginalExtension();
             $fileName = time() . rand(1, 999999) . '.' . $extension;
-            $file->move('images/post', $fileName);
-            $path = '/images/post/' . $fileName;
+            $file->move('images/product', $fileName);
+            $path = '/images/product/' . $fileName;
         } else {
             $path = null;
         }
@@ -62,7 +62,7 @@ class ProductController extends Controller
         $product = Product::where('id',$data)->first();
 
         // dd($product);
-        return view('product.details', compact('product'));
+        return view('Admin.product.details', compact('product'));
     }
 
     /**
@@ -72,7 +72,7 @@ class ProductController extends Controller
     {
         $product = Product::findOrFail($id);
 
-        return view('product.edit', compact('product'));
+        return view('Admin.product.edit', compact('product'));
     }
 
     /**
@@ -85,8 +85,8 @@ class ProductController extends Controller
         if ($file) {
             $extension = $file->getClientOriginalExtension();
             $fileName = time() . rand(1, 999999) . '.' . $extension;
-            $file->move('images/post', $fileName);
-            $product->Poster = '/images/post/' . $fileName;
+            $file->move('images/product', $fileName);
+            $product->Poster = '/images/product/' . $fileName;
         }
 
         $product->Category = $request->category;
