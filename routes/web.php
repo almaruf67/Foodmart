@@ -19,6 +19,7 @@ use App\Http\Controllers\Auth\ProviderController;
 */
 
 Route::get('/', [HomeController::class,'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/products', [HomeController::class,'details'])->name('product');
 
@@ -31,7 +32,7 @@ All Normal Users Routes List
 --------------------------------------------*/
 Route::middleware(['auth', 'user-access:user'])->group(function () {
 
-    Route::get('/home', [HomeController::class, 'index'])->name('home');
+    
 });
 
 /*------------------------------------------

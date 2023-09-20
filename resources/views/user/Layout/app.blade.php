@@ -44,7 +44,7 @@
                     <div class="col-6 col-sm-6 col-lg-2">
                         <!-- mainLogo -->
                         <div class="logo">
-                            <a href="home.html"><img src="{{ asset('assets/images/logo1.png') }}" alt="Botanical"
+                            <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo1.png') }}" alt="Botanical"
                                     class="img-fluid"></a>
                         </div>
                     </div>
