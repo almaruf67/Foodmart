@@ -18,6 +18,8 @@ class product extends Model
             'Price',
             "Short_Description",
             "Old_Price"
-            
+
         ];
 }
+
+
