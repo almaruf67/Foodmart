@@ -33,7 +33,7 @@
                         @foreach($products as $product)
                             <tr>
                                 <td>{{ $loop->iteration }}</td>
-                                <td>{{ $product->Category }}</td>
+                                <td>{{ $product->category->name }}</td>
                                 <td>{{ $product->Title }}</td>
                                 <td><img style="width: 100px;" src="{{ asset( $product->Poster) }}" alt=""></td>
                                 <td>{{ $product->Short_Description }}</td>
@@ -47,7 +47,7 @@
                                         <button type="submit" class="btn btn-danger">Delete</button>
                                     </form>
                                     <a href="{{ route('product.edit', $product->id) }}" class="btn btn-primary">Edit</a>
-                                    <!-- <a href="{{ route('product.show', $product->id) }}" class="btn btn-info">Show</a> -->
+                                    
                                 </td>
                             </tr>
                         @endforeach

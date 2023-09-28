@@ -32,7 +32,10 @@
                     <a href="{{ route('product.index') }}"><i class="bi bi-arrow-right-short"></i>Products List</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bi bi-arrow-right-short"></i>Products Category</a>
+                    <a href="{{ route('categories.index') }}"><i class="bi bi-arrow-right-short"></i>Categories Details</a>
+                </li>
+                <li>
+                    <a href="{{ route('categories.create') }}"><i class="bi bi-arrow-right-short"></i>Create Category</a>
                 </li>
                 <li>
                     <a href="#"><i class="bi bi-arrow-right-short"></i>Products Review</a>

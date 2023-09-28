@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\category;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -19,7 +20,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('Admin.product.create');
+        $categories = category::all()->where('status',1);
+        return view('Admin.product.create',compact('categories'));
     }
 
     /**
@@ -41,7 +43,7 @@ class ProductController extends Controller
 
         $product = new Product();
 
-        $product->Category = $request->category;
+        $product->category_id = $request->category_id;
         $product->Title = $request->title;
         $product->Poster = $path;
         $product->Description = $request->description;
@@ -71,8 +73,8 @@ class ProductController extends Controller
     public function edit(string $id)
     {
         $product = Product::findOrFail($id);
-
-        return view('Admin.product.edit', compact('product'));
+        $categories = category::all()->where('status',1);
+        return view('Admin.product.edit', compact('product','categories'));
     }
 
     /**
@@ -89,9 +91,9 @@ class ProductController extends Controller
             $product->Poster = '/images/product/' . $fileName;
         }
 
-        $product->Category = $request->category;
+        $product->category_id = $request->category_id;
         $product->Title = $request->title;
-
+        $product->Short_Description = $request->short_description;
         $product->Description = $request->description;
         $product->Price = $request->price;
 

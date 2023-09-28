@@ -22,12 +22,10 @@
                 @csrf
                 <div class="mb-3">
                   <label for="category" class="form-label">Categories *</label>
-                  <select id="category" name="category" class="form-control" aria-describedby="emailHelp" required autofocus>
-                        <option value="Dessert">Dessert</option>
-                        <option value="Steak">Steak</option>
-                        <option value="Coffee">Coffee</option>
-                        <option value="Pizza">Pizza</option>
-                        <option value="Burger">Burger</option>
+                  <select id="category_id" name="category_id" class="form-control" aria-describedby="emailHelp" required autofocus>
+                    @foreach ($categories as $category)
+                        <option value="{{ $category->id }}">{{ $category->name }}</option>
+                    @endforeach
                       </select>
                 </div>
                 <div class="mb-3">

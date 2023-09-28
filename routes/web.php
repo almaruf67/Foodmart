@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\Auth\ProviderController;
 
 /*
@@ -18,10 +19,10 @@ use App\Http\Controllers\Auth\ProviderController;
 |
 */
 
-Route::get('/', [HomeController::class,'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::get('/products', [HomeController::class,'details'])->name('product');
+Route::get('/products', [HomeController::class, 'details'])->name('product');
 
 Auth::routes();
 
@@ -31,8 +32,6 @@ All Normal Users Routes List
 --------------------------------------------
 --------------------------------------------*/
 Route::middleware(['auth', 'user-access:user'])->group(function () {
-
-    
 });
 
 /*------------------------------------------
@@ -40,12 +39,14 @@ Route::middleware(['auth', 'user-access:user'])->group(function () {
 All Admin Routes List
 --------------------------------------------
 --------------------------------------------*/
-Route::group(['prefix' => 'admin', 'middleware' => ['auth:web,admin']], function() {
+Route::group(['prefix' => 'admin', 'middleware' => ['auth:web,admin']], function () {
     Route::get('/home', [HomeController::class, 'adminHome'])->name('admin.home');
 
     Route::resource('/product', ProductController::class);
     Route::resource('/user', UserController::class);
     Route::get('/admin', [UserController::class, 'adminshow'])->name('adminuser');
+    Route::resource('categories', CategoryController::class)->except(['show',]);
+    Route::get('/categories/toggle', [CategoryController::class, 'toggleStatus'])->name('categories.toggleStatus');
     // Route::get('/orders', [OrderController::class, 'orders'])->name('adminorders');
     // Route::get('/invoice/{id}', [OrderController::class, 'invoice'])->name('admininvoice');
     // Route::put('/orderupdate', [OrderController::class, 'update'])->name('order.update');
@@ -56,5 +57,5 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:web,admin']], function
 });
 
 
-Route::get('/auth/{provider}/redirect',[ProviderController::class,'redirect']);
-Route::get('/auth/{provider}/callback',[ProviderController::class,'callback']);
+Route::get('/auth/{provider}/redirect', [ProviderController::class, 'redirect']);
+Route::get('/auth/{provider}/callback', [ProviderController::class, 'callback']);

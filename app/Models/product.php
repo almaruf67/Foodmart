@@ -2,8 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\category;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class product extends Model
 {
@@ -11,7 +12,6 @@ class product extends Model
 
         protected $fillable = [
 
-            'Category',
             'Title',
             'Poster',
             'Description',
@@ -20,6 +20,11 @@ class product extends Model
             "Old_Price"
 
         ];
+
+        public function category()
+    {
+        return $this->belongsTo(category::class);
+    }
 }
 
 

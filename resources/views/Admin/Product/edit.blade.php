@@ -1,10 +1,7 @@
-{{--@extends('layouts.app')--}}
-@extends('admin-template.layouts.admin-app')
+@extends('Admin.layout.app')
+@section('content')
 
-{{--@section('content')--}}
-@section('admin-template')
-
-    <div class="container pb-5">
+    <div class="container">
 
         <div class="row mb-5 pt-2">
             <div class="col-sm-12">
@@ -24,26 +21,12 @@
                     @csrf
                     <div class="mb-3">
                         <label for="category" class="form-label">Category *</label>
-                        <select id="category" name="category" class="form-control" aria-describedby="emailHelp" required autofocus>
-                            <option value="Dessert" {{ ($product->Category === 'Dessert') ? "selected" : '' }}>Dessert</option>
-                            <option value="Steak" {{ ($product->Category === 'Steak') ? "selected" : '' }}>Steak</option>
-                            <option value="Coffee" {{ ($product->Category === 'Coffee') ? "selected" : '' }}>Coffee</option>
-                            <option value="Pizza" {{ ($product->Category === 'Pizza') ? "selected" : '' }}>Pizza</option>
-                            <option value="Burger" {{ ($product->Category === 'Burger') ? "selected" : '' }}>Burger</option>
-                        </select>
-
-{{--                        <select class="form-control" name="category">--}}
-{{--                            <option value="0">Please Select the Category</option>--}}
-{{--                            @foreach ( $products as $product)--}}
-{{--                                <option value="{{$product->id}}"--}}
-
-{{--                                        @if($product->id!=null)--}}
-{{--                                            selected--}}
-{{--                                    @endif--}}
-
-{{--                                >{{ $product->Category }}</option>--}}
-{{--                            @endforeach--}}
-{{--                        </select>--}}
+                        <select id="category_id" name="category_id" class="form-control" aria-describedby="emailHelp" required autofocus>
+                            @foreach ($categories as $category)
+                                <option value="{{ $category->id }}" {{ ($category->id === $product->category_id) ? "selected" : '' }}>{{ $category->name }}</option>
+                            @endforeach
+                              </select>
+                            
                     </div>
                     <div class="mb-3">
                         <label for="title" class="form-label">Product Name *</label>
@@ -56,21 +39,11 @@
                         <label for="poster" class="form-label">Old Image </label>
                         <input type="file" class="form-control" name="poster" id="poster">
 
-
-
-
-
-{{--                        <label>Image</label>--}}
-{{--                        <br>--}}
-{{--                        @if ( $product->Poster == NULL )--}}
-{{--                            No Image Uploaded.--}}
-{{--                        @else--}}
-{{--                            <img style="width: 100px;" src="{{ $product->Poster }}" alt="">--}}
-{{--                        @endif--}}
-{{--                        <br><br>--}}
-{{--                        <input  type="file" name="poster" class="form-control-file">--}}
                     </div>
-
+                    <div class="mb-3">
+                        <label for="Short_description" class="form-label">Short Description *</label>
+                        <textarea id="short_des" class="form-control" name="short_description" cols="50" rows="2">{{$product->Short_Description}}</textarea>
+                    </div>
 
                     <div class="mb-3">
                         <label for="des" class="form-label">Description *</label>
