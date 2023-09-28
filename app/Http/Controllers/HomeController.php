@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\category;
 use App\Models\product;
 use Illuminate\View\View;
 use Illuminate\Http\Request;
@@ -25,15 +26,27 @@ class HomeController extends Controller
      */
     public function index(): View
     {
-        $items = product::orderBy('id', 'desc')->get();
-        $Pizzas = product::orderBy('id', 'desc')->Where('category_id','1')->take(4)->get();
-        $Burgers = product::orderBy('id', 'desc')->Where('category_id','2')->take(4)->get();;
-        $Desserts = product::orderBy('id', 'desc')->Where('category_id','3')->take(4)->get();
-       
+        $categories = Category::with('products')->get()->where('status','1');
+        $categorizedData = $categories->map(function ($category) {
+            return [
+                'category_name' => $category->name,
+                'products' => $category->products->map(function ($product) {
+                    return [
+                        'Title' => $product->Title,
+                        'Poster' => $product->Poster,
+                        'Description' => $product->Description,
+                        'Price' => $product->Price,
+                        'Short_Description' => $product->Short_Description,
+                        'Old_Price' => $product->Old_Price,
+                        // Add more product attributes as needed
+                    ];
+                }),
+            ];
+        });
         // dd(session()->get('cart'));
 
-        // dd($Pizzas);
-        return view('user.UserHome',compact('items','Burgers','Pizzas','Desserts'));
+        // dd($categorizedData);
+        return view('user.UserHome',compact('categorizedData'));
 
     }
 

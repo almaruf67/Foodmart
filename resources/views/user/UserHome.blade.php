@@ -110,7 +110,7 @@
         <!-- PopularSec -->
         <section class="PopulerSec container pt-xl-12 pt-lg-10 pt-md-80 pt-5 pb-xl-10 pb-lg-4 pb-md-2 px-xl-14 px-lg-7">
             <!-- mainHeader -->
-            <!-- mainHeader -->
+
             <header class="col-12 mainHeader mb-7 text-center">
                 <h1 class="headingIV playfair fwEblod mb-4">Popular Menu</h1>
                 <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
@@ -121,53 +121,59 @@
             <div class="ppDishes row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5 ">
 
                 <!-- PopularCol1 -->
-                @foreach ($items as $items)
-                    <div class="featureCol px-3 mb-6">
-                        <div class="pp shadow p-3 mb-5 bg-body rounded">
-                            <div class="bb position-relative">
-                                <div class="imgHolder position-relative w-100 overflow-hidden"
-                                    style=" border-radius: 10px;">
-                                    <img src="{{ $items->Poster }}" alt="image description" class="img-fluid w-100">
-                                </div>
-                                <div class="overlay text-left overflow-hidden">
-                                    <h4> {{ $items->Short_Description }} </h4>
-                                </div>
+                @foreach ($categorizedData as $category)
+                {{-- {{ dd($category['products']) }} --}}
+                @if ($category['products'])
+                @foreach ($category['products'] as $items)
+                <div class="featureCol px-3 mb-6">
+                    <div class="pp shadow p-3 mb-5 bg-body rounded">
+                        <div class="bb position-relative">
+                            <div class="imgHolder position-relative w-100 overflow-hidden"
+                                style=" border-radius: 10px;">
+                                <img src="{{ $items['Poster'] }}" alt="image description" class="img-fluid w-100">
                             </div>
-
-                            <div class="text-left text-black pt-3 px-xl-2 px-1">
-                                <p class="rating">
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <span>(1)</span>
-                                </p>
+                            <div class="overlay text-left overflow-hidden">
+                                <h4> {{ $items['Short_Description'] }} </h4>
                             </div>
+                        </div>
 
-                            <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                            <p class="rating">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span>(1)</span>
+                            </p>
+                        </div>
 
-                                <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
-                                        <h6>{{ $items->Title }}</h6>
-                                    </a>
-                                    <span class="price fwEbold text-bottom">{{ $items->Price }}</span>
+                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
+                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
+                                    <h6>{{ $items['Title'] }}</h6>
+                                </a>
+                                <span class="price fwEbold text-bottom">{{ $items['Price'] }}</span>
+                            </span>
+                            <div class="d-flex justify-content-between align-items-end">
+
+                                <span class="mr-2">
+                                    <a href="javascript:void(0);"
+                                        class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-heart"></i></a>
                                 </span>
-                                <div class="d-flex justify-content-between align-items-end">
-
-                                    <span class="mr-2">
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                class="icon-heart"></i></a>
-                                    </span>
-                                    <span>
-                                        <a href="javascript:void(0);"
-                                            class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                class="icon-cart"></i></a>
-                                    </span>
-                                </div>
+                                <span>
+                                    <a href="javascript:void(0);"
+                                        class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                            class="icon-cart"></i></a>
+                                </span>
                             </div>
                         </div>
                     </div>
+                </div>
+            @endforeach
+                @endif
+                    
                 @endforeach
 
                 <button class="right" onclick="rightScroll()"><i class="fas fa-chevron-right"></i></button>
@@ -303,31 +309,29 @@
                 <span class="headerBorder d-block mb-md-5 mb-3"><img src="{{ asset('assets/images/hbdr.png') }}"
                         alt="Header Border" class="img-fluid img-bdr"></span>
                 <div>
-                    <div class="btn btnTheme btnShop fwEbold text-white round m-3  py-2 px-3 py-md-3 px-md-4 py-2 px-3"
-                        onclick="showDiv('desert')">Dessert</div>
-                    <div class="btn btnTheme btnShop fwEbold text-white round m-3 py-md-3 px-md-4 py-2 px-3"
-                        onclick="showDiv('pizza')">Pizza</div>
-                    <div class="btn btnTheme btnShop fwEbold text-white round m-3 py-md-3 px-md-4 py-2 px-3"
-                        onclick="showDiv('burger')">Burger</div>
+                    @foreach ($categorizedData as $category)
+                        <div class="btn btnTheme btnShop fwEbold text-white round m-3  py-2 px-3 py-md-3 px-md-4 py-2 px-3"
+                            onclick="showDiv('{{ $category['category_name'] }}')">{{ $category['category_name'] }}</div>
+                    @endforeach
                 </div>
 
             </header>
 
             <!-- Dessert -->
-
-            <div id="desert" style="display:none;">
+            @foreach ($categorizedData as $category)
+            <div id="{{ $category['category_name'] }}" style="display:none;">
                 <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
                     <!-- featureCol1 -->
                     <div class="featureCol px-3 mb-6">
-                        @foreach ($Desserts as $Dessert)
+                        @foreach ($category['products'] as $item)
                             <div class="pp shadow p-3 mb-5 bg-body rounded">
                                 <div class="bb position-relative">
                                     <div class="imgHolder position-relative w-100 overflow-hidden">
-                                        <img src="{{ $Dessert->Poster }}" alt="image description"
+                                        <img src="{{ $item['Poster'] }}" alt="image description"
                                             class="img-fluid w-100">
                                     </div>
                                     <div class="overlay text-left overflow-hidden">
-                                        <h4>{{ $Dessert->Short_Discription }}</h4>
+                                        <h4>{{ $item['Short_Description'] }}</h4>
                                     </div>
                                     <div class="text-left text-black pt-3 px-xl-2 px-1">
                                         <p class="rating">
@@ -342,9 +346,9 @@
                                 </div>
                                 <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                     <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
-                                            <h6>{{ $Dessert->Title }}</h6>
+                                            <h6>{{ $item['Title'] }}</h6>
                                         </a>
-                                        <span class="price fwEbold text-bottom">{{ $Dessert->Price }}</span>
+                                        <span class="price fwEbold text-bottom">{{ $item['Price'] }}</span>
                                     </span>
                                     <div class="d-flex justify-content-between align-items-end">
                                         <span class="mr-2">
@@ -365,116 +369,7 @@
                 </div>
             </div>
 
-
-
-            <!-- Pizza -->
-            <div id="pizza" style="display:none;">
-                <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
-                    <!-- featureCol1 -->
-
-                        <div class="featureCol px-3 mb-6">
-                            <div class="pp shadow p-3 mb-5 bg-body rounded">
-                                <div class="bb position-relative">
-                                    @foreach ($Pizzas as $Pizza)
-                                    <div class="imgHolder position-relative w-100 overflow-hidden">
-                                        <img src="{{ $Pizza->Poster }}" alt="image description" class="img-fluid w-100">
-                                    </div>
-                                    <div class="overlay text-left overflow-hidden">
-                                        <h4>{{ $Pizza->Short_Discription }}</h4>
-
-                                    </div>
-                                    <div class="text-left text-black pt-3 px-xl-2 px-1">
-                                        <p class="rating">
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <span>(1)</span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
-                                    <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
-                                            <h6>{{ $Pizza->Title }}</h6>
-                                        </a>
-                                        <span class="price fwEbold text-bottom">{{ $Pizza->Price }}</span>
-                                    </span>
-                                    <div class="d-flex justify-content-between align-items-end">
-                                        <span class="mr-2">
-                                            <a href="javascript:void(0);"
-                                                class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                    class="icon-heart"></i></a>
-                                        </span>
-                                        <span>
-                                            <a href="javascript:void(0);"
-                                                class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                    class="icon-cart"></i></a>
-                                        </span>
-                                    </div>
-                                </div>
-                                @endforeach
-                            </div>
-                        </div>
-
-                </div>
-
-            </div>
-
-
-                <!-- Burger -->
-                <div id="burger" style="display:none;">
-                    <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
-                        <!-- featureCol1 -->
-                        <div class="featureCol px-3 mb-6">
-                            <div class="pp shadow p-3 mb-5 bg-body rounded">
-                                <div class="bb position-relative">
-                                    @foreach ($Burgers as $Burger)
-                                    <div class="imgHolder position-relative w-100 overflow-hidden">
-                                        <img src="{{ $Burger->Poster }}" alt="image description"
-                                            class="img-fluid w-100">
-                                    </div>
-                                    <div class="overlay text-left overflow-hidden">
-                                        <h4>{{ $Burger->Short_Discription }}</h4>
-
-                                    </div>
-                                    <div class="text-left text-black pt-3 px-xl-2 px-1">
-                                        <p class="rating">
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <span>(1)</span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
-                                    <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
-                                            <h6>{{ $Burger->Title }}</h6>
-                                        </a>
-                                        <span class="price fwEbold text-bottom">{{ $Burger->Price }}</span>
-                                    </span>
-                                    <div class="d-flex justify-content-between align-items-end">
-                                        <span class="mr-2">
-                                            <a href="javascript:void(0);"
-                                                class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                    class="icon-heart"></i></a>
-                                        </span>
-                                        <span>
-                                            <a href="javascript:void(0);"
-                                                class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                    class="icon-cart"></i></a>
-                                        </span>
-                                    </div>
-                                </div>
-                                @endforeach
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
+            @endforeach
 
         </section>
 
