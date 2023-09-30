@@ -1,4 +1,4 @@
-@extends('Layout.app')
+@extends('auth/Layout.app')
 @section('content')
     <section class="ftco-section mt-25 mb-25">
         <div class="container">
@@ -56,13 +56,13 @@
                                     @enderror
                                     <div class="form-group d-md-flex pt-2">
                                         <div class="w-100 text-left">
-                                            
+
                                             <label class="checkbox-wrap checkbox-primary mb-0"
                                                 for="remember">{{ __('Remember Me') }}<input type="checkbox" name="remember" id="remember"
                                                 {{ old('remember') ? 'checked' : '' }}><span class="checkmark"></span></label>
-                                           
+
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="form-group">

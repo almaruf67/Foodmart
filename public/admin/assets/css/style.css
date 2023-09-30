@@ -20,6 +20,7 @@ File: style.css
 - Authentication
 - swicther
 - Responsive
+- toggle button
 
  */
 
@@ -1744,3 +1745,53 @@ a {
 		display: none
 	}
 }
+
+
+  /* Styles for the toggle button */
+  .toggle-container {
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	cursor: pointer;
+	overflow: hidden;
+	box-shadow: 0 0 10px red; 
+	border-radius: 5px;
+	transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .toggle-slider {
+	position: absolute;
+	width: 15%;
+	height: 90%;
+	align-content: center;
+	background-color: #f3f3f3;
+	border-radius: 2px; 
+	margin: 2%;
+	transition: left 0.4s ease;
+  }
+
+  .toggle-container.active {
+	background-color: #4CAF50;
+	box-shadow: 0 0 10px #4CAF50;
+	border-radius: 5px;
+  }
+
+  .toggle-container:hover .toggle-slider {
+	background-color: #ccc; 
+  }
+
+  .toggle-container.active .toggle-slider {
+	left: 80%;
+  }
+
+  .toggle-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-weight: bold;
+	pointer-events: none; 
+  }

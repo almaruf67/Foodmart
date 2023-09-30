@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\category;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -11,7 +12,7 @@ class ProductController extends Controller
     public function index()
     {
         $products = Product::orderBy('id', 'asc')->paginate(10);
-        return view('product.index', compact('products'));
+        return view('Admin.product.index', compact('products'));
     }
 
     /**
@@ -19,7 +20,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('product.create');
+        $categories = category::all();
+        return view('Admin.product.create',compact('categories'));
     }
 
     /**
@@ -33,15 +35,15 @@ class ProductController extends Controller
         if ($file) {
             $extension = $file->getClientOriginalExtension();
             $fileName = time() . rand(1, 999999) . '.' . $extension;
-            $file->move('images/post', $fileName);
-            $path = '/images/post/' . $fileName;
+            $file->move('images/product', $fileName);
+            $path = '/images/product/' . $fileName;
         } else {
             $path = null;
         }
 
         $product = new Product();
 
-        $product->Category = $request->category;
+        $product->category_id = $request->category_id;
         $product->Title = $request->title;
         $product->Poster = $path;
         $product->Description = $request->description;
@@ -62,7 +64,7 @@ class ProductController extends Controller
         $product = Product::where('id',$data)->first();
 
         // dd($product);
-        return view('product.details', compact('product'));
+        return view('Admin.product.details', compact('product'));
     }
 
     /**
@@ -71,8 +73,8 @@ class ProductController extends Controller
     public function edit(string $id)
     {
         $product = Product::findOrFail($id);
-
-        return view('product.edit', compact('product'));
+        $categories = category::all()->where('status',1);
+        return view('Admin.product.edit', compact('product','categories'));
     }
 
     /**
@@ -85,13 +87,13 @@ class ProductController extends Controller
         if ($file) {
             $extension = $file->getClientOriginalExtension();
             $fileName = time() . rand(1, 999999) . '.' . $extension;
-            $file->move('images/post', $fileName);
-            $product->Poster = '/images/post/' . $fileName;
+            $file->move('images/product', $fileName);
+            $product->Poster = '/images/product/' . $fileName;
         }
 
-        $product->Category = $request->category;
+        $product->category_id = $request->category_id;
         $product->Title = $request->title;
-
+        $product->Short_Description = $request->short_description;
         $product->Description = $request->description;
         $product->Price = $request->price;
 

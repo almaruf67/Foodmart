@@ -1,4 +1,4 @@
-@extends('Layout.app')
+@extends('auth/Layout.app')
 @section('content')
     <section class="ftco-section mt-25 mb-25">
         <div class="container">
