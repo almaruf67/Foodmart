@@ -122,58 +122,61 @@
 
                 <!-- PopularCol1 -->
                 @foreach ($categorizedData as $category)
-                {{-- {{ dd($category['products']) }} --}}
-                @if ($category['products'])
-                @foreach ($category['products'] as $items)
-                <div class="featureCol px-3 mb-6">
-                    <div class="pp shadow p-3 mb-5 bg-body rounded">
-                        <div class="bb position-relative">
-                            <div class="imgHolder position-relative w-100 overflow-hidden"
-                                style=" border-radius: 10px;">
-                                <img src="{{ $items['Poster'] }}" alt="image description" class="img-fluid w-100">
+                    {{-- {{ dd($category['products']) }} --}}
+                    @if ($category['products'])
+                        @foreach ($category['products'] as $items)
+                            <div class="featureCol px-3 mb-6">
+                                <div class="pp shadow p-3 mb-5 bg-body rounded">
+                                    <div class="bb position-relative">
+                                        <div class="imgHolder position-relative w-100 overflow-hidden"
+                                            style=" border-radius: 10px;">
+                                            <img src="{{ $items['Poster'] }}" alt="image description"
+                                                class="img-fluid w-100">
+                                        </div>
+                                        <div class="overlay text-left overflow-hidden">
+                                            <h4> {{ $items['Short_Description'] }} </h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                        <p class="rating">
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            <i class="fas fa-star" aria-hidden="true"></i>
+                                            <span>(1)</span>
+                                        </p>
+                                    </div>
+
+                                    <div
+                                        class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
+
+                                        <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
+                                                <h6>{{ $items['Title'] }}</h6>
+                                            </a>
+                                            <span class="price fwEbold text-bottom">{{ $items['Price'] }}</span>
+                                        </span>
+                                        <div class="d-flex justify-content-between align-items-end">
+
+                                            <span class="mr-2">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btnTheme text-white sm-round py-2 px-2" id="addToFavorites"
+                                                    data-product-id="{{ $items['id'] }}">
+                                                    <i class="icon-heart"></i>
+                                                </a>
+                                            </span>
+                                            <span>
+                                                <a href="javascript:void(0);"
+                                                    class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                        class="icon-cart"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="overlay text-left overflow-hidden">
-                                <h4> {{ $items['Short_Description'] }} </h4>
-                            </div>
-                        </div>
-
-                        <div class="text-left text-black pt-3 px-xl-2 px-1">
-                            <p class="rating">
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <i class="fas fa-star" aria-hidden="true"></i>
-                                <span>(1)</span>
-                            </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
-
-                            <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
-                                    <h6>{{ $items['Title'] }}</h6>
-                                </a>
-                                <span class="price fwEbold text-bottom">{{ $items['Price'] }}</span>
-                            </span>
-                            <div class="d-flex justify-content-between align-items-end">
-
-                                <span class="mr-2">
-                                    <a href="javascript:void(0);"
-                                        class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-heart"></i></a>
-                                </span>
-                                <span>
-                                    <a href="javascript:void(0);"
-                                        class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                            class="icon-cart"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-                @endif
-                    
+                        @endforeach
+                    @endif
                 @endforeach
 
                 <button class="right" onclick="rightScroll()"><i class="fas fa-chevron-right"></i></button>
@@ -310,7 +313,7 @@
                         alt="Header Border" class="img-fluid img-bdr"></span>
                 <div>
                     @foreach ($categorizedData as $category)
-                        <div class="btn btnTheme btnShop fwEbold text-white round m-3  py-2 px-3 py-md-3 px-md-4 py-2 px-3"
+                        <div class="btn btnTheme btnShop fwEbold text-white round m-3 py-md-3 px-md-4 py-2 px-3"
                             onclick="showDiv('{{ $category['category_name'] }}')">{{ $category['category_name'] }}</div>
                     @endforeach
                 </div>
@@ -319,56 +322,57 @@
 
             <!-- Dessert -->
             @foreach ($categorizedData as $category)
-            <div id="{{ $category['category_name'] }}" style="display:none;">
-                <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
-                    <!-- featureCol1 -->
-                    <div class="featureCol px-3 mb-6">
-                        @foreach ($category['products'] as $item)
-                            <div class="pp shadow p-3 mb-5 bg-body rounded">
-                                <div class="bb position-relative">
-                                    <div class="imgHolder position-relative w-100 overflow-hidden">
-                                        <img src="{{ $item['Poster'] }}" alt="image description"
-                                            class="img-fluid w-100">
+                <div id="{{ $category['category_name'] }}"
+                    style='display:none'>
+                    {{-- <div id="{{ $category['category_name'] }}" style="display:none;"> --}}
+                    <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
+                        <!-- featureCol1 -->
+                        <div class="featureCol px-3 mb-6">
+                            @foreach ($category['products'] as $item)
+                                <div class="pp shadow p-3 mb-5 bg-body rounded">
+                                    <div class="bb position-relative">
+                                        <div class="imgHolder position-relative w-100 overflow-hidden">
+                                            <img src="{{ $item['Poster'] }}" alt="image description"
+                                                class="img-fluid w-100">
+                                        </div>
+                                        <div class="overlay text-left overflow-hidden">
+                                            <h4>{{ $item['Short_Description'] }}</h4>
+                                        </div>
+                                        <div class="text-left text-black pt-3 px-xl-2 px-1">
+                                            <p class="rating">
+                                                <i class="fas fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star" aria-hidden="true"></i>
+                                                <i class="fas fa-star" aria-hidden="true"></i>
+                                                <span>(1)</span>
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="overlay text-left overflow-hidden">
-                                        <h4>{{ $item['Short_Description'] }}</h4>
-                                    </div>
-                                    <div class="text-left text-black pt-3 px-xl-2 px-1">
-                                        <p class="rating">
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <i class="fas fa-star" aria-hidden="true"></i>
-                                            <span>(1)</span>
-                                        </p>
+                                    <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
+                                        <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
+                                                <h6>{{ $item['Title'] }}</h6>
+                                            </a>
+                                            <span class="price fwEbold text-bottom">{{ $item['Price'] }}</span>
+                                        </span>
+                                        <div class="d-flex justify-content-between align-items-end">
+                                            <span class="mr-2">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                        class="icon-heart"></i></a>
+                                            </span>
+                                            <span>
+                                                <a href="javascript:void(0);"
+                                                    class="btn btnTheme text-white sm-round py-2 px-2 "><i
+                                                        class="icon-cart"></i></a>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
-                                    <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
-                                            <h6>{{ $item['Title'] }}</h6>
-                                        </a>
-                                        <span class="price fwEbold text-bottom">{{ $item['Price'] }}</span>
-                                    </span>
-                                    <div class="d-flex justify-content-between align-items-end">
-                                        <span class="mr-2">
-                                            <a href="javascript:void(0);"
-                                                class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                    class="icon-heart"></i></a>
-                                        </span>
-                                        <span>
-                                            <a href="javascript:void(0);"
-                                                class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                    class="icon-cart"></i></a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        @endforeach
+                            @endforeach
+                        </div>
                     </div>
                 </div>
-            </div>
-
             @endforeach
 
         </section>
@@ -877,25 +881,6 @@
             const right = document.querySelector(".ppDishes");
             right.scrollBy(200, 0);
         }
-
-        //       function sDesert() {
-        //     var x = document.getElementById('dessert');
-        //     if (x.style.display == 'none') {
-        //         x.style.display = 'block';
-        //     } else {
-        //         x.style.display = 'none';
-        //     }
-        // }
-        // function myFunc(drinks) {
-        //     var x = document.getElementById('pizza');
-
-        //     if (x.style.display == 'none') {
-        //         x.style.display = 'block';
-        //     } else {
-        //         x.style.display = 'none';
-        //     }
-        // }
-
         let currentDiv = null;
 
         function showDiv(divId) {
@@ -907,14 +892,41 @@
             // Show the selected div
             let divToShow = document.getElementById(divId);
             divToShow.style.display = "block";
-            // divToShow.style.justifyContent = "center"; // Horizontal centering
-            // divToShow.style.alignItems = "center";
-
-            // Update the currentDiv to the newly shown div
             currentDiv = divToShow;
         }
 
         // Initially show Div 1
-        showDiv('desert');
+        showDiv('{{ $categorizedData->first()['category_name'] }}');
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#addToFavorites').click(function(e) {
+                e.preventDefault();
+
+                // Get the product ID from the data attribute
+                var productId = $(this).data('product-id');
+
+                // Send an AJAX POST request to the controller
+                $.ajax({
+                    url: '/addToFavorites', // Change this to the actual route URL
+                    method: 'POST',
+                    
+                    data: {
+                        _token: '{{ csrf_token() }}',
+                        product_id: productId
+                    },
+                    success: function(response) {
+                        if (response.success) {
+                            alert('Product added to favorites successfully!');
+                        } else {
+                            alert('Failed to add product to favorites.');
+                        }
+                    },
+                    error: function() {
+                        alert('An error occurred while processing your request.');
+                    }
+                });
+            });
+        });
     </script>
 @endsection

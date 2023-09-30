@@ -20,7 +20,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        $categories = category::all()->where('status',1);
+        $categories = category::all();
         return view('Admin.product.create',compact('categories'));
     }
 

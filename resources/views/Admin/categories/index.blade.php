@@ -1,5 +1,5 @@
 @extends('Admin.layout.app')
-@section('title', 'Panel')
+@section('title', 'Admin Panel')
 @section('content')
     <main class="page-content">
         <div class="container">
