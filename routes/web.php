@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
@@ -34,6 +35,13 @@ All Normal Users Routes List
 Route::middleware(['auth', 'user-access:user'])->group(function () {
     Route::post('/addToFavorites', [HomeController::class,'addToFavorites']);
 
+    //Cart LINKS    
+    Route::get('/cart/{id}', [CartController::class, 'addtoCart'])->name('addcart');
+    Route::patch('/updatecart', [CartController::class, 'update'])->name('updatecart');
+    Route::delete('/deletecart', [CartController::class, 'destroy'])->name('deletecart');
+    Route::get('/cart', [CartController::class, 'index'])->name('viewcart');
+    Route::get('/checkout', [CartController::class, 'checkout'])->name('checkout');
+
 });
 
 /*------------------------------------------
@@ -49,7 +57,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth:web,admin']], function
     Route::get('/admin', [UserController::class, 'adminshow'])->name('adminuser');
     Route::resource('categories', CategoryController::class)->except(['show',]);
     Route::get('/categories/toggle', [CategoryController::class, 'toggleStatus'])->name('categories.toggleStatus');
-    // Route::get('/orders', [OrderController::class, 'orders'])->name('adminorders');
+  // Route::get('/orders', [OrderController::class, 'orders'])->name('adminorders');
     // Route::get('/invoice/{id}', [OrderController::class, 'invoice'])->name('admininvoice');
     // Route::put('/orderupdate', [OrderController::class, 'update'])->name('order.update');
     // Route::get('/delete/{id}', [OrderController::class, 'destroy'])->name('delete.item');

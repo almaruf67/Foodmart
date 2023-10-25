@@ -37,7 +37,7 @@
                                                 id="toggleButton" data-id="{{ $category->id }}"
                                                 data-status="{{ $category->status }}">
                                                 <div class="toggle-slider"></div>
-                                                <div class="toggle-text">Inactive</div>
+                                                <div class="toggle-text">{{ $category->status === 1 ? 'Active' : 'Inactive' }}</div>
                                             </div>
 
                                          

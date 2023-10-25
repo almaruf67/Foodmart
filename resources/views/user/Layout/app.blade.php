@@ -44,8 +44,8 @@
                     <div class="col-6 col-sm-6 col-lg-2">
                         <!-- mainLogo -->
                         <div class="logo">
-                            <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo1.png') }}" alt="Botanical"
-                                    class="img-fluid"></a>
+                            <a href="{{ route('home') }}"><img src="{{ asset('assets/images/logo1.png') }}"
+                                    alt="Botanical" class="img-fluid"></a>
                         </div>
                     </div>
                     <div class="col-6 col-sm-6 col-lg-8 static-block">
@@ -117,8 +117,63 @@
                                             href="{{ route('login') }}">Login</a></li>
                                 @endif
                             @else
-                                <li class="nav-item"><a class="nav-link position-relative icon-cart"
-                                        href="javascript:void(0);"><span class="num rounded d-block">2</span></a></li>
+                                <li class="nav-item"><a class="nav-link position-relative icon-cart pr-cart"
+                                        href="javascript:void(0);"><span
+                                            class="num rounded d-block">{{ count((array) session('cart')) }}</span></a>
+                                </li>
+
+                                <div class="cart-popup pr-5">
+
+                                    <ul>
+                                        @php $total = 0 @endphp
+                                        @if (session('cart'))
+                                            @foreach (session('cart') as $id => $details)
+                                                <li class="d-flex align-items-center position-relative">
+
+                                                    <div class="p-img light-bg">
+
+                                                        <img src="{{ asset($details['poster']) }}" alt="Product Image"
+                                                            height="75px">
+
+                                                    </div>
+
+                                                    <div class="p-data">
+
+                                                        <h3 class="font-semi-bold">{{ $details['title'] }}</h3>
+                                                        @php $sum =$details['quantity'] * $details['price']  @endphp
+                                                        <p class="theme-clr font-semi-bold">{{ $details['quantity'] }}
+                                                            x {{ $details['price'] }} ৳ ={{ $sum }}৳</p>
+                                                        @php $total +=$sum  @endphp
+                                                    </div>
+                                                    <div rowdel="{{ $id }}" class="actions">
+                                                        <a class="btn btn-primary delete-product"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                                                    </div>
+
+
+                                                </li>
+                                            @endforeach
+                                        @endif
+
+
+                                    </ul>
+
+                                    <div class="cart-total d-flex align-items-center justify-content-between">
+                                        @if (session('total'))
+                                            <span class="font-semi-bold">Total:</span>
+
+                                            <span class="font-semi-bold">{{ session()->get('total') }}৳</span>
+                                        @endif
+                                    </div>
+
+                                    <div class="cart-btns d-flex align-items-center justify-content-between">
+
+                                        <a class="font-bold" href="#">View Cart</a>
+
+                                        <a class="font-bold theme-bg-clr text-white checkout" href="#">Checkout</a>
+
+                                    </div>
+
+                                </div>
                                 @if (Auth::user()->image == null)
                                     <li class="nav-item"><a class="nav-link icon-profile" id="dropdownMenuButton"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
@@ -154,83 +209,85 @@
                 </div>
             </div>
         </header>
-        
-    <!-- main -->
-    @yield('content')
 
-    <!-- footerHolder -->
-    <aside
-        class="footerHolder container-fluid overflow-hidden yumzy-df px-xl-20 px-lg-14 pt-xl-12 pb-xl-8 pt-lg-12 pt-md-8 pb-lg-8">
-        <div class="d-flex flex-wrap flex-lg-nowrap">
-            <div class="coll-1 pr-3 mb-sm-4 mb-3 mb-lg-0">
-                <h3 class="headingVI fwEbold text-uppercase mb-7">Contact Us</h3>
-                <ul class="list-unstyled footerContactList mb-3">
-                    <li class="mb-3 d-flex flex-nowrap"><span class="icon icon-place mr-3"></span>
-                        <address class="fwEbold m-0">Address: London Oxford Street, 012 United Kingdom.</address>
-                    </li>
-                    <li class="mb-3 d-flex flex-nowrap"><span class="icon icon-phone mr-3"></span> <span
-                            class="leftAlign">Phone : <a href="javascript:void(0);">(+032) 3456 7890</a></span></li>
-                    <li class="email d-flex flex-nowrap"><span class="icon icon-email mr-2"></span> <span
-                            class="leftAlign">Email: <a href="javascript:void(0);">Botanicalstore@gmail.com</a></span>
-                    </li>
-                </ul>
-                <ul class="list-unstyled followSocailNetwork d-flex flex-nowrap">
-                    <li class="fwEbold mr-xl-11 mr-sm-6 mr-4">Follow us:</li>
-                    <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-facebook-f"></a>
-                    </li>
-                    <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-twitter"></a>
-                    </li>
-                    <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-pinterest"></a>
-                    </li>
-                    <li class="mr-2"><a href="javascript:void(0);" class="fab fa-google-plus-g"></a></li>
-                </ul>
-            </div>
-            <div class="coll-2 mb-sm-4 mb-3 mb-lg-0">
-                <h3 class="headingVI fwEbold text-uppercase mb-6">Information</h3>
-                <ul class="list-unstyled footerNavList">
-                    <li class="mb-1"><a href="javascript:void(0);">New Products</a></li>
-                    <li class="mb-2"><a href="javascript:void(0);">Top Sellers</a></li>
-                    <li class="mb-2"><a href="javascript:void(0);">Our Blog</a></li>
-                    <li class="mb-2"><a href="javascript:void(0);">About Our Shop</a></li>
-                    <li><a href="javascript:void(0);">Privacy policy</a></li>
-                </ul>
-            </div>
-            <div class="coll-3 mb-sm-4 mb-3 mb-lg-0">
-                <h3 class="headingVI fwEbold text-uppercase mb-6">My Account</h3>
-                <ul class="list-unstyled footerNavList">
-                    <li class="mb-1"><a href="javascript:void(0);">My account</a></li>
-                    <li class="mb-2"><a href="javascript:void(0);">Discount</a></li>
-                    <li class="mb-2"><a href="javascript:void(0);">Orders history</a></li>
-                    <li><a href="javascript:void(0);">Personal information</a></li>
-                </ul>
-            </div>
-            <div class="coll-4 mb-sm-4 mb-3 mb-lg-0">
-                <h3 class="headingVI fwEbold text-uppercase mb-7 pl-xl-14 pl-lg-10">Popular Tag</h3>
-                <ul class="list-unstyled tagNavList d-flex flex-wrap justify-content-lg-end mb-0">
-                    <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
-                            class="md-round d-block py-2 px-2">Trend</a></li>
-                    <li class="text-center mb-2"><a href="javascript:void(0);"
-                            class="md-round d-block py-2 px-2">Decor</a></li>
-                    <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
-                            class="md-round d-block py-2 px-2">Plant</a></li>
-                    <li class="text-center mb-2"><a href="javascript:void(0);"
-                            class="md-round d-block py-2 px-2">Table tree</a></li>
-                    <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
-                            class="md-round d-block py-2 px-2">Bedroom tree</a></li>
-                    <li class="text-center mb-2"><a href="javascript:void(0);"
-                            class="md-round d-block py-2 px-2">Living room</a></li>
-                </ul>
-            </div>
-        </div>
-    </aside>
+        <!-- main -->
+        @yield('content')
 
-    <!-- footer -->
-    <footer id="footer" class="container-fluid overflow-hidden px-lg-20 bg-white">
-        <div class="copyRightHolder text-center pt-lg-5 pb-lg-4 py-3">
-            <p class="mb-0">Coppyright 2023 by <a href="javascript:void(0);">Yumzy Food</a> - All right
-                reserved</p>
-        </div>
-    </footer>
+        <!-- footerHolder -->
+        <aside
+            class="footerHolder container-fluid overflow-hidden yumzy-df px-xl-20 px-lg-14 pt-xl-12 pb-xl-8 pt-lg-12 pt-md-8 pb-lg-8">
+            <div class="d-flex flex-wrap flex-lg-nowrap">
+                <div class="coll-1 pr-3 mb-sm-4 mb-3 mb-lg-0">
+                    <h3 class="headingVI fwEbold text-uppercase mb-7">Contact Us</h3>
+                    <ul class="list-unstyled footerContactList mb-3">
+                        <li class="mb-3 d-flex flex-nowrap"><span class="icon icon-place mr-3"></span>
+                            <address class="fwEbold m-0">Address: London Oxford Street, 012 United Kingdom.</address>
+                        </li>
+                        <li class="mb-3 d-flex flex-nowrap"><span class="icon icon-phone mr-3"></span> <span
+                                class="leftAlign">Phone : <a href="javascript:void(0);">(+032) 3456 7890</a></span>
+                        </li>
+                        <li class="email d-flex flex-nowrap"><span class="icon icon-email mr-2"></span> <span
+                                class="leftAlign">Email: <a
+                                    href="javascript:void(0);">Botanicalstore@gmail.com</a></span>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled followSocailNetwork d-flex flex-nowrap">
+                        <li class="fwEbold mr-xl-11 mr-sm-6 mr-4">Follow us:</li>
+                        <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-facebook-f"></a>
+                        </li>
+                        <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-twitter"></a>
+                        </li>
+                        <li class="mr-xl-6 mr-sm-4 mr-2"><a href="javascript:void(0);" class="fab fa-pinterest"></a>
+                        </li>
+                        <li class="mr-2"><a href="javascript:void(0);" class="fab fa-google-plus-g"></a></li>
+                    </ul>
+                </div>
+                <div class="coll-2 mb-sm-4 mb-3 mb-lg-0">
+                    <h3 class="headingVI fwEbold text-uppercase mb-6">Information</h3>
+                    <ul class="list-unstyled footerNavList">
+                        <li class="mb-1"><a href="javascript:void(0);">New Products</a></li>
+                        <li class="mb-2"><a href="javascript:void(0);">Top Sellers</a></li>
+                        <li class="mb-2"><a href="javascript:void(0);">Our Blog</a></li>
+                        <li class="mb-2"><a href="javascript:void(0);">About Our Shop</a></li>
+                        <li><a href="javascript:void(0);">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="coll-3 mb-sm-4 mb-3 mb-lg-0">
+                    <h3 class="headingVI fwEbold text-uppercase mb-6">My Account</h3>
+                    <ul class="list-unstyled footerNavList">
+                        <li class="mb-1"><a href="javascript:void(0);">My account</a></li>
+                        <li class="mb-2"><a href="javascript:void(0);">Discount</a></li>
+                        <li class="mb-2"><a href="javascript:void(0);">Orders history</a></li>
+                        <li><a href="javascript:void(0);">Personal information</a></li>
+                    </ul>
+                </div>
+                <div class="coll-4 mb-sm-4 mb-3 mb-lg-0">
+                    <h3 class="headingVI fwEbold text-uppercase mb-7 pl-xl-14 pl-lg-10">Popular Tag</h3>
+                    <ul class="list-unstyled tagNavList d-flex flex-wrap justify-content-lg-end mb-0">
+                        <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
+                                class="md-round d-block py-2 px-2">Trend</a></li>
+                        <li class="text-center mb-2"><a href="javascript:void(0);"
+                                class="md-round d-block py-2 px-2">Decor</a></li>
+                        <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
+                                class="md-round d-block py-2 px-2">Plant</a></li>
+                        <li class="text-center mb-2"><a href="javascript:void(0);"
+                                class="md-round d-block py-2 px-2">Table tree</a></li>
+                        <li class="text-center mb-2 mr-2"><a href="javascript:void(0);"
+                                class="md-round d-block py-2 px-2">Bedroom tree</a></li>
+                        <li class="text-center mb-2"><a href="javascript:void(0);"
+                                class="md-round d-block py-2 px-2">Living room</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+        <!-- footer -->
+        <footer id="footer" class="container-fluid overflow-hidden px-lg-20 bg-white">
+            <div class="copyRightHolder text-center pt-lg-5 pb-lg-4 py-3">
+                <p class="mb-0">Coppyright 2023 by <a href="javascript:void(0);">Yumzy Food</a> - All right
+                    reserved</p>
+            </div>
+        </footer>
     </div>
     <!-- include jQuery library -->
     <script src="{{ asset('assets/js/jquery-3.4.1.min.js') }}"></script>
@@ -240,6 +297,29 @@
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- include custom JavaScript -->
     <script src="{{ asset('assets/js/jqueryCustome.js') }}"></script>
+    <!-- include custom JavaScript -->
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script type="text/javascript">
+        $(".delete-product").click(function(e) {
+            e.preventDefault();
+
+            var ele = $(this);
+
+            if (confirm("Do you really want to delete?")) {
+                $.ajax({
+                    url: '{{ route('deletecart') }}',
+                    method: "DELETE",
+                    data: {
+                        _token: '{{ csrf_token() }}',
+                        id: ele.parents("div").attr("rowdel")
+                    },
+                    success: function(response) {
+                        window.location.reload();
+                    }
+                });
+            }
+        });
+    </script>
     @yield('script')
 
 

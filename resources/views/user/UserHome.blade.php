@@ -125,6 +125,7 @@
                     {{-- {{ dd($category['products']) }} --}}
                     @if ($category['products'])
                         @foreach ($category['products'] as $items)
+                        {{-- {{ dd($items) }} --}}
                             <div class="featureCol px-3 mb-6">
                                 <div class="pp shadow p-3 mb-5 bg-body rounded">
                                     <div class="bb position-relative">
@@ -167,7 +168,7 @@
                                                 </a>
                                             </span>
                                             <span>
-                                                <a href="javascript:void(0);"
+                                                <a href="{{ route('addcart', $items['id']) }}"
                                                     class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                         class="icon-cart"></i></a>
                                             </span>
@@ -324,19 +325,20 @@
             @foreach ($categorizedData as $category)
                 <div id="{{ $category['category_name'] }}"
                     style='display:none'>
-                    {{-- <div id="{{ $category['category_name'] }}" style="display:none;"> --}}
+                    
                     <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
                         <!-- featureCol1 -->
                         <div class="featureCol px-3 mb-6">
-                            @foreach ($category['products'] as $item)
+                            @foreach ($category['products'] as $items)
+                            {{-- {{ dd($items) }} --}}
                                 <div class="pp shadow p-3 mb-5 bg-body rounded">
                                     <div class="bb position-relative">
                                         <div class="imgHolder position-relative w-100 overflow-hidden">
-                                            <img src="{{ $item['Poster'] }}" alt="image description"
+                                            <img src="{{ $items['Poster'] }}" alt="image description"
                                                 class="img-fluid w-100">
                                         </div>
                                         <div class="overlay text-left overflow-hidden">
-                                            <h4>{{ $item['Short_Description'] }}</h4>
+                                            <h4>{{ $items['Short_Description'] }}</h4>
                                         </div>
                                         <div class="text-left text-black pt-3 px-xl-2 px-1">
                                             <p class="rating">
@@ -351,9 +353,9 @@
                                     </div>
                                     <div class="d-flex justify-content-between text-left py-xl-2 py-sm-1  px-xl-2 px-1">
                                         <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
-                                                <h6>{{ $item['Title'] }}</h6>
+                                                <h6>{{ $items['Title'] }}</h6>
                                             </a>
-                                            <span class="price fwEbold text-bottom">{{ $item['Price'] }}</span>
+                                            <span class="price fwEbold text-bottom">{{ $items['Price'] }}</span>
                                         </span>
                                         <div class="d-flex justify-content-between align-items-end">
                                             <span class="mr-2">
@@ -362,7 +364,7 @@
                                                         class="icon-heart"></i></a>
                                             </span>
                                             <span>
-                                                <a href="javascript:void(0);"
+                                                <a href="{{ route('addcart', $items['id']) }}"
                                                     class="btn btnTheme text-white sm-round py-2 px-2 "><i
                                                         class="icon-cart"></i></a>
                                             </span>
