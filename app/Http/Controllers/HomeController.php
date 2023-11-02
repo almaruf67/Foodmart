@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\category;
-use App\Models\product;
 use App\Models\User;
+use App\Models\product;
+use App\Models\category;
 use Illuminate\View\View;
+use App\Models\favproducts;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -40,6 +42,9 @@ class HomeController extends Controller
                         'Price' => $product->Price,
                         'Short_Description' => $product->Short_Description,
                         'Old_Price' => $product->Old_Price,
+                        'isFavorited' => favproducts::where('product_id', $product->id)
+                        ->where('user_id', Auth::id())
+                        ->exists(),
                     ];
                 }),
             ];

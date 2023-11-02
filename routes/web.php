@@ -33,7 +33,7 @@ All Normal Users Routes List
 --------------------------------------------
 --------------------------------------------*/
 Route::middleware(['auth', 'user-access:user'])->group(function () {
-    Route::post('/addToFavorites', [HomeController::class,'addToFavorites']);
+    // Route::post('/addToFavorites', [HomeController::class,'addToFavorites']);
 
     //Cart LINKS    
     Route::get('/cart/{id}', [CartController::class, 'addtoCart'])->name('addcart');
@@ -41,6 +41,9 @@ Route::middleware(['auth', 'user-access:user'])->group(function () {
     Route::delete('/deletecart', [CartController::class, 'destroy'])->name('deletecart');
     Route::get('/cart', [CartController::class, 'index'])->name('viewcart');
     Route::get('/checkout', [CartController::class, 'checkout'])->name('checkout');
+
+    //Favourite
+    Route::get('/fav/{id}', [ProductController::class, 'favorite'])->name('addfav');
 
 });
 

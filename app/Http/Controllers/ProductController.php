@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use App\Models\category;
+use App\Models\favproducts;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ProductController extends Controller
 {
@@ -21,7 +23,7 @@ class ProductController extends Controller
     public function create()
     {
         $categories = category::all();
-        return view('Admin.product.create',compact('categories'));
+        return view('Admin.product.create', compact('categories'));
     }
 
     /**
@@ -61,7 +63,7 @@ class ProductController extends Controller
      */
     public function show($data)
     {
-        $product = Product::where('id',$data)->first();
+        $product = Product::where('id', $data)->first();
 
         // dd($product);
         return view('Admin.product.details', compact('product'));
@@ -73,8 +75,8 @@ class ProductController extends Controller
     public function edit(string $id)
     {
         $product = Product::findOrFail($id);
-        $categories = category::all()->where('status',1);
-        return view('Admin.product.edit', compact('product','categories'));
+        $categories = category::all()->where('status', 1);
+        return view('Admin.product.edit', compact('product', 'categories'));
     }
 
     /**
@@ -101,6 +103,31 @@ class ProductController extends Controller
 
         return redirect()->route('product.index');
     }
+
+
+
+
+    public function favorite(string $id)
+    {
+        $fav = favproducts::where('product_id', $id)
+            ->where('user_id', Auth::id())
+            ->first();
+
+        $isFavorited = $fav !== null; // Check if the product is favorited
+
+        if ($isFavorited) {
+            $favo = favproducts::findOrFail($fav->id);
+            $favo->delete();
+        } else {
+            $favourite = new favproducts;
+            $favourite->product_id = $id;
+            $favourite->user_id = Auth::id();
+            $favourite->save();
+        }
+
+        return redirect()->back()->with('isFavorited', $isFavorited); // Pass isFavorited to the view
+    }
+
 
     /**
      * Remove the specified resource from storage.

@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\category;
+use App\Models\Fav_Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class CategoryController extends Controller
 {

@@ -125,7 +125,7 @@
                     {{-- {{ dd($category['products']) }} --}}
                     @if ($category['products'])
                         @foreach ($category['products'] as $items)
-                        {{-- {{ dd($items) }} --}}
+                            {{-- {{ dd($items) }} --}}
                             <div class="featureCol px-3 mb-6">
                                 <div class="pp shadow p-3 mb-5 bg-body rounded">
                                     <div class="bb position-relative">
@@ -161,10 +161,10 @@
                                         <div class="d-flex justify-content-between align-items-end">
 
                                             <span class="mr-2">
-                                                <a href="javascript:void(0);"
-                                                    class="btn btnTheme text-white sm-round py-2 px-2" id="addToFavorites"
-                                                    data-product-id="{{ $items['id'] }}">
-                                                    <i class="icon-heart"></i>
+                                                <a href="{{ route('addfav', $items['id']) }}"
+                                                    class="btn btnTheme text-white sm-round py-2 px-2">
+                                                    <i
+                                                        class="{{ $items['isFavorited'] ? 'fas fa-heart' : 'icon-heart' }}"></i>
                                                 </a>
                                             </span>
                                             <span>
@@ -323,14 +323,13 @@
 
             <!-- Dessert -->
             @foreach ($categorizedData as $category)
-                <div id="{{ $category['category_name'] }}"
-                    style='display:none'>
-                    
+                <div id="{{ $category['category_name'] }}" style='display:none'>
+
                     <div class="col-12 p-0  d-flex justify-content-center  flex-wrap">
                         <!-- featureCol1 -->
                         <div class="featureCol px-3 mb-6">
                             @foreach ($category['products'] as $items)
-                            {{-- {{ dd($items) }} --}}
+                                {{-- {{ dd($items) }} --}}
                                 <div class="pp shadow p-3 mb-5 bg-body rounded">
                                     <div class="bb position-relative">
                                         <div class="imgHolder position-relative w-100 overflow-hidden">
@@ -359,9 +358,11 @@
                                         </span>
                                         <div class="d-flex justify-content-between align-items-end">
                                             <span class="mr-2">
-                                                <a href="javascript:void(0);"
-                                                    class="btn btnTheme text-white sm-round py-2 px-2 "><i
-                                                        class="icon-heart"></i></a>
+                                                <a href="{{ route('addfav', $items['id']) }}"
+                                                    class="btn btnTheme text-white sm-round py-2 px-2">
+                                                    <i
+                                                        class="{{ $items['isFavorited'] ? 'fas fa-heart' : 'icon-heart' }}"></i>
+                                                </a>
                                             </span>
                                             <span>
                                                 <a href="{{ route('addcart', $items['id']) }}"
@@ -900,35 +901,29 @@
         // Initially show Div 1
         showDiv('{{ $categorizedData->first()['category_name'] }}');
     </script>
-    <script>
+    {{-- <script>
         $(document).ready(function() {
             $('#addToFavorites').click(function(e) {
                 e.preventDefault();
 
                 // Get the product ID from the data attribute
                 var productId = $(this).data('product-id');
-
+                console.log(productId);
                 // Send an AJAX POST request to the controller
                 $.ajax({
-                    url: '/addToFavorites', // Change this to the actual route URL
-                    method: 'POST',
-                    
+                    type: "GET",
+                    dataType: "json",
+                    url: 'favtoggle',
                     data: {
-                        _token: '{{ csrf_token() }}',
-                        product_id: productId
+                        'product_id': productId
                     },
-                    success: function(response) {
-                        if (response.success) {
-                            alert('Product added to favorites successfully!');
-                        } else {
-                            alert('Failed to add product to favorites.');
-                        }
-                    },
-                    error: function() {
-                        alert('An error occurred while processing your request.');
+                    success: function(data) {
+                        window.location.reload();
                     }
+
                 });
+               
             });
         });
-    </script>
+    </script> --}}
 @endsection
