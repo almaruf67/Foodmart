@@ -153,7 +153,7 @@
                                     <div
                                         class="d-flex justify-content-between text-left pb-xl-3 py-sm-2 pb-2 px-xl-2 px-1">
 
-                                        <span class="d-flex flex-column title d-block"><a href="shop-detail.html">
+                                        <span class="d-flex flex-column title d-block"><a href="{{ route('details', $items['id']) }}">
                                                 <h6>{{ $items['Title'] }}</h6>
                                             </a>
                                             <span class="price fwEbold text-bottom">{{ $items['Price'] }}</span>
@@ -901,29 +901,5 @@
         // Initially show Div 1
         showDiv('{{ $categorizedData->first()['category_name'] }}');
     </script>
-    {{-- <script>
-        $(document).ready(function() {
-            $('#addToFavorites').click(function(e) {
-                e.preventDefault();
-
-                // Get the product ID from the data attribute
-                var productId = $(this).data('product-id');
-                console.log(productId);
-                // Send an AJAX POST request to the controller
-                $.ajax({
-                    type: "GET",
-                    dataType: "json",
-                    url: 'favtoggle',
-                    data: {
-                        'product_id': productId
-                    },
-                    success: function(data) {
-                        window.location.reload();
-                    }
-
-                });
-               
-            });
-        });
-    </script> --}}
+    
 @endsection

@@ -56,27 +56,25 @@ class HomeController extends Controller
     }
 
 
-    public function addToFavorites(Request $request)
-    {
-        $productId = $request->input('product_id');
-        $user = User::find(auth()->user()->id); 
-
-        if ($user) {
-            $product = product::find($productId);
-            // dd($user->favoriteProducts());
-            if ($product) {
-                $user->favoriteProducts()->attach($product);
-                return response()->json(['success' => true]);
-            }
-        }
-
-        return response()->json(['success' => false]);
-    }
 
     public function details(): View
     {
         return view('Pages/product');
     }
+
+    public function ProDet($id)
+    {
+        $product = product::where('id',$id)->first();
+        // $fav = favproducts::where('product_id', $id);
+        // dd($product);
+        $isfav = favproducts::where('product_id', $id)
+                        ->where('user_id', Auth::id())
+                        ->exists();
+        // dd($isfav);
+        return view('user.Details',compact('product','isfav'));
+
+    }
+
 
     /**
      * Show the application dashboard.

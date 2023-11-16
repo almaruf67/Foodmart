@@ -1,4 +1,4 @@
-@extends('Pages.Layout.app')
+@extends('user.Layout.app')
 
 @section('content')
     <section class="mt-25 yumzy-df">
@@ -8,8 +8,8 @@
                     <div class="col-lg-5 col-md-5 col-12">
                         <div class="item-img-cover">
                             <div class="item-img show">
-                                <img data-enlargable="" src="{{ asset('assets/images/burger.jpg') }}" alt="item-image"
-                                    id="show-img" class="img-enlargable">
+                                <img data-enlargable="" src="{{ $product->Poster }}" alt="item-image" id="show-img"
+                                    class="img-enlargable">
                             </div>
                         </div>
                         <div class="row gx-0 justify-content-center" dir="ltr">
@@ -35,12 +35,10 @@
                             <div class="row pb-3 mb-3 border-bottom d-flex flex-column">
                                 <div class="col-md-12 item-detail-wrapper" id="style-3">
                                     <div class="item-title"><span>
-                                            <h2>Beef Cheese Burger</h2>
+                                            <h2>{{ $product->Title }}</h2>
                                         </span></div>
                                     <div class="item-short-des">
-                                        <p>Pizza is a savory dish of Italian origin consisting of a usually round, flattened
-                                            base of leavened wheat-based dough topped with tomatoes, cheese, and often
-                                            various other ingredients</p>
+                                        <p>{{ $product->Short_Description }}</p>
                                     </div>
                                     <div class="text-left text-black">
                                         <p class="rating">
@@ -99,17 +97,22 @@
                                     </div>
                                 </div>
                             </div>
-                           
+
                             <div class="row align-items-center justify-content-left">
                                 <div>
-                                    <a href="shop.html"
+                                    <a href="{{ route('addcart', $product->id) }}"
                                         class="btn btnTheme btnShop fwEbold text-white md-round py-md-2 px-md-4 py-1 px-3 mr-2">Add
                                         to cart<i class="fas fa-cart-plus ml-2"></i></a>
                                 </div>
                                 <div>
-                                    <a href="#"
-                                        class="btn btnTheme btnShop fwEbold text-white md-round py-md-2 px-md-4 py-1 px-3">Add
-                                        to wishlist<i class="fas fa-heart ml-2"></i></a>
+                                    <a href="{{ route('addfav', $product->id) }}"
+                                        class="btn btnTheme text-white sm-round py-2 px-2 favorite-button"
+                                        data-product-id="{{ $product->id }}"
+                                        data-is-favorited="{{ $isfav ? 'true' : 'false' }}">
+                                        <i class="{{ $isfav ? 'fas fa-heart' : 'icon-heart' }}"></i> Add to
+                                        Favorites
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -122,38 +125,23 @@
                     <div class="tf__menu_description_area mt_100 xs_mt_70">
                         <ul class="nav nav-pills border-bottom mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="active btn btnTheme btnShop fwEbold text-white py-md-3 px-md-4 py-3 px-3 mr-2" id="pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-home" type="button" role="tab"
-                                    aria-controls="pills-home" aria-selected="true">Description</button>
+                                <button
+                                    class="active btn btnTheme btnShop fwEbold text-white py-md-3 px-md-4 py-3 px-3 mr-2"
+                                    id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                                    type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">Description</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class=" btn btnTheme btnShop fwEbold text-white py-md-3 px-md-4 py-3 px-3 mr-2" id="pills-contact-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-contact" type="button" role="tab"
-                                    aria-controls="pills-contact" aria-selected="false" tabindex="-1">Reviews</button>
+                                <button class=" btn btnTheme btnShop fwEbold text-white py-md-3 px-md-4 py-3 px-3 mr-2"
+                                    id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false"
+                                    tabindex="-1">Reviews</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade active show" id="pills-home" role="tabpanel"
                                 aria-labelledby="pills-home-tab" tabindex="0">
-                                <div class="menu_det_description">
-
-                                    <p>Lorem ipsum dolor sit amet, nibh saperet te pri, at nam diceret disputationi. Quo an
-                                        consul impedit, usu possim evertitur dissentiet ei, ridens minimum nominavi et vix.
-                                        An per mutat adipisci. Ut pericula dissentias sed, est ea modus gloriatur. Aliquip
-                                        persius has cu, oportere adversarium mei an, justo fabulas in vix.</p>
-                                    <p>Nec in rebum primis causae. Affert iisque ex pri, vis utinam vivendo definitionem ad,
-                                        nostrum omnesque per et. Omnium antiopam cotidieque cu sit. Id pri placerat
-                                        voluptatum, vero dicunt dissentiunt eum et, adhuc iisque vis no. Eu suavitate
-                                        contentiones definitionem mel, ex vide insolens ocurreret eam. Et dico blandit mea.
-                                        Sea tollit vidisse mandamus te, qui movet efficiendi ex.</p>
-                                    <p>Quo id nemore dignissim persequeris, unum melius option ei vix, oratio vidisse eam
-                                        ei. Altera neglegentur cum te. Latine probatus cum cu. Vim dicta sonet intellegebat
-                                        ne, ei mazim decore eleifend nam, no malis soleat usu.</p>
-                                    <p>Consetetur definitionem cu mea, usu legere minimum ne. Pro epicurei constituam ne,
-                                        atqui lucilius indoctum nam id. Eu timeam volumus vel, eos te movet complectitur, te
-                                        causae saperet eam. Minimum probatus vim te, eu eum ancillae mentitum comprehensam.
-                                        Tantas decore adipisci vix no.</p>
-
+                                <div class="menu_det_description">{{ $product->Description }}
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-contact" role="tabpanel"
@@ -251,4 +239,37 @@
             </div>
         </div>
     </section>
+@endsection
+@section('script')
+<script>
+    $(document).ready(function() {
+        $(".favorite-button").click(function(e) {
+            e.preventDefault();
+
+            var button = $(this);
+            var productId = button.data("product-id");
+            var isFavorited = button.data("is-favorited") === "true";
+
+            $.ajax({
+                type: "POST", // You can use POST or GET as needed
+                url: "/product/{id}",
+                data: {
+                    product_id: productId,
+                    is_favorited: !isFavorited // Toggle the favorited status
+                },
+                success: function(response) {
+                    if (response.isFavorited) {
+                        button.data("is-favorited", "true");
+                        button.find("i").removeClass("icon-heart").addClass("fas fa-heart");
+                        button.text("Remove from Favorites");
+                    } else {
+                        button.data("is-favorited", "false");
+                        button.find("i").removeClass("fas fa-heart").addClass("icon-heart");
+                        button.text("Add to Favorites");
+                    }
+                }
+            });
+        });
+    });
+</script>
 @endsection
